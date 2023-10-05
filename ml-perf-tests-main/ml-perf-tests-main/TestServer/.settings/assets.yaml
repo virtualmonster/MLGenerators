@@ -1,0 +1,372 @@
+name: TestServer
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /TestServer/lib/generate-stats-webserver-1.0.1-jar-with-dependencies.jar
+        type: javaClasspath
+      - path: /TestServer/src
+        type: javaClasspath
+  - name: ConstantSimulation.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE2053E3B18360D780B56236336636
+  - name: DelaySimulation.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE0ADB192D51C2E632B93931363537
+    dependencies: 
+      - path: /TestServer/.classpath
+        type: testJavaClasspath
+      - path: /TestServer/src/customcode/GetDelay.java
+        type: testCustomCode
+  - name: LockStep-Medium-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=1; duration=30 seconds
+
+	users=5; duration=4 minutes
+
+	users=50; duration=4 minutes
+
+	users=100; duration=4 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,LockStepSimulation
+
+'
+      name: LockStep-Medium-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE2058EB6D6510D780B56236336636
+    dependencies: 
+      - path: /TestServer/LockStepSimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: LockStep-Pure-No-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=1; duration=30 seconds
+
+	users=5; duration=4 minutes
+
+	users=50; duration=4 minutes
+
+	users=100; duration=4 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,ConstantSimulation
+
+'
+      name: LockStep-Pure-No-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE2053C52429C0D780B56236336636
+    dependencies: 
+      - path: /TestServer/ConstantSimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: LockStep-Pure-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=1; duration=30 seconds
+
+	users=5; duration=4 minutes
+
+	users=50; duration=4 minutes
+
+	users=100; duration=4 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,DelaySimulation
+
+'
+      name: LockStep-Pure-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE204D913ABB20D780B56236336636
+    dependencies: 
+      - path: /TestServer/DelaySimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: LockStep-SchTooShort-No-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=1; duration=30 seconds
+
+	users=5; duration=30 seconds
+
+	users=50; duration=1 minutes
+
+	users=100; duration=1 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,DelaySimulation
+
+'
+      name: LockStep-SchTooShort-No-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE204D684B9AE0D780B56236336636
+    dependencies: 
+      - path: /TestServer/DelaySimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: LockStepSimulation.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE20584052E7B2D780B56236336636
+    dependencies: 
+      - path: /TestServer/.classpath
+        type: testJavaClasspath
+      - path: /TestServer/src/customcode/LockStep.java
+        type: testCustomCode
+  - name: MeanStd-ConstantUsers-3000ms-300ms-No-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=10; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,MeanStddevSimulation
+
+'
+      name: MeanStd-ConstantUsers-3000ms-300ms-No-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1B749D50AB50F38AB73334383632
+    dependencies: 
+      - path: /TestServer/MeanStddevSimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: MeanStd-ConstantUsers-DeepDrop-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=20; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,ThroughputSimulation
+
+'
+      name: MeanStd-ConstantUsers-DeepDrop-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1B7D8EEA5D50F38AB73334383632
+    dependencies: 
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/ThroughputSimulation.testsuite
+        type: scheduleInvokedTest
+  - name: MeanStddevSimulation.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE1B710BCBE413F38AB73334383632
+    dependencies: 
+      - path: /TestServer/.classpath
+        type: testJavaClasspath
+      - path: /TestServer/src/customcode/MeanStddev.java
+        type: testCustomCode
+  - name: NonHTTPSch.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=5; duration=3 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): NonHttp
+
+'
+      name: NonHTTPSch
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1D0450237600E7BFB16566663533
+    dependencies: 
+      - path: /TestServer/NonHttp.testsuite
+        type: scheduleInvokedTest
+  - name: NonHttp.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: com.ibm.rational.test.lt.feature.lt
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE1D04014BE5D0E7BFB16566663533
+  - name: StartServer.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: com.ibm.rational.test.lt.feature.lt
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EDDD423DD06140F474B56631393731
+    dependencies: 
+      - path: /TestServer/.classpath
+        type: testJavaClasspath
+      - path: /TestServer/src/customcode/StartServer.java
+        type: testCustomCode
+  - name: TestServer(3).recsession
+    missing: true
+  - name: TestServer.recdata
+  - name: TestServer.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /TestServer/TestServer.recdata
+        type: recsessionRecdata
+  - name: TestServer.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EDDD3FA9D155A0F474B56631393731
+  - name: ThroughputDrop-ConstantUsers-DeepDrop-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=20; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,ThroughputSimulation
+
+'
+      name: ThroughputDrop-ConstantUsers-DeepDrop-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1B5A49A63520F38AB73334383632
+    dependencies: 
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/ThroughputSimulation.testsuite
+        type: scheduleInvokedTest
+  - name: ThroughputDrop-ConstantUsers-ShortDrop-No-Pattern.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=20; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,ThroughputSimulation
+
+'
+      name: ThroughputDrop-ConstantUsers-ShortDrop-No-Pattern
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1B5A954B4A10F38AB73334383632
+    dependencies: 
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/ThroughputSimulation.testsuite
+        type: scheduleInvokedTest
+  - name: ThroughputSimulation.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 10.5.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EE15E76414D6B7FE46B26333386439
+    dependencies: 
+      - path: /TestServer/.classpath
+        type: testJavaClasspath
+      - path: /TestServer/src/customcode/SimpleThroughputDrop.java
+        type: testCustomCode
+  - name: VerifyTestServer.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 10.5.2.0
+    properties: 
+      description: 'Stages:
+
+	users=10; duration=1 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,TestServer
+
+'
+      name: VerifyTestServer
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EDDD421323B280F474B56631393731
+    dependencies: 
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/TestServer.testsuite
+        type: scheduleInvokedTest
+  - name: lib
+    resources: 
+      - name: generate-stats-webserver-1.0.1-jar-with-dependencies.jar
+  - name: src
+    resources: 
+      - name: customcode
+        resources: 
+          - name: GetDelay.java
+          - name: LockStep.java
+          - name: MeanStddev.java
+          - name: SimpleThroughputDrop.java
+          - name: StartServer.java
+      - name: test
+        resources: 
+          - name: DelaySimulation_Test_A1EE0ADB192D51C2E632B93931363537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: MeanStddevSimulation_Test_A1EE1B710BCBE413F38AB73334383632.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: NonHTTPSch_Schedule_A1EE1D0450237600E7BFB16566663533.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: NonHttp_Test_A1EE1D04014BE5D0E7BFB16566663533.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE0ADCB3BEE8A0E632B93931363537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE15ECCFEE4C30FE46B26333386439.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE15EDD71787A0FE46B26333386439.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE1B5A954B4A10F38AB73334383632.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE1B749D50AB50F38AB73334383632.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE1B77EC8AC680F38AB73334383632.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Schedule_A1EE1B7D8EEA5D50F38AB73334383632.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: StartServer_Test_A1EDDD423DD06140F474B56631393731.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: ThroughputSimulation_Test_A1EE15E76414D6B7FE46B26333386439.java
+            type: com.ibm.rational.test.lt.generatedCode
