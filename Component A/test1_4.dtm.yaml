@@ -1,0 +1,2390 @@
+note: Generated from recorded traffic
+messages:
+  req:
+    includes:
+      - '#commonReq'
+    paths:
+      - headers:
+          - paths:
+              - :authority:
+                  - val: a1.api.bbc.co.uk
+              - :method:
+                  - val: GET
+              - :path:
+                  - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971352&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.select%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22se-combobox%22%2C%22position%22%3A1%2C%22type%22%3A%22form%22%2C%22search_query%22%3A%22hcl%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22select%22%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22position%22%3A1%2C%22text%22%3A%22Submit%22%2C%22type%22%3A%22button%22%2C%22name%22%3A%22search-icon%22%7D%7D%7D%5D
+              - accept:
+                  - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+              - cookie:
+                  - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+              - cookie:
+                  - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+              - cookie:
+                  - val: _cb=CahouGBP73K6DNq6CQ
+              - cookie:
+                  - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+              - cookie:
+                  - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+              - referer:
+                  - val: https://www.bbc.co.uk/
+              - sec-fetch-dest:
+                  - val: image
+              - sec-fetch-mode:
+                  - val: no-cors
+              - sec-fetch-site:
+                  - val: same-site
+  res:
+    paths:
+      - headers:
+          - paths:
+              - :status:
+                  - val: '200'
+              - cache-control:
+                  - val: no-store
+              - content-length:
+                  - val: '35'
+              - content-type:
+                  - val: image/gif
+              - date:
+                  - val: Fri, 28 Jun 2024 15:02:51 GMT
+              - strict-transport-security:
+                  - val: max-age=15768000
+              - via:
+                  - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net (CloudFront)
+              - x-amz-cf-id:
+                  - val: CpgfPRV-Yj-3rRa6Wg5dB_XKPd67106U90cxhSBdT_1LJIwy1vKDHg==
+              - x-amz-cf-pop:
+                  - val: EWR53-P1
+              - x-cache:
+                  - val: Miss from cloudfront
+      - content:
+          - src: blob/nlod2t.gif
+    cascade:
+      - transport: test1.dtt.yaml
+        url: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: DM_SitId1383=1
+                    - cookie:
+                        - val: DM_SitId1383SecId11832=1
+                    - referer:
+                        - val: https://www.bbc.co.uk/search?d=NEWS_PS
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: document
+                    - sec-fetch-mode:
+                        - val: navigate
+                    - sec-fetch-site:
+                        - val: same-origin
+                    - sec-fetch-user:
+                        - val: ?1
+                    - upgrade-insecure-requests:
+                        - val: '1'
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - status-code:
+                - val: '302'
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '302'
+                    - accept-ranges:
+                        - val: bytes
+                    - cache-control:
+                        - val: public, max-age=60
+                    - content-length:
+                        - val: '0'
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - location:
+                        - val: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+                    - retry-after:
+                        - val: '0'
+                    - server:
+                        - val: Varnish
+                    - via:
+                        - val: 1.1 varnish
+                    - x-cache:
+                        - val: HIT
+                    - x-cache-hits:
+                        - val: '0'
+                    - x-fastly-cache-status:
+                        - val: HIT-SYNTH
+                    - x-fastly-pre-flight-cache:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache-status:
+                        - val: HIT-CLUSTER
+                    - x-served-by:
+                        - val: cache-lhr-egll1980024-LHR
+                    - x-timer:
+                        - val: S1719586972.529682,VS0,VE2
+      - transport: test1.dtt.yaml
+        url: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: DM_SitId1383=1
+                    - cookie:
+                        - val: DM_SitId1383SecId11832=1
+                    - referer:
+                        - val: https://www.bbc.co.uk/search?d=NEWS_PS
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: document
+                    - sec-fetch-mode:
+                        - val: navigate
+                    - sec-fetch-site:
+                        - val: same-origin
+                    - sec-fetch-user:
+                        - val: ?1
+                    - upgrade-insecure-requests:
+                        - val: '1'
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - alt-svc:
+                        - val: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+                    - belfrage-cache-status:
+                        - val: MISS
+                    - bid:
+                        - val: bruce
+                    - brequestid:
+                        - val: a6c47799e4c94a9195c2d2ac5e8dfd41
+                    - bsig:
+                        - val: 477c0bdbf612fa29ec1f52bae509ba86
+                    - cache-control:
+                        - val: public, stale-if-error=90, stale-while-revalidate=30,
+                            max-age=5
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '26573'
+                    - content-security-policy:
+                        - val: 'default-src ''none''; script-src ''strict-dynamic''
+                            ''nonce-sQg63kgOMKaewAiBZ6cAXSfxSwlIQ90zqHf7IBD+4l1RWnGsEl''
+                            ''self'' ''report-sample'' ''unsafe-inline'' assets.wearehearken.eu
+                            cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk
+                            emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu
+                            mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk
+                            news.files.bbci.co.uk platform.twitter.com public.flourish.studio
+                            static.bbc.co.uk static.bbci.co.uk static.chartbeat.com
+                            static2.chartbeat.com www.bbc.co.uk www.instagram.com
+                            www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com
+                            bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com
+                            static.files.bbci.co.uk; img-src ''self'' https: data:;
+                            font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk
+                            static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk
+                            cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com
+                            static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk
+                            ton.twimg.com www.riddle.com ''unsafe-inline'' lf16-tiktok-web.ttwstatic.com;
+                            frame-src ''self'' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com
+                            cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com
+                            flo.uri.sh graphics.reuters.com www.reuters.com m.facebook.com
+                            news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk
+                            platform.twitter.com public.flourish.studio static2.chartbeat.com
+                            syndication.twitter.com web.facebook.com www.bbc.co.uk
+                            www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk
+                            www.riddle.com www.youtube.com www.youtube-nocookie.com
+                            toybox.tools.bbc.co.uk uk-script.dotmetrics.net ssp-app-uk.votenow.tv
+                            ssp-app-uktest.votenow.tv session.test.bbc.co.uk session.bbc.co.uk;
+                            object-src ''none''; manifest-src static.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; media-src ''self'' blob: https:;
+                            connect-src ''self'' https:; child-src blob:; base-uri
+                            ''none''; form-action ''self'' platform.twitter.com syndication.twitter.com
+                            uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors
+                            ''none''; upgrade-insecure-requests; report-to default;
+                            report-uri https://webcore.bbc-reporting-api.app/report-endpoint;'
+                    - content-type:
+                        - val: text/html
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - fastly-restarts:
+                        - val: '1'
+                    - feature-policy:
+                        - val: accelerometer 'none'; autoplay 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            camera 'none'; document-domain 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            encrypted-media 'none'; fullscreen 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            geolocation 'none'; gyroscope 'none'; magnetometer 'none';
+                            microphone 'none'; midi 'none'; payment 'none'; picture-in-picture
+                            'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com
+                            http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr
+                            'self'; usb 'none'; xr-spatial-tracking 'none'
+                    - nel:
+                        - val: '{"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}'
+                    - origin-agent-cluster:
+                        - val: ?0
+                    - permissions-policy:
+                        - val: accelerometer=(), autoplay=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            camera=(), document-domain=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            encrypted-media=(), fullscreen=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            geolocation=(), gyroscope=(), magnetometer=(), microphone=(),
+                            midi=(), payment=(), picture-in-picture=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            screen-wake-lock=(), sync-xhr=(self), usb=(), xr-spatial-tracking=()
+                    - permissions-policy:
+                        - val: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+                    - referrer-policy:
+                        - val: strict-origin-when-cross-origin
+                    - report-to:
+                        - val: '{"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}'
+                    - req-svc-chain:
+                        - val: FASTLY,GTM,BELFRAGE
+                    - server:
+                        - val: BBC-GTM
+                    - strict-transport-security:
+                        - val: max-age=31536000; preload
+                    - vary:
+                        - val: X-BBC-Edge-Scheme,Accept-Encoding
+                    - via:
+                        - val: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+                    - x-bbc-edge-cache-status:
+                        - val: MISS
+                    - x-bbc-origin-response-status:
+                        - val: '200'
+                    - x-cache:
+                        - val: MISS
+                    - x-cache-age:
+                        - val: '0'
+                    - x-cache-hits:
+                        - val: '0'
+                    - x-content-type-options:
+                        - val: nosniff
+                    - x-fastly-cache-status:
+                        - val: MISS-CLUSTER
+                    - x-fastly-pre-flight-cache:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache-status:
+                        - val: HIT
+                    - x-frame-options:
+                        - val: DENY
+                    - x-lb-nocache:
+                        - val: 'true'
+                    - x-served-by:
+                        - val: cache-lhr-egll1980024-LHR
+                    - x-timer:
+                        - val: S1719586972.540851,VS0,VE105
+                    - x-xss-protection:
+                        - val: 1; mode=block
+            - content:
+                - src: blob/rjy5ip.html
+      - transport: test1.dtt.yaml
+        url: https://uk-script.dotmetrics.net/BeaconEvent.dotmetrics
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: uk-script.dotmetrics.net
+                    - :method:
+                        - val: POST
+                    - :path:
+                        - val: /BeaconEvent.dotmetrics
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: '*/*'
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - content-length:
+                        - val: '594'
+                    - content-type:
+                        - val: application/x-www-form-urlencoded
+                    - cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=
+                    - cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1
+                    - origin:
+                        - val: https://www.bbc.co.uk
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+            - content:
+                - src: blob/6onx6f.bin
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - access-control-allow-credentials:
+                        - val: 'true'
+                    - access-control-allow-headers:
+                        - val: Content-Type, Authorization, Accept, X-Requested-With
+                    - access-control-allow-methods:
+                        - val: POST, GET, PUT, DELETE, OPTIONS
+                    - access-control-allow-origin:
+                        - val: https://www.bbc.co.uk
+                    - cache-control:
+                        - val: no-cache
+                    - content-length:
+                        - val: '0'
+                    - content-type:
+                        - val: application/javascript
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - p3p:
+                        - val: policyref="https://uk-script.dotmetrics.net/w3c/p3p.xml",
+                            CP="NOI DSP LAW CURa ADMa DEVa PSAa HISa OUR IND STA"
+                    - server:
+                        - val: Kestrel
+                    - set-cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=; expires=Sat, 28 Jun
+                            2025 15:02:51 GMT; domain=.dotmetrics.net; path=/; SameSite=None;
+                            secure
+                    - set-cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1;
+                            expires=Sat, 28 Jun 2025 15:02:51 GMT; domain=.dotmetrics.net;
+                            path=/; SameSite=None; secure
+                    - via:
+                        - val: 1.1 547ed58ab09c3c811d28ab963755fcd8.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: vwiQink8Nl3Bmhtzwz3kCfQ_TTn6yKLbURHaJtg2bg5DNhCiPFuo0w==
+                    - x-amz-cf-pop:
+                        - val: JFK52-P3
+                    - x-cache:
+                        - val: Miss from cloudfront
+      - transport: test1.dtt.yaml
+        url: https://www.bbc.co.uk/wc-data/container/consent-banner
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /wc-data/container/consent-banner
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: application/json
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: DM_SitId1383=1
+                    - cookie:
+                        - val: DM_SitId1383SecId11832=1
+                    - cookie:
+                        - val: _chartbeat4=t=B_2P3tD3p2DgontY-CS9UJCQfAi4&E=6&x=0&c=0.12&y=984&w=984
+                    - referer:
+                        - val: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: same-origin
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - alt-svc:
+                        - val: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+                    - belfrage-cache-status:
+                        - val: HIT
+                    - bid:
+                        - val: bruce
+                    - brequestid:
+                        - val: f21ca4c575114cbf84ebb62611de99ee
+                    - bsig:
+                        - val: cb652c93ab40618172682f316fdfed5c
+                    - cache-control:
+                        - val: public, stale-if-error=90, stale-while-revalidate=30,
+                            max-age=5
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '2730'
+                    - content-security-policy:
+                        - val: 'default-src ''none''; script-src ''strict-dynamic''
+                            ''nonce-Z9FdOe0o7ETyjhMgQ3tYydqvjNOusAPmNfltqLke+94dQXIlfh''
+                            ''self'' ''report-sample'' ''unsafe-inline'' assets.wearehearken.eu
+                            cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk
+                            emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu
+                            mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk
+                            news.files.bbci.co.uk platform.twitter.com public.flourish.studio
+                            static.bbc.co.uk static.bbci.co.uk static.chartbeat.com
+                            static2.chartbeat.com www.bbc.co.uk www.instagram.com
+                            www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com
+                            bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com
+                            static.files.bbci.co.uk; img-src ''self'' https: data:;
+                            font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk
+                            static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk
+                            cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com
+                            static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk
+                            ton.twimg.com www.riddle.com ''unsafe-inline'' lf16-tiktok-web.ttwstatic.com;
+                            frame-src ''self'' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com
+                            cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com
+                            flo.uri.sh graphics.reuters.com www.reuters.com m.facebook.com
+                            news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk
+                            platform.twitter.com public.flourish.studio static2.chartbeat.com
+                            syndication.twitter.com web.facebook.com www.bbc.co.uk
+                            www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk
+                            www.riddle.com www.youtube.com www.youtube-nocookie.com
+                            toybox.tools.bbc.co.uk uk-script.dotmetrics.net ssp-app-uk.votenow.tv
+                            ssp-app-uktest.votenow.tv session.test.bbc.co.uk session.bbc.co.uk;
+                            object-src ''none''; manifest-src static.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; media-src ''self'' blob: https:;
+                            connect-src ''self'' https:; child-src blob:; base-uri
+                            ''none''; form-action ''self'' platform.twitter.com syndication.twitter.com
+                            uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors
+                            ''none''; upgrade-insecure-requests; report-to default;
+                            report-uri https://webcore.bbc-reporting-api.app/report-endpoint;'
+                    - content-type:
+                        - val: application/json
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - fastly-restarts:
+                        - val: '1'
+                    - feature-policy:
+                        - val: accelerometer 'none'; autoplay 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            camera 'none'; document-domain 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            encrypted-media 'none'; fullscreen 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            geolocation 'none'; gyroscope 'none'; magnetometer 'none';
+                            microphone 'none'; midi 'none'; payment 'none'; picture-in-picture
+                            'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com
+                            http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr
+                            'self'; usb 'none'; xr-spatial-tracking 'none'
+                    - nel:
+                        - val: '{"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}'
+                    - origin-agent-cluster:
+                        - val: ?0
+                    - permissions-policy:
+                        - val: accelerometer=(), autoplay=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            camera=(), document-domain=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            encrypted-media=(), fullscreen=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            geolocation=(), gyroscope=(), magnetometer=(), microphone=(),
+                            midi=(), payment=(), picture-in-picture=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            screen-wake-lock=(), sync-xhr=(self), usb=(), xr-spatial-tracking=()
+                    - permissions-policy:
+                        - val: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+                    - referrer-policy:
+                        - val: strict-origin-when-cross-origin
+                    - report-to:
+                        - val: '{"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}'
+                    - req-svc-chain:
+                        - val: FASTLY,GTM,BELFRAGE
+                    - server:
+                        - val: BBC-GTM
+                    - strict-transport-security:
+                        - val: max-age=31536000; preload
+                    - vary:
+                        - val: X-BBC-Edge-Scheme,Accept-Encoding
+                    - via:
+                        - val: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+                    - x-bbc-edge-cache-status:
+                        - val: HIT
+                    - x-cache:
+                        - val: HIT
+                    - x-cache-age:
+                        - val: '4'
+                    - x-cache-hits:
+                        - val: '1'
+                    - x-content-type-options:
+                        - val: nosniff
+                    - x-fastly-cache-status:
+                        - val: HIT-CLUSTER
+                    - x-fastly-pre-flight-cache:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache-status:
+                        - val: HIT
+                    - x-frame-options:
+                        - val: DENY
+                    - x-lb-nocache:
+                        - val: 'true'
+                    - x-served-by:
+                        - val: cache-lhr-egll1980024-LHR
+                    - x-timer:
+                        - val: S1719586972.770478,VS0,VE2
+                    - x-xss-protection:
+                        - val: 1; mode=block
+            - content:
+                - src: blob/f6h37j.json
+      - transport: test1.dtt.yaml
+        url: https://idcta.api.bbc.co.uk/idcta/config
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: idcta.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /idcta/config
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: '*/*'
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - origin:
+                        - val: https://www.bbc.co.uk
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - access-control-allow-credentials:
+                        - val: 'true'
+                    - access-control-allow-origin:
+                        - val: https://www.bbc.co.uk
+                    - cache-control:
+                        - val: public, max-age=30
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '3308'
+                    - content-security-policy:
+                        - val: 'base-uri ''self'';frame-src https://www.bbc.com;child-src
+                            edigitalsurvey.com https://www.bbc.com;connect-src ''self''
+                            *.api.bbci.co.uk wss://*.api.bbci.co.uk *.bbc.co.uk www.bbc.com
+                            logx.optimizely.com api.pwnedpasswords.com;default-src
+                            ''none'';font-src ''self'' *.files.bbci.co.uk;form-action
+                            ''self'' http://bbc.co.uk https://bbc.co.uk http://*.bbc.co.uk
+                            https://*.bbc.co.uk http://bbc.com https://bbc.com http://*.bbc.com
+                            https://*.bbc.com;img-src ''self'' data: *.files.bbci.co.uk
+                            ichef.bbci.co.uk *.bbci.co.uk *.ati-host.net *.bbc.co.uk;report-to
+                            default;script-src ''self'' ''unsafe-eval'' ''unsafe-inline''
+                            *.files.bbci.co.uk *.bbci.co.uk *.bbc.co.uk cdn.optimizely.com
+                            optimizely.s3.amazonaws.com;style-src ''self'' ''unsafe-inline''
+                            *.files.bbci.co.uk *.bbci.co.uk *.bbc.co.uk'
+                    - content-type:
+                        - val: application/json; charset=utf-8
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - etag:
+                        - val: W/"17e2-xuQjMGX+8syK7X7qT7gqREu6EL4-gzip"
+                    - nel:
+                        - val: '{"report_to":"default","max_age":604800,"include_subdomains":true,"failure_fraction":0.01}'
+                    - report-to:
+                        - val: '{"group":"default","max_age":3600,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint"}],"include_subdomains":true}'
+                    - server:
+                        - val: Apache
+                    - strict-transport-security:
+                        - val: max-age=31536000
+                    - vary:
+                        - val: Accept-Encoding
+                    - x-content-type-options:
+                        - val: nosniff
+                    - x-frame-options:
+                        - val: DENY
+                    - x-permitted-cross-domain-policies:
+                        - val: none
+                    - x-xss-protection:
+                        - val: '0'
+            - content:
+                - src: blob/z6sccy.json
+      - transport: test1.dtt.yaml
+        url: https://cdn.optimizely.com/datafiles/Au22auYqZXzjcyGBqtzfa.json
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: cdn.optimizely.com
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /datafiles/Au22auYqZXzjcyGBqtzfa.json
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: '*/*'
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - origin:
+                        - val: https://www.bbc.co.uk
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - access-control-allow-credentials:
+                        - val: 'false'
+                    - access-control-allow-headers:
+                        - val: '*'
+                    - access-control-allow-methods:
+                        - val: GET, HEAD, OPTIONS
+                    - access-control-allow-origin:
+                        - val: '*'
+                    - access-control-max-age:
+                        - val: '604800'
+                    - cache-control:
+                        - val: max-age=118
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '2527'
+                    - content-type:
+                        - val: application/json; charset=utf-8
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - etag:
+                        - val: |-
+                            "eef8c9828ab2de06762cc036098835f6"
+                    - last-modified:
+                        - val: Thu, 27 Jun 2024 09:04:06 GMT
+                    - server:
+                        - val: AmazonS3
+                    - server-timing:
+                        - val: cdn-cache; desc=HIT
+                    - server-timing:
+                        - val: edge; dur=1
+                    - server-timing:
+                        - val: cdn;desc="AkamaiION";dur=0,rtt;desc="90";dur=0,cdnip;desc="23.56.162.197";dur=0,cdnmap;desc="a5048.dsca.akamaiedge.net";dur=0,proto;desc="h2";dur=0
+                    - server-timing:
+                        - val: ak_p; desc="1719586971820_398664804_538167458_13_1245_90_0_15";dur=1
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - vary:
+                        - val: Accept-Encoding
+                    - x-amz-id-2:
+                        - val: 4VExIAwdhKV728izqkZ3+A4RNqJrEc4EUPU0cn/k577L2rejV2A79juVfm+2URNMJTjmZZyj+A0=
+                    - x-amz-meta-pci_enabled:
+                        - val: 'False'
+                    - x-amz-meta-revision:
+                        - val: '1429'
+                    - x-amz-replication-status:
+                        - val: PENDING
+                    - x-amz-request-id:
+                        - val: KKTB5BN6Y2YWTGP6
+                    - x-amz-server-side-encryption:
+                        - val: AES256
+                    - x-amz-version-id:
+                        - val: KxCaero79xVg3M9X8R_wi02.WqGmT07q
+            - content:
+                - src: blob/ud4lqb.json
+      - transport: test1.dtt.yaml
+        url: https://ichef.bbci.co.uk/news/416/cpsprodpb/12EEF/production/_85415577_gettyimages-485955330.jpg
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: ichef.bbci.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /news/416/cpsprodpb/12EEF/production/_85415577_gettyimages-485955330.jpg
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - access-control-allow-credentials:
+                        - val: 'false'
+                    - access-control-allow-headers:
+                        - val: '*'
+                    - access-control-allow-methods:
+                        - val: HEAD,GET
+                    - access-control-allow-origin:
+                        - val: '*'
+                    - access-control-max-age:
+                        - val: '300'
+                    - cache-control:
+                        - val: max-age=31536000, max-age=31536000
+                    - content-length:
+                        - val: '16227'
+                    - content-type:
+                        - val: image/jpeg
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - etag:
+                        - val: |-
+                            "cd94e98804fdd8beb65016bfcf6105fe"
+                    - expires:
+                        - val: Sat, 28 Jun 2025 15:02:52 GMT
+                    - last-modified:
+                        - val: Mon, 07 Sep 2015 20:25:45 GMT
+                    - server:
+                        - val: AmazonS3
+                    - timing-allow-origin:
+                        - val: https://www.bbc.co.uk, https://www.bbc.com
+            - content:
+                - src: blob/xd7v3y.jpeg
+      - transport: test1.dtt.yaml
+        url: https://ichef.bbci.co.uk/news/416/mcs/media/images/58485000/jpg/_58485761_hccc.jpg
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: ichef.bbci.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /news/416/mcs/media/images/58485000/jpg/_58485761_hccc.jpg
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - access-control-allow-credentials:
+                        - val: 'false'
+                    - access-control-allow-headers:
+                        - val: '*'
+                    - access-control-allow-methods:
+                        - val: HEAD,GET
+                    - access-control-allow-origin:
+                        - val: '*'
+                    - access-control-max-age:
+                        - val: '300'
+                    - cache-control:
+                        - val: max-age=63072000
+                    - content-length:
+                        - val: '15996'
+                    - content-type:
+                        - val: image/jpeg
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - etag:
+                        - val: |-
+                            "DM4Fv+z6R/85AHaFM0VnIw="
+                    - expires:
+                        - val: Sun, 28 Jun 2026 15:02:52 GMT
+                    - server:
+                        - val: Apache
+                    - set-cookie:
+                        - val: BBC-UID=76e617be9da0d91cebb30ddd618f4828f3c6825160c065a0b5e65806c1eee4a50Akamai%20Edge;
+                            expires=Sat, 28-Jun-25 15:02:52 GMT; path=/; domain=bbc.co.uk;
+                    - timing-allow-origin:
+                        - val: https://www.bbc.co.uk, https://www.bbc.com
+                    - x-robots-tag:
+                        - val: noindex
+            - content:
+                - src: blob/cntfze.jpeg
+      - transport: test1.dtt.yaml
+        url: https://www.bbc.co.uk/wc-data/container/consent-banner
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /wc-data/container/consent-banner
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: application/json
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: DM_SitId1383=1
+                    - cookie:
+                        - val: DM_SitId1383SecId11832=1
+                    - cookie:
+                        - val: _chartbeat4=t=B_2P3tD3p2DgontY-CS9UJCQfAi4&E=6&x=0&c=0.12&y=984&w=984
+                    - referer:
+                        - val: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: same-origin
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - alt-svc:
+                        - val: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+                    - belfrage-cache-status:
+                        - val: HIT
+                    - bid:
+                        - val: bruce
+                    - brequestid:
+                        - val: f21ca4c575114cbf84ebb62611de99ee
+                    - bsig:
+                        - val: cb652c93ab40618172682f316fdfed5c
+                    - cache-control:
+                        - val: public, stale-if-error=90, stale-while-revalidate=30,
+                            max-age=5
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '2730'
+                    - content-security-policy:
+                        - val: 'default-src ''none''; script-src ''strict-dynamic''
+                            ''nonce-Z9FdOe0o7ETyjhMgQ3tYydqvjNOusAPmNfltqLke+94dQXIlfh''
+                            ''self'' ''report-sample'' ''unsafe-inline'' assets.wearehearken.eu
+                            cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk
+                            emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu
+                            mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk
+                            news.files.bbci.co.uk platform.twitter.com public.flourish.studio
+                            static.bbc.co.uk static.bbci.co.uk static.chartbeat.com
+                            static2.chartbeat.com www.bbc.co.uk www.instagram.com
+                            www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com
+                            bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com
+                            static.files.bbci.co.uk; img-src ''self'' https: data:;
+                            font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk
+                            static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk
+                            cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com
+                            static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk
+                            ton.twimg.com www.riddle.com ''unsafe-inline'' lf16-tiktok-web.ttwstatic.com;
+                            frame-src ''self'' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com
+                            cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com
+                            flo.uri.sh graphics.reuters.com www.reuters.com m.facebook.com
+                            news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk
+                            platform.twitter.com public.flourish.studio static2.chartbeat.com
+                            syndication.twitter.com web.facebook.com www.bbc.co.uk
+                            www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk
+                            www.riddle.com www.youtube.com www.youtube-nocookie.com
+                            toybox.tools.bbc.co.uk uk-script.dotmetrics.net ssp-app-uk.votenow.tv
+                            ssp-app-uktest.votenow.tv session.test.bbc.co.uk session.bbc.co.uk;
+                            object-src ''none''; manifest-src static.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; media-src ''self'' blob: https:;
+                            connect-src ''self'' https:; child-src blob:; base-uri
+                            ''none''; form-action ''self'' platform.twitter.com syndication.twitter.com
+                            uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors
+                            ''none''; upgrade-insecure-requests; report-to default;
+                            report-uri https://webcore.bbc-reporting-api.app/report-endpoint;'
+                    - content-type:
+                        - val: application/json
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - fastly-restarts:
+                        - val: '1'
+                    - feature-policy:
+                        - val: accelerometer 'none'; autoplay 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            camera 'none'; document-domain 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            encrypted-media 'none'; fullscreen 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            geolocation 'none'; gyroscope 'none'; magnetometer 'none';
+                            microphone 'none'; midi 'none'; payment 'none'; picture-in-picture
+                            'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com
+                            http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr
+                            'self'; usb 'none'; xr-spatial-tracking 'none'
+                    - nel:
+                        - val: '{"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}'
+                    - origin-agent-cluster:
+                        - val: ?0
+                    - permissions-policy:
+                        - val: accelerometer=(), autoplay=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            camera=(), document-domain=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            encrypted-media=(), fullscreen=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            geolocation=(), gyroscope=(), magnetometer=(), microphone=(),
+                            midi=(), payment=(), picture-in-picture=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            screen-wake-lock=(), sync-xhr=(self), usb=(), xr-spatial-tracking=()
+                    - permissions-policy:
+                        - val: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+                    - referrer-policy:
+                        - val: strict-origin-when-cross-origin
+                    - report-to:
+                        - val: '{"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}'
+                    - req-svc-chain:
+                        - val: FASTLY,GTM,BELFRAGE
+                    - server:
+                        - val: BBC-GTM
+                    - strict-transport-security:
+                        - val: max-age=31536000; preload
+                    - vary:
+                        - val: X-BBC-Edge-Scheme,Accept-Encoding
+                    - via:
+                        - val: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+                    - x-bbc-edge-cache-status:
+                        - val: HIT
+                    - x-cache:
+                        - val: HIT
+                    - x-cache-age:
+                        - val: '4'
+                    - x-cache-hits:
+                        - val: '2'
+                    - x-content-type-options:
+                        - val: nosniff
+                    - x-fastly-cache-status:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache-status:
+                        - val: HIT
+                    - x-frame-options:
+                        - val: DENY
+                    - x-lb-nocache:
+                        - val: 'true'
+                    - x-served-by:
+                        - val: cache-lhr-egll1980024-LHR
+                    - x-timer:
+                        - val: S1719586972.812034,VS0,VE1
+                    - x-xss-protection:
+                        - val: 1; mode=block
+            - content:
+                - src: blob/f6h37j.json
+      - transport: test1.dtt.yaml
+        url: https://www.bbc.co.uk/wc-data/container/consent-banner
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /wc-data/container/consent-banner
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: application/json
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: DM_SitId1383=1
+                    - cookie:
+                        - val: DM_SitId1383SecId11832=1
+                    - cookie:
+                        - val: _chartbeat4=t=B_2P3tD3p2DgontY-CS9UJCQfAi4&E=6&x=0&c=0.12&y=984&w=984
+                    - referer:
+                        - val: https://www.bbc.co.uk/search?q=hcl&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64&d=NEWS_PS&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: same-origin
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - alt-svc:
+                        - val: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+                    - belfrage-cache-status:
+                        - val: HIT
+                    - bid:
+                        - val: bruce
+                    - brequestid:
+                        - val: f21ca4c575114cbf84ebb62611de99ee
+                    - bsig:
+                        - val: cb652c93ab40618172682f316fdfed5c
+                    - cache-control:
+                        - val: public, stale-if-error=90, stale-while-revalidate=30,
+                            max-age=5
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '2730'
+                    - content-security-policy:
+                        - val: 'default-src ''none''; script-src ''strict-dynamic''
+                            ''nonce-Z9FdOe0o7ETyjhMgQ3tYydqvjNOusAPmNfltqLke+94dQXIlfh''
+                            ''self'' ''report-sample'' ''unsafe-inline'' assets.wearehearken.eu
+                            cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk
+                            emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu
+                            mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk
+                            news.files.bbci.co.uk platform.twitter.com public.flourish.studio
+                            static.bbc.co.uk static.bbci.co.uk static.chartbeat.com
+                            static2.chartbeat.com www.bbc.co.uk www.instagram.com
+                            www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com
+                            bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com
+                            static.files.bbci.co.uk; img-src ''self'' https: data:;
+                            font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk
+                            static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk
+                            cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com
+                            static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk
+                            ton.twimg.com www.riddle.com ''unsafe-inline'' lf16-tiktok-web.ttwstatic.com;
+                            frame-src ''self'' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com
+                            cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com
+                            flo.uri.sh graphics.reuters.com www.reuters.com m.facebook.com
+                            news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk
+                            platform.twitter.com public.flourish.studio static2.chartbeat.com
+                            syndication.twitter.com web.facebook.com www.bbc.co.uk
+                            www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk
+                            www.riddle.com www.youtube.com www.youtube-nocookie.com
+                            toybox.tools.bbc.co.uk uk-script.dotmetrics.net ssp-app-uk.votenow.tv
+                            ssp-app-uktest.votenow.tv session.test.bbc.co.uk session.bbc.co.uk;
+                            object-src ''none''; manifest-src static.files.bbci.co.uk
+                            bitesize.files.bbci.co.uk; media-src ''self'' blob: https:;
+                            connect-src ''self'' https:; child-src blob:; base-uri
+                            ''none''; form-action ''self'' platform.twitter.com syndication.twitter.com
+                            uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors
+                            ''none''; upgrade-insecure-requests; report-to default;
+                            report-uri https://webcore.bbc-reporting-api.app/report-endpoint;'
+                    - content-type:
+                        - val: application/json
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - fastly-restarts:
+                        - val: '1'
+                    - feature-policy:
+                        - val: accelerometer 'none'; autoplay 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            camera 'none'; document-domain 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            encrypted-media 'none'; fullscreen 'self' https://emp.bbc.com
+                            https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk;
+                            geolocation 'none'; gyroscope 'none'; magnetometer 'none';
+                            microphone 'none'; midi 'none'; payment 'none'; picture-in-picture
+                            'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com
+                            http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr
+                            'self'; usb 'none'; xr-spatial-tracking 'none'
+                    - nel:
+                        - val: '{"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}'
+                    - origin-agent-cluster:
+                        - val: ?0
+                    - permissions-policy:
+                        - val: accelerometer=(), autoplay=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            camera=(), document-domain=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            encrypted-media=(), fullscreen=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            geolocation=(), gyroscope=(), magnetometer=(), microphone=(),
+                            midi=(), payment=(), picture-in-picture=(self "https://emp.bbc.com"
+                            "https://emp.bbc.co.uk" "http://emp.bbc.com" "http://emp.bbc.co.uk"),
+                            screen-wake-lock=(), sync-xhr=(self), usb=(), xr-spatial-tracking=()
+                    - permissions-policy:
+                        - val: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+                    - referrer-policy:
+                        - val: strict-origin-when-cross-origin
+                    - report-to:
+                        - val: '{"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}'
+                    - req-svc-chain:
+                        - val: FASTLY,GTM,BELFRAGE
+                    - server:
+                        - val: BBC-GTM
+                    - strict-transport-security:
+                        - val: max-age=31536000; preload
+                    - vary:
+                        - val: X-BBC-Edge-Scheme,Accept-Encoding
+                    - via:
+                        - val: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+                    - x-bbc-edge-cache-status:
+                        - val: HIT
+                    - x-cache:
+                        - val: HIT
+                    - x-cache-age:
+                        - val: '4'
+                    - x-cache-hits:
+                        - val: '3'
+                    - x-content-type-options:
+                        - val: nosniff
+                    - x-fastly-cache-status:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache:
+                        - val: HIT
+                    - x-fastly-pre-flight-cache-status:
+                        - val: HIT
+                    - x-frame-options:
+                        - val: DENY
+                    - x-lb-nocache:
+                        - val: 'true'
+                    - x-served-by:
+                        - val: cache-lhr-egll1980024-LHR
+                    - x-timer:
+                        - val: S1719586972.826915,VS0,VE1
+                    - x-xss-protection:
+                        - val: 1; mode=block
+            - content:
+                - src: blob/f6h37j.json
+      - transport: test1.dtt.yaml
+        url: https://uk-script.dotmetrics.net/door.js?d=www.bbc.co.uk&t=searchps
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: uk-script.dotmetrics.net
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /door.js?d=www.bbc.co.uk&t=searchps
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: '*/*'
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=
+                    - cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1
+                    - if-none-match:
+                        - val: |-
+                            ".www.bbc.co.uk.searchps.285.2024062815"
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: script
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - status-code:
+                - val: '304'
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '304'
+                    - cache-control:
+                        - val: private
+                    - content-length:
+                        - val: '0'
+                    - content-type:
+                        - val: application/javascript
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - etag:
+                        - val: |-
+                            ".www.bbc.co.uk.searchps.285.2024062815"
+                    - p3p:
+                        - val: policyref="https://uk-script.dotmetrics.net/w3c/p3p.xml",
+                            CP="NOI DSP LAW CURa ADMa DEVa PSAa HISa OUR IND STA"
+                    - server:
+                        - val: Kestrel
+                    - via:
+                        - val: 1.1 547ed58ab09c3c811d28ab963755fcd8.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: lwdb4RGHscQYtx7tuA6oHOh1Iku-Y2A_8wIF1B1Pb4iwaJtUbisg6A==
+                    - x-amz-cf-pop:
+                        - val: JFK52-P3
+                    - x-cache:
+                        - val: Miss from cloudfront
+      - transport: test1.dtt.yaml
+        url: https://ping.chartbeat.net/ping?h=bbc.co.uk&p=%2Fsearch&u=CahouGBP73K6DNq6CQ&d=bbc.co.uk&g=50924&g0=No%20Section&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=2204&o=912&w=984&j=45&R=1&W=0&I=0&E=0&e=0&v=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS&PA=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&b=297&t=BJu15gDM7azDCnqnxcuMuyYDzx9Wq&V=147&z=t%3DB_2P3tD3p2DgontY-CS9UJCQfAi4%26E%3D6%26x%3D0%26c%3D0.12%26y%3D984%26w%3D984&i=BBC%20-%20Search%20results%20for%20hcl&tz=-60&sn=1&sv=BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1&sr=https%3A%2F%2Fwww.bbc.co.uk%2Fnews&sd=2&im=0603040a&_
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: ping.chartbeat.net
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /ping?h=bbc.co.uk&p=%2Fsearch&u=CahouGBP73K6DNq6CQ&d=bbc.co.uk&g=50924&g0=No%20Section&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=2204&o=912&w=984&j=45&R=1&W=0&I=0&E=0&e=0&v=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS&PA=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&b=297&t=BJu15gDM7azDCnqnxcuMuyYDzx9Wq&V=147&z=t%3DB_2P3tD3p2DgontY-CS9UJCQfAi4%26E%3D6%26x%3D0%26c%3D0.12%26y%3D984%26w%3D984&i=BBC%20-%20Search%20results%20for%20hcl&tz=-60&sn=1&sv=BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1&sr=https%3A%2F%2Fwww.bbc.co.uk%2Fnews&sd=2&im=0603040a&_
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-cache, no-store, must-revalidate
+                    - content-length:
+                        - val: '43'
+                    - content-type:
+                        - val: image/gif
+                    - cross-origin-resource-policy:
+                        - val: cross-origin
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - expires:
+                        - val: '0'
+                    - pragma:
+                        - val: no-cache
+            - content:
+                - src: blob/z5dsjm.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&ts=1719586971674&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&idp=1602512547360&jv=0&p=search.results.news.ps.page&s2=80&x2=[responsive]&x3=[bbc_website]&x5=[https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%24seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%24d%3DNEWS_PS%24edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw]&x6=[https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS]&x7=[search]&x8=[reverb-3.9.2]&x9=[BBC%20-%20Search%20results%20for%20hcl]&content_type=search&language=&library_version=reverb-3.9.2&experience_global_nav_type=Public%20Service%20Default&experience_global_nav_count=12&experience_global_platform=webcore&app_type=responsive&app_name=bbc_website&ref=https://www.bbc.co.uk/search?d=NEWS_PS
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&ts=1719586971674&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&idp=1602512547360&jv=0&p=search.results.news.ps.page&s2=80&x2=[responsive]&x3=[bbc_website]&x5=[https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%24seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%24d%3DNEWS_PS%24edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw]&x6=[https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS]&x7=[search]&x8=[reverb-3.9.2]&x9=[BBC%20-%20Search%20results%20for%20hcl]&content_type=search&language=&library_version=reverb-3.9.2&experience_global_nav_type=Public%20Service%20Default&experience_global_nav_count=12&experience_global_platform=webcore&app_type=responsive&app_name=bbc_website&ref=https://www.bbc.co.uk/search?d=NEWS_PS
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 2_wQg7xg3r381sHa94Ce3aN-2-1hn0-o1dzbM1CRiAqYZKbS4Ydn0g==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17064273%22%2C%22position%22%3A1%2C%22text%22%3A%22HCL%20won%20%C2%A318m%20contract%20from%20Department%20of%20Health%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-16T12%3A59%3A24.000Z%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17064273%22%2C%22position%22%3A1%2C%22text%22%3A%22HCL%20won%20%C2%A318m%20contract%20from%20Department%20of%20Health%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-16T12%3A59%3A24.000Z%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 0NHqDZqRm-RKc6kQRiNUdvETLH1IcirnufUTESpECbwJNlbpe_isBA==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17050469%22%2C%22position%22%3A2%2C%22text%22%3A%22HCL%20opening%20Kilkenny%20centre%20after%20Armagh%20closure%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-15T18%3A28%3A03.000Z%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17050469%22%2C%22position%22%3A2%2C%22text%22%3A%22HCL%20opening%20Kilkenny%20centre%20after%20Armagh%20closure%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-15T18%3A28%3A03.000Z%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 1BnC6aDcE3MP_ybTT-Gehozua2SBEObesPakuHYIBJKiF45cTPq4jg==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17016980%22%2C%22position%22%3A4%2C%22text%22%3A%22Call%20centre%20firm%20HCL%20BPO%20to%20cut%20255%20jobs%20in%20Belfast%20and%20Armagh%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-13T17%3A57%3A40.000Z%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17016980%22%2C%22position%22%3A4%2C%22text%22%3A%22Call%20centre%20firm%20HCL%20BPO%20to%20cut%20255%20jobs%20in%20Belfast%20and%20Armagh%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-13T17%3A57%3A40.000Z%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 1L3fjS38T4q4XS2_wT4d3AAZCxKlJDfLkwbHtXCI2k8dxyCmLz52aQ==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17023523%22%2C%22position%22%3A3%2C%22text%22%3A%22Call%20centre%20firm%20HCL%20BPO%20to%20cut%20255%20jobs%20in%20Belfast%20and%20Armagh%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-14T07%3A58%3A46.000Z%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971675&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17023523%22%2C%22position%22%3A3%2C%22text%22%3A%22Call%20centre%20firm%20HCL%20BPO%20to%20cut%20255%20jobs%20in%20Belfast%20and%20Armagh%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-14T07%3A58%3A46.000Z%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:51 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 6UC2tagwwWp3Y661Lncc9KhXcmOoR3d_19kI73BL8vS9uG_XJkMYMQ==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://uk-script.dotmetrics.net/hit.gif?id=11832&url=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&dom=www.bbc.co.uk&r=1719586971821&pvs=1&ecid=585f39ba-2ca9-4675-a316-34735c14599b&c=true&tzOffset=-60&doorUrl=http%3a%2f%2fuk-script.dotmetrics.net%2fdoor.js%3fd%3dwww.bbc.co.uk%26t%3dsearchps&dfph=
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: uk-script.dotmetrics.net
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.gif?id=11832&url=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&dom=www.bbc.co.uk&r=1719586971821&pvs=1&ecid=585f39ba-2ca9-4675-a316-34735c14599b&c=true&tzOffset=-60&doorUrl=http%3a%2f%2fuk-script.dotmetrics.net%2fdoor.js%3fd%3dwww.bbc.co.uk%26t%3dsearchps&dfph=
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=
+                    - cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-cache
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - dotmetrics-hit-status:
+                        - val: 01 OK
+                    - p3p:
+                        - val: policyref="https://uk-script.dotmetrics.net/w3c/p3p.xml",
+                            CP="NOI DSP LAW CURa ADMa DEVa PSAa HISa OUR IND STA"
+                    - server:
+                        - val: Kestrel
+                    - set-cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=; expires=Sat, 28 Jun
+                            2025 15:02:52 GMT; domain=.dotmetrics.net; path=/; SameSite=None;
+                            secure
+                    - set-cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1;
+                            expires=Sat, 28 Jun 2025 15:02:52 GMT; domain=.dotmetrics.net;
+                            path=/; SameSite=None; secure
+                    - via:
+                        - val: 1.1 547ed58ab09c3c811d28ab963755fcd8.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: uK5sE0Geomf1RMWraKv7ryAk0-sRJPmJmO3omCIK9V_vhGwKRaJNJw==
+                    - x-amz-cf-pop:
+                        - val: JFK52-P3
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/3twkwe.gif
+      - transport: test1.dtt.yaml
+        url: https://rm-script.dotmetrics.net/hit.gif?id=11832&url=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&dom=www.bbc.co.uk&r=1719586971821&pvs=1&pvid=585f39ba-2ca9-4675-a316-34735c14599b&c=true&tzOffset=-60
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: rm-script.dotmetrics.net
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.gif?id=11832&url=https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fq%3Dhcl%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%26d%3DNEWS_PS%26edgeauth%3DeyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTcxOTU4NzI3MSwibmJmIjogMTcxOTU4NjkxMSwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEaGNsJTI2c2VxSWQlM0Q3YjBmNzJmMC0zNTVmLTExZWYtYTg5ZC1jNWViYTU0NjhmNjQlMjZkJTNETkVXU19QUyJ9.sfQ6QwLbNbHLk7EsK9GWt49pE40EazA-copjqycvmZw&dom=www.bbc.co.uk&r=1719586971821&pvs=1&pvid=585f39ba-2ca9-4675-a316-34735c14599b&c=true&tzOffset=-60
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=
+                    - cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - accept-ranges:
+                        - val: bytes
+                    - age:
+                        - val: '27106'
+                    - cache-control:
+                        - val: max-age=86400
+                    - content-length:
+                        - val: '807'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 07:31:07 GMT
+                    - etag:
+                        - val: |-
+                            "e4f758e6322c8f8abfa1f6eba71ee873"
+                    - last-modified:
+                        - val: Tue, 18 Apr 2023 12:25:02 GMT
+                    - server:
+                        - val: AmazonS3
+                    - vary:
+                        - val: Accept-Encoding
+                    - via:
+                        - val: 1.1 e4063174e49a72dbf23ed047ff7d7c56.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: NJ7eowWKDd3Fi3KJqiCLV5MIZpaVbiYJ3qD2NhygintSBE8UuJUACg==
+                    - x-amz-cf-pop:
+                        - val: JFK52-P4
+                    - x-amz-server-side-encryption:
+                        - val: AES256
+                    - x-cache:
+                        - val: Hit from cloudfront
+            - content:
+                - src: blob/b2x2kw.gif
+      - transport: test1.dtt.yaml
+        url: https://news.bbcimg.co.uk/media/images/51914000/jpg/_51914300_hcl.jpg
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: news.bbcimg.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /media/images/51914000/jpg/_51914300_hcl.jpg
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: max-age=63072000
+                    - content-length:
+                        - val: '2291'
+                    - content-type:
+                        - val: image/jpeg
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - expires:
+                        - val: Sun, 28 Jun 2026 15:02:52 GMT
+                    - server:
+                        - val: Apache
+                    - timing-allow-origin:
+                        - val: https://www.bbc.co.uk, https://www.bbc.com
+            - content:
+                - src: blob/u7qq6l.jpeg
+      - transport: test1.dtt.yaml
+        url: https://uk-script.dotmetrics.net/SiteEvent.dotmetrics?v=eyJpZCI6MTE4MzIsImZsIjp0cnVlLCJkb20iOiJ3d3cuYmJjLmNvLnVrIiwibHNvIjpudWxsLCJ1cmwiOiJodHRwczovL3d3dy5iYmMuY28udWsvc2VhcmNoP3E9aGNsJnNlcUlkPTdiMGY3MmYwLTM1NWYtMTFlZi1hODlkLWM1ZWJhNTQ2OGY2NCZkPU5FV1NfUFMmZWRnZWF1dGg9ZXlKaGJHY2lPaUFpU0ZNeU5UWWlMQ0FpZEhsd0lqb2dJa3BYVkNKOS5leUpyWlhraU9pQWlabUZ6ZEd4NUxYVnlhUzEwYjJ0bGJpMHhJaXdpWlhod0lqb2dNVGN4T1RVNE56STNNU3dpYm1KbUlqb2dNVGN4T1RVNE5qa3hNU3dpY21WeGRXVnpkSFZ5YVNJNklDSWxNa1p6WldGeVkyZ2xNMFp4SlRORWFHTnNKVEkyYzJWeFNXUWxNMFEzWWpCbU56Sm1NQzB6TlRWbUxURXhaV1l0WVRnNVpDMWpOV1ZpWVRVME5qaG1OalFsTWpaa0pUTkVUa1ZYVTE5UVV5Sjkuc2ZRNlF3TGJOYkhMazdFc0s5R1d0NDlwRTQwRWF6QS1jb3BqcXljdm1adyIsInJ1cmwiOiJodHRwczovL3d3dy5iYmMuY28udWsvc2VhcmNoP2Q9TkVXU19QUyIsImVjaWQiOiI1ODVmMzliYS0yY2E5LTQ2NzUtYTMxNi0zNDczNWMxNDU5OWIiLCJkYyI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsImRmcGgiOiIiLCJ0ek9mZnNldCI6LTYwLCJvc3MiOmZhbHNlLCJvc2VzIjpmYWxzZX0%3D&r=1719586972033
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: uk-script.dotmetrics.net
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /SiteEvent.dotmetrics?v=eyJpZCI6MTE4MzIsImZsIjp0cnVlLCJkb20iOiJ3d3cuYmJjLmNvLnVrIiwibHNvIjpudWxsLCJ1cmwiOiJodHRwczovL3d3dy5iYmMuY28udWsvc2VhcmNoP3E9aGNsJnNlcUlkPTdiMGY3MmYwLTM1NWYtMTFlZi1hODlkLWM1ZWJhNTQ2OGY2NCZkPU5FV1NfUFMmZWRnZWF1dGg9ZXlKaGJHY2lPaUFpU0ZNeU5UWWlMQ0FpZEhsd0lqb2dJa3BYVkNKOS5leUpyWlhraU9pQWlabUZ6ZEd4NUxYVnlhUzEwYjJ0bGJpMHhJaXdpWlhod0lqb2dNVGN4T1RVNE56STNNU3dpYm1KbUlqb2dNVGN4T1RVNE5qa3hNU3dpY21WeGRXVnpkSFZ5YVNJNklDSWxNa1p6WldGeVkyZ2xNMFp4SlRORWFHTnNKVEkyYzJWeFNXUWxNMFEzWWpCbU56Sm1NQzB6TlRWbUxURXhaV1l0WVRnNVpDMWpOV1ZpWVRVME5qaG1OalFsTWpaa0pUTkVUa1ZYVTE5UVV5Sjkuc2ZRNlF3TGJOYkhMazdFc0s5R1d0NDlwRTQwRWF6QS1jb3BqcXljdm1adyIsInJ1cmwiOiJodHRwczovL3d3dy5iYmMuY28udWsvc2VhcmNoP2Q9TkVXU19QUyIsImVjaWQiOiI1ODVmMzliYS0yY2E5LTQ2NzUtYTMxNi0zNDczNWMxNDU5OWIiLCJkYyI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsImRmcGgiOiIiLCJ0ek9mZnNldCI6LTYwLCJvc3MiOmZhbHNlLCJvc2VzIjpmYWxzZX0%3D&r=1719586972033
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: '*/*'
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=
+                    - cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: script
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: cross-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-cache
+                    - content-type:
+                        - val: application/javascript
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - p3p:
+                        - val: policyref="https://uk-script.dotmetrics.net/w3c/p3p.xml",
+                            CP="NOI DSP LAW CURa ADMa DEVa PSAa HISa OUR IND STA"
+                    - server:
+                        - val: Kestrel
+                    - set-cookie:
+                        - val: DotMetrics.DeviceKey=DeviceID=; expires=Sat, 28 Jun
+                            2025 15:02:52 GMT; domain=.dotmetrics.net; path=/; SameSite=None;
+                            secure
+                    - set-cookie:
+                        - val: DotMetrics.UniqueUserIdentityCookie=UserID=d7fa5f5b-1b7e-4fae-ba8d-eb514c3ae278&Created=06/28/2024
+                            15:02:44&UserMode=0&guid=b58d78fe-1d1a-41ba-9f0d-0302a944b504&ver=1;
+                            expires=Sat, 28 Jun 2025 15:02:52 GMT; domain=.dotmetrics.net;
+                            path=/; SameSite=None; secure
+                    - vary:
+                        - val: Accept-Encoding
+                    - via:
+                        - val: 1.1 547ed58ab09c3c811d28ab963755fcd8.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: LCRQNa-inzy8HfbH6Gs2sDy_Y0ZqB8WJ6LTQSg3Md7fbXFNsXo6cWA==
+                    - x-amz-cf-pop:
+                        - val: JFK52-P3
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/sneh7r.js
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586972669&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x52&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.view%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22se-combobox%22%2C%22position%22%3A1%2C%22type%22%3A%22form%22%2C%22search_query%22%3A%22hcl%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22view%22%2C%22exposure%22%3A1000%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22position%22%3A1%2C%22text%22%3A%22Submit%22%2C%22type%22%3A%22button%22%2C%22name%22%3A%22search-icon%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586972669&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x52&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.view%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22se-combobox%22%2C%22position%22%3A1%2C%22type%22%3A%22form%22%2C%22search_query%22%3A%22hcl%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22view%22%2C%22exposure%22%3A1000%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22position%22%3A1%2C%22text%22%3A%22Submit%22%2C%22type%22%3A%22button%22%2C%22name%22%3A%22search-icon%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: OEgGWgkom7cpQOnQ9xclfrACq5ZyaU0qLcnFhFFt5vFsiZrlyPapdg==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586972699&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x52&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.view%22%2C%22data%22%3A%7B%22group%22%3A%7B%22type%22%3A%22rich%20text%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22view%22%2C%22exposure%22%3A1000%2C%22pixel_threshold%22%3A0.5%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22text%22%3A%22cookies%22%2C%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fusingthebbc%2Fcookies%2Fwhat-do-i-need-to-know-about-cookies%2F%22%2C%22type%22%3A%22text-link%22%7D%7D%7D%5D
+        request:
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586972699&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x52&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.view%22%2C%22data%22%3A%7B%22group%22%3A%7B%22type%22%3A%22rich%20text%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22view%22%2C%22exposure%22%3A1000%2C%22pixel_threshold%22%3A0.5%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22text%22%3A%22cookies%22%2C%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fusingthebbc%2Fcookies%2Fwhat-do-i-need-to-know-about-cookies%2F%22%2C%22type%22%3A%22text-link%22%7D%7D%7D%5D
+                    - :scheme:
+                        - val: https
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - accept-encoding:
+                        - val: gzip, deflate, br, zstd
+                    - accept-language:
+                        - val: en-GB,en-US;q=0.9,en;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586971665.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.2
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A51.672Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - referer:
+                        - val: https://www.bbc.co.uk/
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+                    - user-agent:
+                        - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                            (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+        response:
+          paths:
+            - headers:
+                - paths:
+                    - :status:
+                        - val: '200'
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:52 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: MG2WdHOdIWmBarqmBSMCyGOMIIg-Ukf56NidGJLtPUCyzE6vdPgqoA==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+  commonReq:
+    paths:
+      - headers/:scheme:
+          - val: https
+      - headers/accept-encoding:
+          - val: gzip, deflate, br, zstd
+      - headers/accept-language:
+          - val: en-GB,en-US;q=0.9,en;q=0.8
+      - headers/sec-ch-ua:
+          - val: |-
+              "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+      - headers/sec-ch-ua-mobile:
+          - val: ?0
+      - headers/sec-ch-ua-platform:
+          - val: |-
+              "Windows"
+      - headers/user-agent:
+          - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+              like Gecko) Chrome/123.0.0.0 Safari/537.36

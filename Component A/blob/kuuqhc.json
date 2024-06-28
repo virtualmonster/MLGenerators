@@ -1,0 +1,272 @@
+{
+    "q": "h",
+    "results": [
+        {
+            "uri": "urn:bbc:programmes:m001tbqp",
+            "title": "CBeebies Robin Hood",
+            "synopsis": "A host of CBeebies stars stage an action-packed festive adventure in Sherwood Forest.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/m001tbqp",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:u13-safe-programme"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0gxh83s:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "cbeebies",
+                "name": "CBeebies"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:m001tbqp",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:m001gc2z",
+            "title": "Dick Whittington and His Cat",
+            "synopsis": "Songs and fun as Dick Whittington and his cat try to save Christmas.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/m001gc2z",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:u13-safe-programme"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0dm3v3f:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "cbeebies",
+                "name": "CBeebies"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:m001gc2z",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:b006mkw3",
+            "title": "Have I Got News for You",
+            "synopsis": "Comedy quiz show that grills celebrity contestants on the week's top stories and news.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/b006mkw3",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:simulcast-allowlist"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0gjd828:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "bbc_one",
+                "name": "BBC One"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:b006mkw3",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:b00877q4",
+            "title": "Have I Got a Bit More News for You",
+            "synopsis": "An extended version of the satirical news quiz.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/b00877q4",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:simulcast-allowlist"
+            ],
+            "image_uri": "urn:bbc:imagepid:p06vkyzg:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "bbc_one",
+                "name": "BBC One"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:b00877q4",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:b07xdmgk",
+            "title": "Hey Duggee",
+            "synopsis": "Duggee runs the Squirrel Club, where children can earn badges for learning new skills.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/b07xdmgk",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:u13-safe-programme",
+                "urn:bbc:iplayer:u13-safe-programme",
+                "urn:bbc:iplayer:u13-safe-programme"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0h2r3t4:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "cbeebies",
+                "name": "CBeebies"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:b07xdmgk",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:m001p1qj",
+            "title": "H-O-L-L-Y-W-O-O-D",
+            "synopsis": "David Willis celebrates the centenary of the Hollywood sign.",
+            "url": "https://www.bbc.co.uk/sounds/play/m001p1qj",
+            "type": "episode",
+            "category": [
+                "urn:bbc:sounds:episode",
+                "urn:bbc:sounds:available",
+                "urn:bbc:sounds:available"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0g2lvzn:jpg",
+            "media_type": [
+                "audio",
+                "audio"
+            ],
+            "site": {
+                "id": "sounds",
+                "name": "Sounds"
+            },
+            "section": {
+                "id": "bbc_radio_four",
+                "name": "BBC Radio 4"
+            },
+            "published": "2023-07-25T00:00:00Z",
+            "group_leaf": true,
+            "group_uri": "urn:bbc:programmes:m001p1qj",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:b006qnwb",
+            "title": "I'm Sorry I Haven't A Clue",
+            "synopsis": "The long-running, self-styled antidote to panel games.",
+            "url": "https://www.bbc.co.uk/sounds/brand/b006qnwb",
+            "type": "brand",
+            "category": [
+                "urn:bbc:sounds:show",
+                "urn:bbc:sounds:available"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0hrdbhh:jpg",
+            "media_type": [
+                "audio",
+                "audio"
+            ],
+            "site": {
+                "id": "sounds",
+                "name": "Sounds"
+            },
+            "section": {
+                "id": "bbc_radio_four",
+                "name": "BBC Radio 4"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:b006qnwb",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:m000b1v2",
+            "title": "His Dark Materials",
+            "synopsis": "Star-studded adaptation of Philip Pullman's fantasy trilogy.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/m000b1v2",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available",
+                "urn:bbc:iplayer:u13-safe-programme",
+                "urn:bbc:iplayer:simulcast-allowlist"
+            ],
+            "image_uri": "urn:bbc:imagepid:p08wnqbb:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "bbc_one",
+                "name": "BBC One"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:m000b1v2",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:p093wp6h",
+            "title": "Can't Get You Out of My Head",
+            "synopsis": "Love, power, money, ghosts of empire, conspiracies, artificial intelligence – and You.",
+            "url": "https://www.bbc.co.uk/iplayer/episodes/p093wp6h",
+            "type": "brand",
+            "category": [
+                "urn:bbc:iplayer:available"
+            ],
+            "image_uri": "urn:bbc:imagepid:p096ltk0:jpg",
+            "media_type": [
+                "video"
+            ],
+            "site": {
+                "id": "iplayer",
+                "name": "iPlayer"
+            },
+            "section": {
+                "id": "bbc_webonly",
+                "name": "BBC"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:p093wp6h",
+            "group_level": 1
+        },
+        {
+            "uri": "urn:bbc:programmes:m000c9mb",
+            "title": "Fake Heiress",
+            "synopsis": "Anna Delvey blazed a trail through New York as a wealthy heiress. But it was all a lie.",
+            "url": "https://www.bbc.co.uk/sounds/series/m000c9mb",
+            "type": "series",
+            "category": [
+                "urn:bbc:sounds:show",
+                "urn:bbc:sounds:available"
+            ],
+            "image_uri": "urn:bbc:imagepid:p0c13fzs:jpg",
+            "media_type": [
+                "audio",
+                "audio"
+            ],
+            "site": {
+                "id": "sounds",
+                "name": "Sounds"
+            },
+            "section": {
+                "id": "bbc_radio_four",
+                "name": "BBC Radio 4"
+            },
+            "group_leaf": false,
+            "group_uri": "urn:bbc:programmes:m000c9mb",
+            "group_level": 1
+        }
+    ]
+}

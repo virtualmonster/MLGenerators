@@ -1,0 +1,100 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open https://bbc.com/news
+      url: ${WEBSITE_ROOT_URL}/news
+      emulate:
+        - send:
+            transport: test1.dtt.yaml
+            url: https://bbc.com/news
+            request:
+              includes:
+                - test1_1.dtm.yaml#req
+            response:
+              includes:
+                - test1_1.dtm.yaml#res
+  - with:
+      note: Home - BBC News
+      steps:
+        - click:
+            shot: shot/mtlgay.dti.jpeg#3343
+            object: html.path
+            target:
+              - {}
+            emulate:
+              - send:
+                  transport: test1.dtt.yaml
+                  url: https://www.bbc.co.uk/search?d=NEWS_PS
+                  request:
+                    includes:
+                      - test1_2.dtm.yaml#req
+                  response:
+                    includes:
+                      - test1_2.dtm.yaml#res
+  - with:
+      note: BBC - Search
+      steps:
+        - click:
+            shot: shot/2ipyvj.dti.jpeg#360
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Input your search term
+            emulate:
+              - send:
+                  transport: test1.dtt.yaml
+                  url: https://search.api.bbci.co.uk/formula/domestic-web-suggest?q=h&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+                  request:
+                    includes:
+                      - test1_3.dtm.yaml#req
+                  response:
+                    includes:
+                      - test1_3.dtm.yaml#res
+        - type:
+            shot: shot/ltbzyy.dti.jpeg#588
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Input your search term
+            value: hcl
+        - click:
+            shot: shot/jhxzvm.dti.jpeg#1058
+            object: html.button
+            target:
+              - properties:
+                  - content:
+                      - val: Search
+            emulate:
+              - send:
+                  transport: test1.dtt.yaml
+                  url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586971352&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x51&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.select%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22se-combobox%22%2C%22position%22%3A1%2C%22type%22%3A%22form%22%2C%22search_query%22%3A%22hcl%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22select%22%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22position%22%3A1%2C%22text%22%3A%22Submit%22%2C%22type%22%3A%22button%22%2C%22name%22%3A%22search-icon%22%7D%7D%7D%5D
+                  request:
+                    includes:
+                      - test1_4.dtm.yaml#req
+                  response:
+                    includes:
+                      - test1_4.dtm.yaml#res
+  - with:
+      note: BBC - Search results for hcl
+      steps:
+        - click:
+            shot: shot/rcjjxt.dti.jpeg#834
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: HCL won £18m contract from Department of Health
+            emulate:
+              - send:
+                  transport: test1.dtt.yaml
+                  url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586980366&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x3x0&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.select%22%2C%22data%22%3A%7B%22group%22%3A%7B%22name%22%3A%22search-results%22%2C%22type%22%3A%22list%22%2C%22position%22%3A3%2C%22search_query%22%3A%22hcl%22%2C%22pagination%22%3A1%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22select%22%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%22d38faf57-77a7-4618-a494-1a5c9eaa2076%22%2C%22pixel_threshold%22%3A0.01%2C%22entity_name%22%3A%22item%22%2C%22interaction_type%22%3A%22mousedown_click%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fuk-northern-ireland-17064273%22%2C%22position%22%3A1%2C%22text%22%3A%22HCL%20won%20%C2%A318m%20contract%20from%20Department%20of%20Health%22%2C%22type%22%3A%22result%22%2C%22name%22%3A%22search-result%22%2C%22image%22%3A%22https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F416%2Fmcs%2Fmedia%2Fimages%2F58485000%2Fjpg%2F_58485761_hccc.jpg%22%2C%22label%22%3A%22Northern%20Ireland%22%2C%22attribution%22%3A%22News%22%2C%22timestamp%22%3A%222012-02-16T12%3A59%3A24.000Z%22%7D%7D%7D%5D
+                  request:
+                    includes:
+                      - test1_5.dtm.yaml#req
+                  response:
+                    includes:
+                      - test1_5.dtm.yaml#res
+vars:
+  WEBSITE_ROOT_URL: https://bbc.com

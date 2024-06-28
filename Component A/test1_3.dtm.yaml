@@ -1,0 +1,772 @@
+note: Generated from recorded traffic
+messages:
+  req:
+    includes:
+      - '#commonReq'
+    paths:
+      - headers:
+          - paths:
+              - :authority:
+                  - val: search.api.bbci.co.uk
+              - :path:
+                  - val: /formula/domestic-web-suggest?q=h&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+              - accept:
+                  - val: '*/*'
+              - origin:
+                  - val: https://www.bbc.co.uk
+              - sec-fetch-dest:
+                  - val: empty
+              - sec-fetch-mode:
+                  - val: cors
+              - sec-fetch-site:
+                  - val: cross-site
+  res:
+    includes:
+      - '#commonRes'
+    paths:
+      - headers:
+          - paths:
+              - access-control-allow-headers:
+                  - val: x-collection
+              - access-control-allow-methods:
+                  - val: GET, PUT, POST, DELETE
+              - access-control-allow-origin:
+                  - val: https://www.bbc.co.uk
+              - access-control-expose-headers:
+                  - val: Search-Response-Id
+              - access-control-max-age:
+                  - val: '300'
+              - cache-control:
+                  - val: no-cache, max-age=0
+              - content-encoding:
+                  - val: gzip
+              - content-length:
+                  - val: '1397'
+              - content-type:
+                  - val: application/json; charset=UTF-8
+              - date:
+                  - val: Fri, 28 Jun 2024 15:02:47 GMT
+              - search-response-id:
+                  - val: 75636f90-2b49-439f-8c3d-71d140bc16a5
+              - server:
+                  - val: search-business-layer
+              - vary:
+                  - val: Accept-Encoding
+              - x-component-release:
+                  - val: 2.0.0-78.323f68a
+      - content:
+          - src: blob/kuuqhc.json
+    cascade:
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967723&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DCBeebies%2BRobin%2BHood%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A0%2C%22text%22%3A%22CBeebies%20Robin%20Hood%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967723&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DCBeebies%2BRobin%2BHood%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A0%2C%22text%22%3A%22CBeebies%20Robin%20Hood%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: NBf30d1AAOsEA8bgWLXLRwz2B55yQ5ru3AgU2SnM7AroevTRzOG3Eg==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DDick%2BWhittington%2Band%2BHis%2BCat%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A1%2C%22text%22%3A%22Dick%20Whittington%20and%20His%20Cat%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DDick%2BWhittington%2Band%2BHis%2BCat%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A1%2C%22text%22%3A%22Dick%20Whittington%20and%20His%20Cat%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: xoXrHmeWqqf5JhtStwLUmYCn9IutyOuqhWwkg4D-e6OMZh_jaILcWg==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHave%2BI%2BGot%2Ba%2BBit%2BMore%2BNews%2Bfor%2BYou%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A3%2C%22text%22%3A%22Have%20I%20Got%20a%20Bit%20More%20News%20for%20You%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHave%2BI%2BGot%2Ba%2BBit%2BMore%2BNews%2Bfor%2BYou%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A3%2C%22text%22%3A%22Have%20I%20Got%20a%20Bit%20More%20News%20for%20You%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: 5N2FhuoWWyVDmcCwOzi3o3jv9FAoauvj-BE4B4hjy9Sc-wELdXi6IQ==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHave%2BI%2BGot%2BNews%2Bfor%2BYou%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A2%2C%22text%22%3A%22Have%20I%20Got%20News%20for%20You%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHave%2BI%2BGot%2BNews%2Bfor%2BYou%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A2%2C%22text%22%3A%22Have%20I%20Got%20News%20for%20You%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: SBlOItOEd2ojoZRmD9CKQP7mRQpJeVrjg4UREz9Pod7TQWXoNdci5w==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHey%2BDuggee%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A4%2C%22text%22%3A%22Hey%20Duggee%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967724&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHey%2BDuggee%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A4%2C%22text%22%3A%22Hey%20Duggee%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22CBeebies%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: I778-pnnZRc1lfhTs1Pin0LArL-vyQagq61QVxcMb7M7er_FvR8izw==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DCan%2527t%2BGet%2BYou%2BOut%2Bof%2BMy%2BHead%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A8%2C%22text%22%3A%22Can%27t%20Get%20You%20Out%20of%20My%20Head%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DCan%2527t%2BGet%2BYou%2BOut%2Bof%2BMy%2BHead%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A8%2C%22text%22%3A%22Can%27t%20Get%20You%20Out%20of%20My%20Head%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: TD7T2B-Zvp-KaqbvR5YK_cP2fOM7LGQUvsC_ZJYNjLeD3BF26akY9g==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DH-O-L-L-Y-W-O-O-D%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A5%2C%22text%22%3A%22H-O-L-L-Y-W-O-O-D%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DH-O-L-L-Y-W-O-O-D%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A5%2C%22text%22%3A%22H-O-L-L-Y-W-O-O-D%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: NTyKyFTQmEQELVe-aqW0Q7CQhbOXR9NQa7Y3ic4xWndF-DlRsMEICw==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHis%2BDark%2BMaterials%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A7%2C%22text%22%3A%22His%20Dark%20Materials%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DHis%2BDark%2BMaterials%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A7%2C%22text%22%3A%22His%20Dark%20Materials%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20One%22%2C%22attribution%22%3A%22iPlayer%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: LiYsQ8zdefPVTZKTlSyorLX9SQGfqZ-YbQNPnOrfqrDhvpD2-556ag==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DFake%2BHeiress%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A9%2C%22text%22%3A%22Fake%20Heiress%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DFake%2BHeiress%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A9%2C%22text%22%3A%22Fake%20Heiress%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: LUffaVgXDVXTTcn36hfZjk_PgsAgoJSKxDIBGeYfhrCz9qBe0Vkiig==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: https://a1.api.bbc.co.uk/hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DI%2527m%2BSorry%2BI%2BHaven%2527t%2BA%2BClue%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A6%2C%22text%22%3A%22I%27m%20Sorry%20I%20Haven%27t%20A%20Clue%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: a1.api.bbc.co.uk
+                    - :path:
+                        - val: /hit.xiti?s=598304&idclient=81e2e245-2dbc-468b-a2fd-5ef027c0a14d&col=2&ts=1719586967725&vtag=5.29.4&ptag=js&r=1920x1200x24x24&re=929x984&hl=16x2x47&lng=en-GB&content_type=search&language=&library_version=reverb-3.9.2&app_type=responsive&app_name=bbc_website&context=%5B%7B%22data%22%3A%7B%22page%22%3A%7B%22%24%22%3A%22search.results.news.ps.page%22%7D%2C%22site%22%3A%7B%22level2_id%22%3A80%7D%7D%7D%5D&events=%5B%7B%22name%22%3A%22viewability.serve%22%2C%22data%22%3A%7B%22group%22%3A%7B%22item_count%22%3A10%2C%22name%22%3A%22se-combobox%22%2C%22position%22%3A2%2C%22search_query%22%3A%22h%22%2C%22type%22%3A%22list%22%7D%2C%22event%22%3A%7B%22category%22%3A%22viewability%22%2C%22action%22%3A%22serve%22%2C%22exposure%22%3A0%2C%22sequence_id%22%3A%227b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22api_response_id%22%3A%2275636f90-2b49-439f-8c3d-71d140bc16a5%22%2C%22pixel_threshold%22%3A0.5%2C%22entity_name%22%3A%22item%22%7D%2C%22experience%22%3A%7B%22global_platform%22%3A%22webcore%22%7D%2C%22user%22%3A%7B%22id%22%3Anull%7D%2C%22app%22%3A%7B%22type%22%3A%22responsive%22%2C%22name%22%3A%22bbc_website%22%7D%2C%22item%22%3A%7B%22link%22%3A%22https%3A%2F%2Fwww.bbc.co.uk%2Fsearch%3Fd%3DNEWS_PS%26q%3DI%2527m%2BSorry%2BI%2BHaven%2527t%2BA%2BClue%26seqId%3D7b0f72f0-355f-11ef-a89d-c5eba5468f64%22%2C%22position%22%3A6%2C%22text%22%3A%22I%27m%20Sorry%20I%20Haven%27t%20A%20Clue%22%2C%22name%22%3A%22search-result%22%2C%22type%22%3A%22result%22%2C%22label%22%3A%22BBC%20Radio%204%22%2C%22attribution%22%3A%22Sounds%22%7D%7D%7D%5D
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: ckns_mvt=4128afd3-ed41-46f6-af66-1db66891798c
+                    - cookie:
+                        - val: atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2281e2e245-2dbc-468b-a2fd-5ef027c0a14d%22%2C%22options%22%3A%7B%22end%22%3A%222025-07-30T15%3A02%3A44.501Z%22%2C%22path%22%3A%22%2F%22%7D%7D
+                    - cookie:
+                        - val: _cb=CahouGBP73K6DNq6CQ
+                    - cookie:
+                        - val: _chartbeat2=.1719586964516.1719586964516.1.BTQVHGBM4CjhDVFeBLCuf5wyDu9yb1.1
+                    - cookie:
+                        - val: _cb_svref=https%3A%2F%2Fwww.bbc.co.uk%2Fnews
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cache-control:
+                        - val: no-store
+                    - content-length:
+                        - val: '35'
+                    - content-type:
+                        - val: image/gif
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - strict-transport-security:
+                        - val: max-age=15768000
+                    - via:
+                        - val: 1.1 79455aeea26d3c071fd96c3c1432669a.cloudfront.net
+                            (CloudFront)
+                    - x-amz-cf-id:
+                        - val: cfK8U2VHjYXCI7HSgJcPHPmRjAd1MhdWYi7I0RvQfa40Tadr2oQBtw==
+                    - x-amz-cf-pop:
+                        - val: EWR53-P1
+                    - x-cache:
+                        - val: Miss from cloudfront
+            - content:
+                - src: blob/nlod2t.gif
+      - transport: test1.dtt.yaml
+        url: /formula/domestic-web-suggest?q=hc&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: search.api.bbci.co.uk
+                    - :path:
+                        - val: /formula/domestic-web-suggest?q=hc&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+                    - accept:
+                        - val: '*/*'
+                    - origin:
+                        - val: https://www.bbc.co.uk
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: cross-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - access-control-allow-headers:
+                        - val: x-collection
+                    - access-control-allow-methods:
+                        - val: GET, PUT, POST, DELETE
+                    - access-control-allow-origin:
+                        - val: https://www.bbc.co.uk
+                    - access-control-expose-headers:
+                        - val: Search-Response-Id
+                    - access-control-max-age:
+                        - val: '300'
+                    - cache-control:
+                        - val: no-cache, max-age=0
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '49'
+                    - content-type:
+                        - val: application/json; charset=UTF-8
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:47 GMT
+                    - search-response-id:
+                        - val: f70df559-ee91-4595-8b66-23dfdd930457
+                    - server:
+                        - val: search-business-layer
+                    - vary:
+                        - val: Accept-Encoding
+                    - x-component-release:
+                        - val: 2.0.0-78.323f68a
+            - content:
+                - src: blob/5t3dz7.json
+      - transport: test1.dtt.yaml
+        url: /formula/domestic-web-suggest?q=hcl&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: search.api.bbci.co.uk
+                    - :path:
+                        - val: /formula/domestic-web-suggest?q=hcl&apikey=ujvieWWhDYG9hKrHMLkD1dG0sZD8MStO&seqId=7b0f72f0-355f-11ef-a89d-c5eba5468f64
+                    - accept:
+                        - val: '*/*'
+                    - origin:
+                        - val: https://www.bbc.co.uk
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: cross-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - access-control-allow-headers:
+                        - val: x-collection
+                    - access-control-allow-methods:
+                        - val: GET, PUT, POST, DELETE
+                    - access-control-allow-origin:
+                        - val: https://www.bbc.co.uk
+                    - access-control-expose-headers:
+                        - val: Search-Response-Id
+                    - access-control-max-age:
+                        - val: '300'
+                    - cache-control:
+                        - val: no-cache, max-age=0
+                    - content-encoding:
+                        - val: gzip
+                    - content-length:
+                        - val: '50'
+                    - content-type:
+                        - val: application/json; charset=UTF-8
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:02:48 GMT
+                    - search-response-id:
+                        - val: f7f798bb-22ba-4ab7-893c-aeeff879e711
+                    - server:
+                        - val: search-business-layer
+                    - vary:
+                        - val: Accept-Encoding
+                    - x-component-release:
+                        - val: 2.0.0-78.323f68a
+            - content:
+                - src: blob/q7s4kh.json
+  commonReq:
+    paths:
+      - headers/:method:
+          - val: GET
+      - headers/:scheme:
+          - val: https
+      - headers/accept-encoding:
+          - val: gzip, deflate, br, zstd
+      - headers/accept-language:
+          - val: en-GB,en-US;q=0.9,en;q=0.8
+      - headers/referer:
+          - val: https://www.bbc.co.uk/
+      - headers/sec-ch-ua:
+          - val: |-
+              "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+      - headers/sec-ch-ua-mobile:
+          - val: ?0
+      - headers/sec-ch-ua-platform:
+          - val: |-
+              "Windows"
+      - headers/user-agent:
+          - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+              like Gecko) Chrome/123.0.0.0 Safari/537.36
+  commonRes:
+    paths:
+      - headers/:status:
+          - val: '200'
