@@ -1,0 +1,416 @@
+note: Generated from recorded traffic
+messages:
+  req:
+    includes:
+      - '#commonReq'
+    paths:
+      - headers:
+          - paths:
+              - :authority:
+                  - val: www.google.com
+              - :method:
+                  - val: POST
+              - :path:
+                  - val: /gen_204?ei=F9N-ZsWjBoKi5NoPrJGzWA&ved=0ahUKEwiFi-2Dy_6GAxUCEVkFHazIDAsQ4cIICHo&uact=3&bl=INYZ&s=webhp
+              - accept:
+                  - val: '*/*'
+              - content-length:
+                  - val: '0'
+              - content-type:
+                  - val: text/plain;charset=UTF-8
+              - cookie:
+                  - val: AEC=AQTF6Hy0TpQ-VZCr5S1lMu9rgRLd_Xcrfzb30aR4XUd4zi_Hexjl2_nrKbU
+              - cookie:
+                  - val: __Secure-ENID=20.SE=Ny-yyiPOob2n67iqJYxO_M3HwiInIshQftrVmEfU1n0qVlFZtGYybwDCwkJJ8zBtt5hqwg9cJE0HVj27eO7klVPRCigs8bW9GNGHfMpiC1Av-Th5wQDmi8cHODSc_maPhNgclmgF4v0m5_m7Yj9bjZK27L42XfICMlyhFWfaupnojfLTP4jkawWIqSANzShXe6ANLg8
+              - origin:
+                  - val: https://www.google.com
+              - sec-ch-ua-arch:
+                  - val: |-
+                      "x86"
+              - sec-ch-ua-bitness:
+                  - val: |-
+                      "64"
+              - sec-ch-ua-full-version:
+                  - val: |-
+                      "123.0.6312.123"
+              - sec-ch-ua-full-version-list:
+                  - val: |-
+                      "Google Chrome";v="123.0.6312.123", "Not:A-Brand";v="8.0.0.0", "Chromium";v="123.0.6312.123"
+              - sec-ch-ua-model:
+                  - val: |-
+                      ""
+              - sec-ch-ua-platform-version:
+                  - val: |-
+                      "15.0.0"
+              - sec-ch-ua-wow64:
+                  - val: ?0
+              - sec-fetch-dest:
+                  - val: empty
+              - sec-fetch-mode:
+                  - val: no-cors
+              - sec-fetch-site:
+                  - val: same-origin
+  res:
+    includes:
+      - '#commonRes'
+    paths:
+      - headers:
+          - paths:
+              - content-security-policy:
+                  - val: 'object-src ''none'';base-uri ''self'';script-src ''nonce-grbq-hCZiYoaQUlxpxX2Mg''
+                      ''strict-dynamic'' ''report-sample'' ''unsafe-eval'' ''unsafe-inline''
+                      https: http:;report-uri https://csp.withgoogle.com/csp/gws/other'
+              - content-type:
+                  - val: text/html; charset=UTF-8
+              - cross-origin-opener-policy:
+                  - val: same-origin-allow-popups; report-to="gws"
+              - date:
+                  - val: Fri, 28 Jun 2024 15:13:29 GMT
+              - permissions-policy:
+                  - val: unload=()
+              - report-to:
+                  - val: '{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}'
+              - server:
+                  - val: gws
+    cascade:
+      - transport: test2.dtt.yaml
+        url: /gen_204?ei=F9N-ZsWjBoKi5NoPrJGzWA&vet=10ahUKEwiFi-2Dy_6GAxUCEVkFHazIDAsQhJAHCB4..h&bl=INYZ&s=webhp&cdot=2499
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.google.com
+                    - :method:
+                        - val: POST
+                    - :path:
+                        - val: /gen_204?ei=F9N-ZsWjBoKi5NoPrJGzWA&vet=10ahUKEwiFi-2Dy_6GAxUCEVkFHazIDAsQhJAHCB4..h&bl=INYZ&s=webhp&cdot=2499
+                    - accept:
+                        - val: '*/*'
+                    - content-length:
+                        - val: '0'
+                    - content-type:
+                        - val: text/plain;charset=UTF-8
+                    - cookie:
+                        - val: AEC=AQTF6Hy0TpQ-VZCr5S1lMu9rgRLd_Xcrfzb30aR4XUd4zi_Hexjl2_nrKbU
+                    - cookie:
+                        - val: __Secure-ENID=20.SE=Ny-yyiPOob2n67iqJYxO_M3HwiInIshQftrVmEfU1n0qVlFZtGYybwDCwkJJ8zBtt5hqwg9cJE0HVj27eO7klVPRCigs8bW9GNGHfMpiC1Av-Th5wQDmi8cHODSc_maPhNgclmgF4v0m5_m7Yj9bjZK27L42XfICMlyhFWfaupnojfLTP4jkawWIqSANzShXe6ANLg8
+                    - cookie:
+                        - val: SOCS=CAESHAgBEhJnd3NfMjAyNDA2MjUtMF9SQzUaAmVuIAEaBgiA-vezBg
+                    - origin:
+                        - val: https://www.google.com
+                    - sec-ch-ua-arch:
+                        - val: |-
+                            "x86"
+                    - sec-ch-ua-bitness:
+                        - val: |-
+                            "64"
+                    - sec-ch-ua-full-version:
+                        - val: |-
+                            "123.0.6312.123"
+                    - sec-ch-ua-full-version-list:
+                        - val: |-
+                            "Google Chrome";v="123.0.6312.123", "Not:A-Brand";v="8.0.0.0", "Chromium";v="123.0.6312.123"
+                    - sec-ch-ua-model:
+                        - val: |-
+                            ""
+                    - sec-ch-ua-platform-version:
+                        - val: |-
+                            "15.0.0"
+                    - sec-ch-ua-wow64:
+                        - val: ?0
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-origin
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - content-security-policy:
+                        - val: 'object-src ''none'';base-uri ''self'';script-src ''nonce-1k8lMIuV8V4e4V_D9ecFHA''
+                            ''strict-dynamic'' ''report-sample'' ''unsafe-eval'' ''unsafe-inline''
+                            https: http:;report-uri https://csp.withgoogle.com/csp/gws/other'
+                    - content-type:
+                        - val: text/html; charset=UTF-8
+                    - cross-origin-opener-policy:
+                        - val: same-origin-allow-popups; report-to="gws"
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:13:29 GMT
+                    - permissions-policy:
+                        - val: unload=()
+                    - report-to:
+                        - val: '{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}'
+                    - server:
+                        - val: gws
+      - transport: test2.dtt.yaml
+        url: /gen_204?atyp=i&ct=bxjs&cad=&b=1&ei=F9N-ZsWjBoKi5NoPrJGzWA&zx=1719587609635&opi=89978449
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.google.com
+                    - :method:
+                        - val: GET
+                    - :path:
+                        - val: /gen_204?atyp=i&ct=bxjs&cad=&b=1&ei=F9N-ZsWjBoKi5NoPrJGzWA&zx=1719587609635&opi=89978449
+                    - accept:
+                        - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+                    - cookie:
+                        - val: AEC=AQTF6Hy0TpQ-VZCr5S1lMu9rgRLd_Xcrfzb30aR4XUd4zi_Hexjl2_nrKbU
+                    - cookie:
+                        - val: __Secure-ENID=20.SE=Ny-yyiPOob2n67iqJYxO_M3HwiInIshQftrVmEfU1n0qVlFZtGYybwDCwkJJ8zBtt5hqwg9cJE0HVj27eO7klVPRCigs8bW9GNGHfMpiC1Av-Th5wQDmi8cHODSc_maPhNgclmgF4v0m5_m7Yj9bjZK27L42XfICMlyhFWfaupnojfLTP4jkawWIqSANzShXe6ANLg8
+                    - cookie:
+                        - val: SOCS=CAESHAgBEhJnd3NfMjAyNDA2MjUtMF9SQzUaAmVuIAEaBgiA-vezBg
+                    - sec-ch-ua-arch:
+                        - val: |-
+                            "x86"
+                    - sec-ch-ua-bitness:
+                        - val: |-
+                            "64"
+                    - sec-ch-ua-full-version:
+                        - val: |-
+                            "123.0.6312.123"
+                    - sec-ch-ua-full-version-list:
+                        - val: |-
+                            "Google Chrome";v="123.0.6312.123", "Not:A-Brand";v="8.0.0.0", "Chromium";v="123.0.6312.123"
+                    - sec-ch-ua-model:
+                        - val: |-
+                            ""
+                    - sec-ch-ua-platform-version:
+                        - val: |-
+                            "15.0.0"
+                    - sec-ch-ua-wow64:
+                        - val: ?0
+                    - sec-fetch-dest:
+                        - val: image
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-origin
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - content-security-policy:
+                        - val: 'object-src ''none'';base-uri ''self'';script-src ''nonce-x4DovIKm66re8DHJGB_EGQ''
+                            ''strict-dynamic'' ''report-sample'' ''unsafe-eval'' ''unsafe-inline''
+                            https: http:;report-uri https://csp.withgoogle.com/csp/gws/other'
+                    - content-type:
+                        - val: text/html; charset=UTF-8
+                    - cross-origin-opener-policy:
+                        - val: same-origin-allow-popups; report-to="gws"
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:13:29 GMT
+                    - permissions-policy:
+                        - val: unload=()
+                    - report-to:
+                        - val: '{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}'
+                    - server:
+                        - val: gws
+      - transport: test2.dtt.yaml
+        url: /gen_204?atyp=csi&ei=F9N-ZsWjBoKi5NoPrJGzWA&s=webhp&nt=navigate&t=fi&st=3455&fid=1&zx=1719587609674&opi=89978449
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: www.google.com
+                    - :method:
+                        - val: POST
+                    - :path:
+                        - val: /gen_204?atyp=csi&ei=F9N-ZsWjBoKi5NoPrJGzWA&s=webhp&nt=navigate&t=fi&st=3455&fid=1&zx=1719587609674&opi=89978449
+                    - accept:
+                        - val: '*/*'
+                    - content-length:
+                        - val: '0'
+                    - cookie:
+                        - val: AEC=AQTF6Hy0TpQ-VZCr5S1lMu9rgRLd_Xcrfzb30aR4XUd4zi_Hexjl2_nrKbU
+                    - cookie:
+                        - val: __Secure-ENID=20.SE=Ny-yyiPOob2n67iqJYxO_M3HwiInIshQftrVmEfU1n0qVlFZtGYybwDCwkJJ8zBtt5hqwg9cJE0HVj27eO7klVPRCigs8bW9GNGHfMpiC1Av-Th5wQDmi8cHODSc_maPhNgclmgF4v0m5_m7Yj9bjZK27L42XfICMlyhFWfaupnojfLTP4jkawWIqSANzShXe6ANLg8
+                    - cookie:
+                        - val: SOCS=CAESHAgBEhJnd3NfMjAyNDA2MjUtMF9SQzUaAmVuIAEaBgiA-vezBg
+                    - origin:
+                        - val: https://www.google.com
+                    - sec-ch-ua-arch:
+                        - val: |-
+                            "x86"
+                    - sec-ch-ua-bitness:
+                        - val: |-
+                            "64"
+                    - sec-ch-ua-full-version:
+                        - val: |-
+                            "123.0.6312.123"
+                    - sec-ch-ua-full-version-list:
+                        - val: |-
+                            "Google Chrome";v="123.0.6312.123", "Not:A-Brand";v="8.0.0.0", "Chromium";v="123.0.6312.123"
+                    - sec-ch-ua-model:
+                        - val: |-
+                            ""
+                    - sec-ch-ua-platform-version:
+                        - val: |-
+                            "15.0.0"
+                    - sec-ch-ua-wow64:
+                        - val: ?0
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: no-cors
+                    - sec-fetch-site:
+                        - val: same-origin
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - content-security-policy:
+                        - val: 'object-src ''none'';base-uri ''self'';script-src ''nonce-aiJpIyLa0YFkAkHXw8uEUQ''
+                            ''strict-dynamic'' ''report-sample'' ''unsafe-eval'' ''unsafe-inline''
+                            https: http:;report-uri https://csp.withgoogle.com/csp/gws/other'
+                    - content-type:
+                        - val: text/html; charset=UTF-8
+                    - cross-origin-opener-policy:
+                        - val: same-origin-allow-popups; report-to="gws"
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:13:30 GMT
+                    - permissions-policy:
+                        - val: unload=()
+                    - report-to:
+                        - val: '{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}'
+                    - server:
+                        - val: gws
+      - transport: test2.dtt.yaml
+        url: https://consent.google.com/save?continue=https://www.google.com/&gl=UK&m=0&pc=shp&x=5&src=2&hl=en&bl=gws_20240625-0_RC5&uxe=none&cm=2&set_eom=true
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: consent.google.com
+                    - :method:
+                        - val: POST
+                    - :path:
+                        - val: /save?continue=https://www.google.com/&gl=UK&m=0&pc=shp&x=5&src=2&hl=en&bl=gws_20240625-0_RC5&uxe=none&cm=2&set_eom=true
+                    - accept:
+                        - val: '*/*'
+                    - content-length:
+                        - val: '0'
+                    - cookie:
+                        - val: AEC=AQTF6Hy0TpQ-VZCr5S1lMu9rgRLd_Xcrfzb30aR4XUd4zi_Hexjl2_nrKbU
+                    - cookie:
+                        - val: __Secure-ENID=20.SE=Ny-yyiPOob2n67iqJYxO_M3HwiInIshQftrVmEfU1n0qVlFZtGYybwDCwkJJ8zBtt5hqwg9cJE0HVj27eO7klVPRCigs8bW9GNGHfMpiC1Av-Th5wQDmi8cHODSc_maPhNgclmgF4v0m5_m7Yj9bjZK27L42XfICMlyhFWfaupnojfLTP4jkawWIqSANzShXe6ANLg8
+                    - cookie:
+                        - val: SOCS=CAESHAgBEhJnd3NfMjAyNDA2MjUtMF9SQzUaAmVuIAEaBgiA-vezBg
+                    - origin:
+                        - val: https://www.google.com
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+                    - sec-fetch-site:
+                        - val: same-site
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - accept-ch:
+                        - val: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version,
+                            Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64,
+                            Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+                    - access-control-allow-credentials:
+                        - val: 'true'
+                    - access-control-allow-origin:
+                        - val: https://www.google.com
+                    - cache-control:
+                        - val: no-cache, no-store, max-age=0, must-revalidate
+                    - content-security-policy:
+                        - val: script-src 'report-sample' 'nonce-W5tbH8UHU4-T6D0b_BvACQ'
+                            'unsafe-inline';object-src 'none';base-uri 'self';report-uri
+                            /_/ConsentHttp/cspreport;worker-src 'self'
+                    - content-security-policy:
+                        - val: 'script-src ''unsafe-inline'' ''unsafe-eval'' blob:
+                            data: ''self'' https://apis.google.com https://ssl.gstatic.com
+                            https://www.google.com https://www.googletagmanager.com
+                            https://www.gstatic.com https://www.google-analytics.com;report-uri
+                            /_/ConsentHttp/cspreport/allowlist'
+                    - content-security-policy:
+                        - val: require-trusted-types-for 'script';report-uri /_/ConsentHttp/cspreport
+                    - content-type:
+                        - val: text/html; charset=utf-8
+                    - cross-origin-opener-policy:
+                        - val: unsafe-none
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:13:30 GMT
+                    - expires:
+                        - val: Mon, 01 Jan 1990 00:00:00 GMT
+                    - permissions-policy:
+                        - val: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*,
+                            ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*,
+                            ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+                    - pragma:
+                        - val: no-cache
+                    - reporting-endpoints:
+                        - val: default="/_/ConsentHttp/web-reports?context=eJzjctHikmII1pBisLi3g-l8xi6m19a3mCS-vmRSA2Kn9BmsAUDsUz-DNQqIW2-eY50MxEn_zrMWAPGSiIusBxIvsgrxcMxa9nszm8CODTcXMSppJ-UXxmempOaVZJZUphXl55Wk5qWUZhanFpWlFsUbGRiZGJgZmeoZGMUXGAAACooy2g"
+                    - server:
+                        - val: ESF
+                    - set-cookie:
+                        - val: SOCS=CAESHAgBEhJnd3NfMjAyNDA2MjUtMF9SQzUaAmVuIAEaBgiA-vezBg;
+                            Domain=.google.com; Expires=Mon, 28-Jul-2025 15:13:30
+                            GMT; Path=/; Secure; SameSite=lax
+                    - x-content-type-options:
+                        - val: nosniff
+  commonReq:
+    paths:
+      - headers/:scheme:
+          - val: https
+      - headers/accept-encoding:
+          - val: gzip, deflate, br, zstd
+      - headers/accept-language:
+          - val: en-GB,en-US;q=0.9,en;q=0.8
+      - headers/referer:
+          - val: https://www.google.com/
+      - headers/sec-ch-ua:
+          - val: |-
+              "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+      - headers/sec-ch-ua-mobile:
+          - val: ?0
+      - headers/sec-ch-ua-platform:
+          - val: |-
+              "Windows"
+      - headers/user-agent:
+          - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+              like Gecko) Chrome/123.0.0.0 Safari/537.36
+      - headers/x-client-data:
+          - val: CJ3mygE=
+  commonRes:
+    paths:
+      - headers/:status:
+          - val: '204'
+      - headers/alt-svc:
+          - val: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      - headers/content-length:
+          - val: '0'
+      - headers/x-frame-options:
+          - val: SAMEORIGIN
+      - headers/x-xss-protection:
+          - val: '0'
+      - status-code:
+          - val: '204'

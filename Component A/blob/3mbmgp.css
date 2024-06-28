@@ -1,0 +1,1855 @@
+.wpToolbarCommonImages-AddTo{width:8px;height:8px;background-position:0 0}
+.wpToolbarCommonImages-AdvancedModeHover{width:18px;height:18px;background-position:0 -18px}
+.wpToolbarCommonImages-AdvancedModeHover-rtl{width:18px;height:18px;background-position:0 -46px}
+.wpToolbarCommonImages-AdvancedModeOff{width:18px;height:18px;background-position:0 -74px}
+.wpToolbarCommonImages-AdvancedModeOff-rtl{width:18px;height:18px;background-position:0 -102px}
+.wpToolbarCommonImages-AdvancedModeOn{width:18px;height:18px;background-position:0 -130px}
+.wpToolbarCommonImages-AdvancedModeOn-rtl{width:18px;height:18px;background-position:0 -158px}
+.wpToolbarCommonImages-AscendingArrow{width:9px;height:9px;background-position:0 -186px}
+.wpToolbarCommonImages-CloseActive{width:8px;height:8px;background-position:0 -205px}
+.wpToolbarCommonImages-CloseHover{width:8px;height:8px;background-position:0 -223px}
+.wpToolbarCommonImages-CollapseNodes{width:18px;height:18px;background-position:0 -241px}
+.wpToolbarCommonImages-CollapseNodesHover{width:18px;height:18px;background-position:0 -269px}
+.wpToolbarCommonImages-CollapseNodesHover-rtl{width:18px;height:18px;background-position:0 -297px}
+.wpToolbarCommonImages-CollapseNodes-rtl{width:18px;height:18px;background-position:0 -325px}
+.wpToolbarCommonImages-ContainerOff{width:18px;height:18px;background-position:0 -353px}
+.wpToolbarCommonImages-ContainerOff-rtl{width:18px;height:18px;background-position:0 -381px}
+.wpToolbarCommonImages-ContainerOn{width:18px;height:18px;background-position:0 -409px}
+.wpToolbarCommonImages-ContainerOn-rtl{width:18px;height:18px;background-position:0 -437px}
+.wpToolbarCommonImages-ContentOff{width:18px;height:18px;background-position:0 -465px}
+.wpToolbarCommonImages-ContentOff-rtl{width:18px;height:18px;background-position:0 -493px}
+.wpToolbarCommonImages-ContentOn{width:18px;height:18px;background-position:0 -521px}
+.wpToolbarCommonImages-ContentOn-rtl{width:18px;height:18px;background-position:0 -549px}
+.wpToolbarCommonImages-DescendingArrow{width:9px;height:9px;background-position:0 -577px}
+.wpToolbarCommonImages-DragGridView{width:9px;height:69px;background-position:0 -596px}
+.wpToolbarCommonImages-DragGridView-rtl{width:9px;height:69px;background-position:0 -675px}
+.wpToolbarCommonImages-DragHandleTop{width:75px;height:7px;background-position:0 -754px}
+.wpToolbarCommonImages-DragHandleTop-rtl{width:75px;height:7px;background-position:0 -771px}
+.wpToolbarCommonImages-DragListView{width:9px;height:17px;background-position:0 -788px}
+.wpToolbarCommonImages-DragListView-rtl{width:9px;height:17px;background-position:0 -815px}
+.wpToolbarCommonImages-DragPortlets{width:100px;height:12px;background-position:0 -842px}
+.wpToolbarCommonImages-DragPortlets-rtl{width:100px;height:12px;background-position:0 -864px}
+.wpToolbarCommonImages-DropDown{width:9px;height:9px;background-position:0 -886px}
+.wpToolbarCommonImages-DropMenuFocus{width:12px;height:12px;background-position:0 -905px}
+.wpToolbarCommonImages-DropMenuFocus-rtl{width:12px;height:12px;background-position:0 -927px}
+.wpToolbarCommonImages-DropMenuHover{width:12px;height:12px;background-position:0 -949px}
+.wpToolbarCommonImages-DropMenuHover-rtl{width:12px;height:12px;background-position:0 -971px}
+.wpToolbarCommonImages-EditActive{width:16px;height:16px;background-position:0 -993px}
+.wpToolbarCommonImages-EditActive-rtl{width:16px;height:16px;background-position:0 -1019px}
+.wpToolbarCommonImages-EditDisabled{width:16px;height:16px;background-position:0 -1045px}
+.wpToolbarCommonImages-EditDisabled-rtl{width:16px;height:16px;background-position:0 -1071px}
+.wpToolbarCommonImages-EditHover{width:16px;height:16px;background-position:0 -1097px}
+.wpToolbarCommonImages-EditHover-rtl{width:16px;height:16px;background-position:0 -1123px}
+.wpToolbarCommonImages-EnterProjectActive{width:16px;height:16px;background-position:0 -1149px}
+.wpToolbarCommonImages-EnterProjectActive-rtl{width:16px;height:16px;background-position:0 -1175px}
+.wpToolbarCommonImages-EnterProjectDisabled{width:16px;height:16px;background-position:0 -1201px}
+.wpToolbarCommonImages-EnterProjectDisabled-rtl{width:16px;height:16px;background-position:0 -1227px}
+.wpToolbarCommonImages-EnterProjectHover{width:16px;height:16px;background-position:0 -1253px}
+.wpToolbarCommonImages-EnterProjectHover-rtl{width:16px;height:16px;background-position:0 -1279px}
+.wpToolbarCommonImages-ExpandNodes-Hover{width:18px;height:18px;background-position:0 -1305px}
+.wpToolbarCommonImages-ExpandNodes-Hover-rtl{width:18px;height:18px;background-position:0 -1333px}
+.wpToolbarCommonImages-ExpandNodes{width:18px;height:18px;background-position:0 -1361px}
+.wpToolbarCommonImages-ExpandNodes-rtl{width:18px;height:18px;background-position:0 -1389px}
+.wpToolbarCommonImages-ExpandNodes-rtl-rtl{width:18px;height:18px;background-position:0 -1417px}
+.wpToolbarCommonImages-FlyoutSharkfin{width:15px;height:8px;background-position:0 -1445px}
+.wpToolbarCommonImages-GotoActive{width:16px;height:16px;background-position:0 -1463px}
+.wpToolbarCommonImages-GotoActive-rtl{width:16px;height:16px;background-position:0 -1489px}
+.wpToolbarCommonImages-GotoDisabled{width:16px;height:16px;background-position:0 -1515px}
+.wpToolbarCommonImages-GotoDisabled-rtl{width:16px;height:16px;background-position:0 -1541px}
+.wpToolbarCommonImages-GotoHover{width:16px;height:16px;background-position:0 -1567px}
+.wpToolbarCommonImages-GotoHover-rtl{width:16px;height:16px;background-position:0 -1593px}
+.wpToolbarCommonImages-HCLLogo{width:63px;height:10px;background-position:0 -1619px}
+.wpToolbarCommonImages-Help12{width:12px;height:12px;background-position:0 -1639px}
+.wpToolbarCommonImages-Help12-rtl{width:12px;height:12px;background-position:0 -1661px}
+.wpToolbarCommonImages-HiddenPageOff{width:18px;height:18px;background-position:0 -1683px}
+.wpToolbarCommonImages-HiddenPageOff-rtl{width:18px;height:18px;background-position:0 -1711px}
+.wpToolbarCommonImages-HiddenPageOn{width:18px;height:18px;background-position:0 -1739px}
+.wpToolbarCommonImages-HiddenPageOn-rtl{width:18px;height:18px;background-position:0 -1767px}
+.wpToolbarCommonImages-IBMLogoSmallBlack{width:42px;height:22px;background-position:0 -1795px}
+.wpToolbarCommonImages-InfoModeOff{width:18px;height:18px;background-position:0 -1827px}
+.wpToolbarCommonImages-InfoModeOn{width:18px;height:18px;background-position:0 -1855px}
+.wpToolbarCommonImages-LabelSiteTemplate{width:22px;height:22px;background-position:0 -1883px}
+.wpToolbarCommonImages-LabelSiteTemplate-rtl{width:22px;height:22px;background-position:0 -1915px}
+.wpToolbarCommonImages-LabelTemplate{width:22px;height:22px;background-position:0 -1947px}
+.wpToolbarCommonImages-LabelTemplate-rtl{width:22px;height:22px;background-position:0 -1979px}
+.wpToolbarCommonImages-ListViewOff{width:20px;height:20px;background-position:0 -2011px}
+.wpToolbarCommonImages-ListViewOn{width:20px;height:20px;background-position:0 -2041px}
+.wpToolbarCommonImages-Locked{width:16px;height:16px;background-position:0 -2071px}
+.wpToolbarCommonImages-Locked-rtl{width:16px;height:16px;background-position:0 -2097px}
+.wpToolbarCommonImages-MappedToPage{width:21px;height:17px;background-position:0 -2123px}
+.wpToolbarCommonImages-MappedToPage-rtl{width:21px;height:17px;background-position:0 -2150px}
+.wpToolbarCommonImages-MappingArrow{width:10px;height:10px;background-position:0 -2177px}
+.wpToolbarCommonImages-MappingArrowBackward{width:12px;height:12px;background-position:0 -2197px}
+.wpToolbarCommonImages-MappingArrowBackward-rtl{width:12px;height:12px;background-position:0 -2219px}
+.wpToolbarCommonImages-MappingArrowForward{width:12px;height:12px;background-position:0 -2241px}
+.wpToolbarCommonImages-MappingArrowForward-rtl{width:12px;height:12px;background-position:0 -2263px}
+.wpToolbarCommonImages-MappingArrow-rtl{width:10px;height:10px;background-position:0 -2285px}
+.wpToolbarCommonImages-MoreButtonIcon{width:12px;height:12px;background-position:0 -2305px}
+.wpToolbarCommonImages-MoreButtonIcon-rtl{width:12px;height:12px;background-position:0 -2327px}
+.wpToolbarCommonImages-NewPage{width:32px;height:32px;background-position:0 -2349px}
+.wpToolbarCommonImages-NewPage-rtl{width:32px;height:32px;background-position:0 -2391px}
+.wpToolbarCommonImages-NextPageBig{width:37px;height:40px;background-position:0 -2433px}
+.wpToolbarCommonImages-NextPageBigDisabled{width:37px;height:40px;background-position:0 -2483px}
+.wpToolbarCommonImages-NextPageBigDisabled-rtl{width:37px;height:40px;background-position:0 -2533px}
+.wpToolbarCommonImages-NextPageBigHover{width:37px;height:40px;background-position:0 -2583px}
+.wpToolbarCommonImages-NextPageBigHover-rtl{width:37px;height:40px;background-position:0 -2633px}
+.wpToolbarCommonImages-NextPageBig-rtl{width:37px;height:40px;background-position:0 -2683px}
+.wpToolbarCommonImages-Page{width:32px;height:32px;background-position:0 -2733px}
+.wpToolbarCommonImages-PageHierarchyTemplate{width:18px;height:18px;background-position:0 -2775px}
+.wpToolbarCommonImages-PageHierarchyTemplate-rtl{width:18px;height:18px;background-position:0 -2803px}
+.wpToolbarCommonImages-PageSiteTemplate{width:22px;height:22px;background-position:0 -2831px}
+.wpToolbarCommonImages-PageSiteTemplate-rtl{width:22px;height:22px;background-position:0 -2863px}
+.wpToolbarCommonImages-PageSmall{width:18px;height:18px;background-position:0 -2895px}
+.wpToolbarCommonImages-PageSmall-rtl{width:18px;height:18px;background-position:0 -2923px}
+.wpToolbarCommonImages-PageTemplate{width:22px;height:22px;background-position:0 -2951px}
+.wpToolbarCommonImages-PageTemplate-rtl{width:22px;height:22px;background-position:0 -2983px}
+.wpToolbarCommonImages-Page-rtl{width:32px;height:32px;background-position:0 -3015px}
+.wpToolbarCommonImages-PreviewActive{width:14px;height:14px;background-position:0 -3057px}
+.wpToolbarCommonImages-PreviewHover{width:14px;height:14px;background-position:0 -3081px}
+.wpToolbarCommonImages-PreviousPageBig{width:37px;height:40px;background-position:0 -3105px}
+.wpToolbarCommonImages-PreviousPageBigDisabled{width:37px;height:40px;background-position:0 -3155px}
+.wpToolbarCommonImages-PreviousPageBigDisabled-rtl{width:37px;height:40px;background-position:0 -3205px}
+.wpToolbarCommonImages-PreviousPageBigHover{width:37px;height:40px;background-position:0 -3255px}
+.wpToolbarCommonImages-PreviousPageBigHover-rtl{width:37px;height:40px;background-position:0 -3305px}
+.wpToolbarCommonImages-PreviousPageBig-rtl{width:37px;height:40px;background-position:0 -3355px}
+.wpToolbarCommonImages-Reload{width:20px;height:20px;background-position:0 -3405px}
+.wpToolbarCommonImages-Reload-rtl{width:20px;height:20px;background-position:0 -3435px}
+.wpToolbarCommonImages-ShowActive{width:16px;height:16px;background-position:0 -3465px}
+.wpToolbarCommonImages-ShowActive-rtl{width:16px;height:16px;background-position:0 -3491px}
+.wpToolbarCommonImages-ShowDisabled{width:16px;height:16px;background-position:0 -3517px}
+.wpToolbarCommonImages-ShowDisabled-rtl{width:16px;height:16px;background-position:0 -3543px}
+.wpToolbarCommonImages-ShowHover{width:16px;height:16px;background-position:0 -3569px}
+.wpToolbarCommonImages-ShowHover-rtl{width:16px;height:16px;background-position:0 -3595px}
+.wpToolbarCommonImages-Site{width:18px;height:18px;background-position:0 -3621px}
+.wpToolbarCommonImages-Site32{width:32px;height:32px;background-position:0 -3649px}
+.wpToolbarCommonImages-TileViewOff{width:20px;height:20px;background-position:0 -3691px}
+.wpToolbarCommonImages-TileViewOn{width:20px;height:20px;background-position:0 -3721px}
+.wpToolbarCommonImages-VanityUrl{width:32px;height:32px;background-position:0 -3751px}
+.wpToolbarCommonImages-VanityUrl-rtl{width:32px;height:32px;background-position:0 -3793px}
+
+.wpToolbarCommonImages{background-image:url('/wps/toolbarModules/modules/common/css/images/common.png');background-repeat:no-repeat;display:-moz-inline-box;display:inline-block}
+.lotusImagesOff .wpToolbarCommonImages{display:none}
+
+.wpToolbarCommon .wpToolbarAltText,
+.wpToolbarCommon .wpToolbarImagesOff {
+    display: none;
+}
+.lotusImagesOff .wpToolbarCommon img,
+.wpthemeImagesOff .wpToolbarCommon img,
+.lotusImagesOff.wpToolbarCommon img,
+.wpthemeImagesOff.wpToolbarCommon img {
+    display: none !important;
+}
+.wpthemeImagesOff .wpToolbarCommon .wpToolbarImagesOff,
+.lotusImagesOff .wpToolbarCommon .wpToolbarImagesOff,
+.wpthemeImagesOff.wpToolbarCommon .wpToolbarImagesOff,
+.lotusImagesOff.wpToolbarCommon .wpToolbarImagesOff {
+    display: inline;
+}
+
+.wpToolbarCommon img {
+	border: none;
+}.stBanner.stGroup {min-height: 54px; transition: min-height 0.2s ease-in-out;}.stBanner.stGroup.compressed {min-height: 25px; height: 25px;}.stBanner.stGroup.compressed .stBranding.stLeft {padding: 0px 25px;}.stBanner.stGroup .stLogo {transition: all 0.2s ease-in-out;}.stBanner.stGroup.compressed .stBranding {left: 0;}.stBanner.stGroup.compressed .stLogo {width: 24px; height: 24px;}.stBanner.stGroup.compressed .stSearch,.stBanner.stGroup.compressed .stBannerMenus,.stBanner.stGroup.compressed .stMobileNavToggle,.stBanner.stGroup.compressed .stBanner.stNavigation {display: none;}.stNoTouch header:first-child:hover .stBanner.stGroup.compressed {min-height: 54px; height: auto;}.stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stBranding.stLeft {padding: 4px 25px 0px;}.stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stLogo {width: 4em; height: 4em;}@media (min-width: 768px) {.stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stSearch, .stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stBannerMenus, .stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stBanner.stNavigation {display: initial;}}@media (max-width: 768px) {.stNoTouch header:first-child:hover .stBanner.stGroup.compressed > .stMobileNavToggle {display: initial;} .stNoTouch header:first-child:hover .stBanner.stGroup.compressed > .stBranding {left: 55px;} .stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stBannerMenus, .stNoTouch header:first-child:hover .stBanner.stGroup.compressed .stSearch{display: initial;}}.wpthemeDialogBorder {
+    border:3px solid #4B4B4B; /*this is needed for IE*/
+    border:3px solid rgba(0, 0, 0, 0.7);
+    -moz-box-shadow:0px 1px 12px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow:0 1px 12px rgba(0, 0, 0, 0.6);
+    box-shadow:0px 1px 12px rgba(0, 0, 0, 0.6);
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.wpthemeDialogBorder .dialogContainer {
+    background-color:#fff;
+    *padding-bottom:1px; /* fix missing bottom border on IE7, asterisk prefix read by IE7 */
+}
+
+.wpthemeDialog .dialogPointer {
+    position:absolute;
+    width:13px;
+    height:17px;
+}
+
+.wpthemeDialog .dialogPointer.right {
+	background: url(/wps/themeModules/modules/dialog/css/images/dialogSprite.png) no-repeat top left;
+    background-position: 0 -54px;
+    right:-10px;
+}
+
+.wpthemeDialog .dialogPointer.left {
+	background: url(/wps/themeModules/modules/dialog/css/images/dialogSprite.png) no-repeat top left;
+    background-position: 0 -35px;
+    left:-10px;
+}
+
+.wpthemeDialog .dialogPointer.top {
+	background: url(/wps/themeModules/modules/dialog/css/images/dialogSprite.png) no-repeat top left;
+    background-position: 0 -73px;
+    width:17px;
+    height:13px;
+}
+
+.wpthemeDialog .msgIcon {
+    width:48px;
+    height:48px;
+    padding:1em;
+    background-repeat:no-repeat;
+    background-position:center;     
+}
+
+.wpthemeDialog .msgBody {
+    padding:0.5em;
+}
+
+.wpthemeDialog .msgError {
+    background-image:url(/wps/themeModules/modules/dialog/css/images/msgError48.png);
+}
+
+.wpthemeDialog .msgInfo {
+    background-image:url(/wps/themeModules/modules/dialog/css/images/msgInfo48.png);
+}
+
+.wpthemeDialog .msgSuccess {
+    background-image:url(/wps/themeModules/modules/dialog/css/images/msgSuccess48.png);
+}
+
+.wpthemeDialog .msgWarning {
+    background-image:url(/wps/themeModules/modules/dialog/css/images/msgWarning48.png);
+}
+
+.wpthemeDialog .wpthemeDialogContent {
+    display:table;
+    background-color:#fff;
+    border:0 none;
+    max-height:300px;
+    overflow:auto;
+}
+
+.wpthemeDialog .wpthemeDialogContentBody {
+    position:relative;
+}
+
+.wpthemeDialog .wpthemeDialogContent .wpthemeDialogContentBody > div {
+    display:table-row;
+}
+
+.wpthemeDialog .wpthemeDialogContent .wpthemeDialogContentBody .south {
+    display:block;
+}
+
+.wpthemeDialog .wpthemeDialogContent .west, .wpthemeDialog .wpthemeDialogContent .central, .wpthemeDialog .wpthemeDialogContent .east {
+    display:table-cell;
+    vertical-align:top;
+}
+
+.wpthemeDialog .wpthemeDialogContent .west, .wpthemeDialog .wpthemeDialogContent .east {
+    width:10%;
+}
+.wpthemeDialog .dialogLoading {
+	background-image:url("/wps/themeModules/modules/dialog/css/images/loading.gif");
+    background-repeat:no-repeat;
+    height:16px;
+    width:16px;
+}
+.wpthemeDialog .dialogAltText {
+	display:none;
+}
+.wpthemeDialogImagesOff .dialogAltText {
+    display:inline;
+}
+.wpthemeDialog .dialogHeader {
+	background-color:#3A3A3A;
+    border-bottom:0 none;
+    padding:13px 20px;
+}
+.wpthemeDialog .dialogHeaderText {
+	position:relative;
+    color:#FFFFFF;
+    display:block;
+    font-size:1.2em;
+    margin:0;
+    background:none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border:0 none;
+    padding:0;
+    font-weight:bold;
+    line-height:1.2;
+}
+.wpthemeDialog .dialogClose {
+    border:0 none;
+    padding:0;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    line-height:1em;
+}
+.wpthemeDialog .dialogClose img {
+	background:url(/wps/themeModules/modules/dialog/css/images/dialogSprite.png) no-repeat top left;
+    background-position:0 0;
+    height:32px;
+    width:32px;
+    border:0 none;
+    line-height:0;
+    vertical-align:middle;
+}
+.wpthemeDialog .wpthemeDialogFooter .wpthemeDialogBtn {
+    margin-left:9px;
+    margin-right:1px;	
+}
+.wpthemeDialog .wpthemeDialogBtn {
+    padding:5px 15px;
+    text-shadow:0 1px 1px #FFFFFF;
+    background-color:#E7E7E7;
+    border:0 none;
+    border-collapse:separate;
+    border-radius:3px 3px 3px 3px;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+    color:#333333;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+    font-size:0.9em;
+    font-family:Arial,Helvetica,sans-serif;
+}
+.wpthemeDialogPopup {
+	border:3px solid rgba(3, 3, 3, 0.45);
+    border-radius:3px 3px 3px 3px;
+    box-shadow:0 0 5px rgba(34, 34, 34, 0.5);
+    color:#222222;
+    position:relative;
+    z-index:10000;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupHeader {
+    background:none repeat scroll 0 0 #FFFFFF;
+    margin-bottom:-10px;
+    position:relative;	
+}
+.wpthemeDialogPopup .wpthemeDialogPopupHeader .wpthemeDialogPopupHeading {
+	border-bottom:2px solid #888888;
+    font-size:1.2em;
+    font-weight:bold;
+    margin:0 20px;
+    padding:20px 0 10px;
+    color:#444444;
+    line-height:1.2;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupClose {
+    line-height:0;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    z-index:10001;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupClose img {
+    background:url(/wps/themeModules/modules/dialog/css/images/dialogSprite.png) no-repeat top left;
+    background-position:0 0;
+    height:32px;
+    width:32px;
+    border:0 none;
+    line-height:0;
+    vertical-align:middle;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupContent {
+    background:none repeat scroll 0 0 #FFFFFF;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupContentArea {
+    padding:20px;
+}
+.wpthemeDialogPopup .wpthemeDialogPopupFooter {
+    background:none repeat scroll 0 0 #FFFFFF;
+    margin-top:-10px;
+    padding:0 20px 20px;
+}
+.wpthemeDialogPopup .wpthemeDialogLearnLink {
+	font-size:0.9em;
+	color:#00649D;
+    text-decoration:none;
+}
+.wpThemeDialogHighContrastTestNode {
+	border: 1px solid;
+	border-color: red green;
+	position: absolute;
+	height: 5px;
+	top: -999px;
+	background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+.portlet-dlg-icon-label {font-weight: bold;color: #000000;white-space: nowrap;}.portlet-icon-label {color: #000000;}.portlet-section-header {font-weight: bold;color: #333333;}.portlet-section-header-highlight {background-color: #F0F0F0;}.portlet-font {font-family: Helvetica, Arial, sans-serif;font-size: 1em;color: #333333;}.portlet-section-subheader {color: #333333;}.portlet-table-selected {color: #333333;background-color: #c5d1de;}.portlet-table-alternate {color: #333333;}.portlet-table-header {font-weight: normal;color: #000000;text-align: left;background-color: #ffffff;border-width: 0px 0px 0px 0px;border-style: none;border-color: #aaaaaa;}.portlet-table-body {text-align: left;border-width: 1px 0px 0px 0px ! important;border-style: solid ! important;border-color: #aaaaaa ! important;}.portlet-table-subheader {font-weight: bold;color: #000000;text-align: left;}.portlet-form-input-field {border: 1px solid #999999;}.portlet-form-button {text-decoration: none;text-align: center;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border: 1px solid #919191;padding: 0px 2px;margin: 0px;overflow: visible;font-weight: normal;color: #000000;cursor: pointer;}.portlet-form-field, .portlet-form-field-label {color: #333333;}.portlet-font-dim {color: #808080;}.portlet-form-label {color: #333333;}.portlet-msg-error {color: #000000;}.portlet-msg-alert {color: #000000;}.portlet-msg-success {color: #000000;}.portlet-msg-info {color: #000000;}.portlet-section-text {color: #666666;}.portlet-msg-status {color: #333333;}.portlet-menu, .portlet-menu-cascade {background-color: #EEEEEE;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px;}.portlet-menu-item {background-color: #EEEEEE;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px;}.portlet-menu-item-selected {background-color: #aaaaaa;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px;}.portlet-menu-item-hover, .portlet-menu-cascade-item-hover {background-color: #cccccc;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px;}.portlet-menu-item-hover-selected, .portlet-menu-cascade-item-hover-selected {background-color: #cccccc;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px;}.portlet-menu-cascade-item {background-color: #eeeeee;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px 3px 3px 3px;}.portlet-menu-cascade-item-selected {background-color:#cccccc;border-style: solid;border-color: #333333;border-width: 1px;padding: 3px 3px 3px 3px;}.portlet-menu-separator, .portlet-menu-cascade-separator {background-color: #999999;}.portlet-menu-content, .portlet-menu-content-selected {background-color: #eeeeee;}.portlet-menu-content-hover, .portlet-menu-content-hover-selected {background-color: #cccccc;}.portlet-menu-caption {border-style: solid;border-color: #333333; border-width: 1px;}.portlet-separator {background-color: #999999;height: 1px;}div.portlet-separator {background-color: #999999;margin: 2px 0 2px 0;}.help {font-size: 1em; color: #000000;}.help_indent {font-size: 1em; color: #000000; background-color: #ffffff}A.help {font-size: 1em; color: #3366CC}A.help:visited {font-size: 1em; color: #666699}A.help:active {font-size: 1em; color: #3366CC}A.help:hover {font-size: 1em; color: #3366CC}H2.help {padding-left: 8px; font-weight: bold; font-size: 1.1667em; color: #000000; padding-top: 22px; border-bottom: 1px solid #B0B0B0; background-color: #F0F0F0; text-align: left}H3.help {font-size: 1.1667em; padding-left: 8px; font-weight: bold; padding-top: 3px; background-color: #F0F0F0}H3 A.help {font-size: 1.1667em; color: #000000; background-color: #F0F0F0; text-decoration: none}H4.help {padding-left: 8px; margin: 16px 20px 0px 20px; color: #000000; padding-top: 3px; background-color: #F0F0F0; text-align: left}H4 A.help {font-weight: normal; font-size: 1em; color: #000000; font-style: italic; background-color: #F0F0F0}P.help {padding-bottom: 0px; margin: 2px 20px 0px 30px; padding-top: 4px}P.help_indent {padding-bottom: 0px; margin: 2px 20px 0px 0px; padding-top: 4px}UL.help {margin-left: 56px; margin-right: 20px}OL.help {margin-left: 56px; margin-right: 20px}DL.help {margin-left: 56px; margin-right: 20px}PRE.help {margin-left: 30px; font-family: monospace; font-size: 1.1667em;}DT A.help {font-weight: 900; color: #000000}DD.help {padding-bottom: 20px; padding-top: 2px}LI.help {padding-bottom: 2px; padding-top: 2px}TABLE.help {padding-right: 20px; padding-left: 30px; margin-left: 28px}TH.help {text-align: center; padding-top: 5px; padding-bottom: 5px; vertical-align: top;}TD.help {padding-bottom: 3px; vertical-align: top; padding-top: 3px; text-align: left}.lotus_rtl TD.help {text-align:right;}samp, samp.help {font-family: monospace; font-size: 1.1667em;}TABLE.dataTable {color:black;width:90%;border-collapse: collapse;border-color:Black;background-color:white;margin-left:28px;}.dataTable TH {font-weight:bold;font-size:0.8em;color:black;background-color:#F0F0F0;}.wpsTableAdminHead {color:#333333;background-color:#CCCCCC;}.wpsAdminHeadSeparator {background-color:#999999;height:1px;}.wpsStatusMsg {color: #000000;background-color: #E7EFF7;margin: 10px 0px;padding: 5px;border: solid 2px #ABCACA;-moz-border-radius: 8px;}.wpsStatusMsg img {vertical-align: middle;}.wpsInstructionText {color: #6B6B6B;margin: 0.6em 0px 0px 0px;}.wpsInstructionText em {font-weight: bold;font-style: normal;color: #8A59A6;}.wpsInstructionHeadText {font-weight: bold;font-size: 1em;color: #405380;}.wpsIndentXSmall {padding-left: 4px;}.wpsIndentSmall {padding-left: 8px;}.wpsIndentMedium {padding-left: 16px;}.wpsIndentLarge {padding-left: 32px;}.wpsIndentXLarge {padding-left: 48px;}.wpsTaskIconText {font-weight: bold;color: #000000; white-space: nowrap;}.wpsTaskDisabledIconText {font-weight: bold;white-space: nowrap;color: #888888;}.wpsTaskIconBorderTable, .wpsTaskDisabledIconBorderTable {border: 0px;}.wpsTaskIconTextBackground {background-color: #DDDDDD; background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border: 1px solid #919191;padding: 2px 4px;margin: 0px;text-align: center;vertical-align: middle;white-space: nowrap;}.wpsTaskDisabledIconTextBackground {background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border: 1px solid #919191;padding: 2px 4px;margin: 0px;text-align: center;vertical-align: middle;white-space: nowrap;}.wpsDialogIconText {color: #000000; padding-left:5px;}.wpsDialogDisabledIconText {color: #888888;}.wpsDialogIconBackground {text-align: center;vertical-align: middle;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconBackground.gif");background-repeat: repeat-x;background-position: left center; border-top: 1px solid #919191;border-right: 0px none #919191;border-bottom: 1px solid #919191;border-left: 1px solid #919191;padding: 0px 0px;margin: 0px;}.wpsDialogIconTextBackground {text-align: center;vertical-align: middle;background-color: #DDDDDD; background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconTextBackground.gif");background-repeat: repeat-x;background-position: left center; border-top: 1px solid #919191;border-right: 1px solid #919191;border-bottom: 1px solid #919191;border-left: 0px none #919191;padding: 2px 4px;margin: 0px;white-space: nowrap;}.wpsDialogDisabledIconBackground {text-align: center;vertical-align: middle;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconBackground.gif");background-repeat: repeat-x;background-position: left center; border-top: 1px solid #919191;border-right: 0px none #919191;border-bottom: 1px solid #919191;border-left: 1px solid #919191;padding: 0px 0px;margin: 0px;}.wpsDialogDisabledIconTextBackground {text-align: center;vertical-align: middle;background-color: #DDDDDD; background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconTextBackground.gif");background-repeat: repeat-x;background-position: left center; border-top: 1px solid #919191;border-right: 1px solid #919191;border-bottom: 1px solid #919191;border-left: 0px none #919191;padding: 2px 4px;margin: 0px;white-space: nowrap;}.lotus_rtl .wpsDialogIconBackground, .lotus_rtl .wpsDialogDisabledIconBackground{border-left: 0;border-right: 1px solid #919191;}.lotus_rtl .wpsDialogIconTextBackground, .lotus_rtl .wpsDialogDisabledIconTextBackground{border-right: 0;border-left: 1px solid #919191;}.wpsDialogIcon {width: 16px;height: 16px;}.wpsButtonBarTop, .wpsButtonBarBottom {background-color: #DFDFDF;}.wpsPortletBack {background-color: #FFFFFF;}.wpsEditBack, .wpsConfigureBack {background-color: #FFFFFF;}.wpsAdvancedOptions {background-color: #e4e4e4;border: solid 1px #4A4A4A;margin-left: 10px;}.wpsPortletColorBack {background-color: #CCCCCC;}.wpsPortletHead, .wpsEditHead {font-weight: bold;color: #333333;}.wpsPortletText, .wpsEditText, .wpsPortletSmText, .wpsEditSmText, .wpsPortletTinyText {font-family: Helvetica, Arial, sans-serif;font-size: 1em;color: #333333;}.wpsCopyrightText {font-size: 0.9166em;color: #999999;}.wpsTableHead {font-weight: bold;color: #222222;text-align: left;}.lotus_rtl .wpsTableHead {text-align: right;}.wpsTableHead th {padding: 3px;}.wpsTableRow, .wpsTableNrmRow {color: #333333;background-color: #ffffff;}.wpsTableSelectedRow {color: #333333;background-color: #c5d1de;}.wpsTableShdRow {color: #333333;}.wpsTableRow td, .wpsTableNrmRow td, .wpsTableShdRow td {border-width: 1px 0px 0px 0px;border-style: solid;border-color: #aaaaaa;padding: 3px;}.wpsTableHeadLink, .wpsTableHeadLink:visited, .wpsTableHeadLink:hover, .wpsTableHeadLink:active {font-weight: normal;color: #000000;}.wpsTable {border-width: 1px;border-style: solid;border-color: #aaaaaa;}.wpsTable td {vertical-align:top;}.wpsTable a:focus, .wpsTable .wpsLink:focus {outline-color: -moz-use-text-color;outline-style:dotted;outline-width:2px;}.wpsTableHeadStart, .wpsTableHeadMiddle, .wpsTableHeadEnd {font-weight: normal;color: #000000;text-align: left;background-color: #ffffff;border-width: 0px 0px 0px 0px;border-style: none;border-color: #aaaaaa;}.wpsTableHeadStartAlignCenter, .wpsTableHeadMiddleAlignCenter, .wpsTableHeadEndAlignCenter {font-weight: normal;color: #000000;text-align: center;background-color: #ffffff;border-width: 0px 0px 0px 0px;border-style: none;border-color: #aaaaaa;}.wpsTableHeadStartNumeric, .wpsTableHeadMiddleNumeric, .wpsTableHeadEndNumeric {font-weight: normal;color: #000000;text-align: right;background-color: #ffffff;border-width: 0px 0px 0px 0px;border-style: none;border-color: #aaaaaa;}.wpsTableDataStart, .wpsTableDataMiddle, .wpsTableDataEnd {text-align: left;border-width: 1px 0px 0px 0px ! important;border-style: solid ! important;border-color: #aaaaaa ! important;}.wpsTableDataStartAlignCenter, .wpsTableDataMiddleAlignCenter, .wpsTableDataEndAlignCenter {text-align: center;border-width: 1px 0px 0px 0px ! important;border-style: solid ! important;border-color: #aaaaaa ! important;}.wpsTableDataStartNumeric, .wpsTableDataMiddleNumeric, .wpsTableDataEndNumeric {text-align: right;border-width: 1px 0px 0px 0px ! important;border-style: solid ! important;border-color: #aaaaaa ! important;}.wpsPagingTable, .wpsPagingTableHeader, .wpsPagingTableFooter, .wpsPagingTableBody {border: 0px;margin: 10px 0;}.wpsPagingTableHeaderIcon, .wpsPagingTableFooterIcon {width: 16px;height: 16px;}.wpsPagingTableHeaderStart {background-color: #F0F0F0;border-top: 1px solid #aaaaaa;border-right: 0px none #aaaaaa;border-bottom: 0px none #aaaaaa;border-left: 1px solid #aaaaaa;}.wpsPagingTableHeaderMiddle {background-color: #F0F0F0;border-top: 1px solid #aaaaaa;border-right: 0px none #aaaaaa;border-bottom: 0px none #aaaaaa;border-left: 0px none #aaaaaa;}.wpsPagingTableHeaderEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PagingTableTopRight.gif");background-repeat: no-repeat;background-position: right top;background-color: transparent;}.wpsPagingTableFooterStart {background-color: #F0F0F0;border-top: 0px none #aaaaaa;border-right: 0px none #aaaaaa;border-bottom: 1px solid #aaaaaa;border-left: 1px solid #aaaaaa;}.wpsPagingTableFooterMiddle {background-color: #F0F0F0;border-top: 0px none #aaaaaa;border-right: 0px none #aaaaaa;border-bottom: 1px solid #aaaaaa;border-left: 0px none #aaaaaa;}.wpsPagingTableFooterEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PagingTableBottomRight.gif");background-repeat: no-repeat;background-position: right bottom; background-color: transparent;}.wpsPagingTableHeaderEmpty {height:7px;width:7px;line-height:1px;}.wpsTableRowDetail td {border-width:0px;text-align: left;border-width: 0px ! important;padding:2px 3px 5px 3px;}.wpsTableSectionHead {font-weight: bold;color: #000000;text-align: left;}.wpsTableSectionHead th {border-width: 1px 0px 0px 0px;border-style: solid;border-color: #aaaaaa;padding: 3px 0 3px 5px;}.wpsTableTopRow td {border-color: #aaaaaa ! important;}.wpsPagingTableHeaderEmpty {height: 7px;width: 7px;line-height: 1px;}.wpsTableRowDetail td {border-width: 0px;text-align: left;border-width: 0px ! important;padding: 2px 3px 5px 3px;}.wpsCompactCheckBox, .wpsCompactRadioButton {height: 16px;margin-top: 0px;margin-bottom: 0px;}.wpsEditField{border: 1px solid #999999;}.wpsButtonText{font-weight: bold;color: #000000;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border: 1px solid #919191;padding: 2px 4px;margin: 0px;text-align: center;}.wpsButtonDisabledText {font-weight: bold;color: #888888;background-color: #DDDDDD; background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border: 1px solid #919191;padding: 2px 4px;margin: 0px;text-align: center;}.wpsLabelText, wpsRequiredLabelText {color: #333333;}.wpsRequiredLabelText strong {color: #ff0000;}.wpsDescriptionText {color: #707070;}.wpsFieldErrorText {color: #000000;}.wpsFieldWarningText {color: #000000;}.wpsFieldSuccessText {color: #000000;}.wpsFieldInfoText {color: #000000;}.wpsInlineHelpText {color: #666666;}.wpsFieldMonospaced {font-family: monospace;font-size: 1.1667em;}.wpsFlagText {font-size: 0.9166em;color: #FF0000;}.wpsPortletTabBarSeparator {background: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/portletTabSeparator.gif");background-repeat: repeat-x;background-color: #95a5b9;margin: 0px;padding: 0px;height: 3px;}.wpsPortletTabSet {border: 0px;background-color: transparent;}.wpsPortletTab {border: 0px;background-color: transparent;}.wpsPortletSelectedTab {border: 0px;background-color: transparent;}.wpsPortletTabTopStart {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabTopLeft.jpg");background-repeat: no-repeat;background-position: bottom left;padding: 0px 2px 0px 2px;width: 5px;height: 5px;}.wpsPortletTabTopCenter {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabTopMiddle.jpg");background-repeat: repeat-x;background-position: bottom;}.wpsPortletTabTopEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabTopRight.jpg");background-repeat: no-repeat;background-position: bottom right;border-style: none;background-color: transparent;padding: 0px 2px 0px 2px;width: 5px;height: 5px;}.wpsPortletTabMiddleStart {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabCenter.jpg");background-repeat: repeat-x;background-color: #FFFFFF;border-top: 0px none #C0C0C0;border-right: 0px none #C0C0C0;border-bottom: 0px none #C0C0C0;border-left: 1px solid #C0C0C0;}.wpsPortletTabMiddleCenter {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabCenter.jpg");background-repeat: repeat-x;background-color: #FFFFFF;white-space: nowrap;border-style: none;}.wpsPortletTabMiddleEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabCenter.jpg");background-repeat: repeat-x;background-color: #FFFFFF;border-top: 0px none #C0C0C0;border-right: 1px solid #C0C0C0;border-bottom: 0px none #C0C0C0;border-left: 0px none #C0C0C0;}.wpsPortletTabBottomStart {background-color: #FFFFFF;border-top: 0px none #C0C0C0;border-right: 0px none #C0C0C0;border-bottom: 0px none #C0C0C0;border-left: 1px solid #C0C0C0;width: 5px;height: 5px;}.wpsPortletTabBottomCenter {background-color: #FFFFFF;border-style: none;}.wpsPortletTabBottomEnd {background-color: #FFFFFF;border-top: 0px none #C0C0C0;border-right: 1px solid #C0C0C0;border-bottom: 0px none #C0C0C0;border-left: 0px none #C0C0C0;width: 5px;height: 5px;}.wpsPortletSelectedTabTopStart {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabTopLeft.jpg");background-repeat: no-repeat;background-position: bottom left;padding: 0px 2px 0px 2px;width: 5px;height: 5px;}.wpsPortletSelectedTabTopCenter {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabTopMiddle.jpg");background-repeat: repeat-x;background-position: bottom;border-top: 0px solid #AAC2E6;border-right: 0px none #AAC2E6;border-bottom: 0px none #AAC2E6;border-left: 0px none #AAC2E6;}.wpsPortletSelectedTabTopEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabTopRight.jpg");background-repeat: no-repeat;background-position: bottom right;border-style: none;background-color: transparent;padding: 0px 2px 0px 2px;width: 5px;height: 5px;}.wpsPortletSelectedTabMiddleStart {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabCenterMid.jpg");background-repeat: repeat-x;border-top: 0px none #AAC2E6;border-right: 0px none #AAC2E6;border-bottom: 0px none #AAC2E6;border-left: 1px solid #AAC2E6;}.wpsPortletSelectedTabMiddleCenter {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabCenterMid.jpg");background-repeat: repeat-x;border-style: none;white-space: nowrap;}.wpsPortletSelectedTabMiddleEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabCenterMid.jpg");background-repeat: repeat-x;border-top: 0px none #AAC2E6;border-right: 1px solid #AAC2E6;border-bottom: 0px none #AAC2E6;border-left: 0px solid #AAC2E6;}.wpsPortletSelectedTabBottomStart {background-color: #FFFFFF;border-top: 0px none #AAC2E6;border-right: 0px none #AAC2E6;border-bottom: 0px none #AAC2E6;border-left: 1px solid #AAC2E6;width: 5px;height: 5px;}.wpsPortletSelectedTabBottomCenter {background-color: #FFFFFF;border-style: none;}.wpsPortletSelectedTabBottomEnd {background-color: #FFFFFF;border-top: 0px none #AAC2E6;border-right: 1px solid #AAC2E6;border-bottom: 0px none #AAC2E6;border-left: 0px none #AAC2E6;width: 5px;height: 5px;}.wpsPortletTabLink, .wpsPortletTabLink:visited, .wpsPortletTabLink:active, .wpsPortletTabLink:hover {color: #333333;}.wpsPortletSelectedTabLink, .wpsPortletSelectedTabLink:hover, .wpsPortletSelectedTabLink:visited, .wpsPortletSelectedTabLink:active {color: #2056A0;font-weight: bold;}.wpsPortletToolbar {background-color: #c5d1de;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsPortletToolbarSection {border-width: 0px;}.wpsPortletToolbarButton {background-color: #c5d1de;padding: 3px;border-width: 1px;border-style: solid;border-color: #c5d1de;}.wpsPortletToolbarButtonRollover {background-color: #c5d1de;padding: 3px;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsPortletToolbarButtonPressed {background-color: #dadfe5;padding: 3px;border-top: 1px solid #95a5b9;border-right: 1px solid #e4edf5;border-bottom: 1px solid #e4edf5;border-left: 1px solid #95a5b9;}.wpsPortletToolbarButtonSelected {background-color: #aeb8c4;padding: 3px;border-top: 1px solid #95a5b9;border-right: 1px solid #e4edf5;border-bottom: 1px solid #e4edf5;border-left: 1px solid #95a5b9;}.wpsPortletToolbarButtonSelectedRollover {background-color: #aeb8c4;padding: 3px;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsPortletToolbarButtonIcon {width: 16px;height: 16px;}.wpsPortletToolbarControl {padding: 3px;}.wpsPortletToolbarText {color: #333333;}.wpsPortletToolbarDisabledText {color: #999999;}.wpsPortletToolbarLink, .wpsPortletToolbarLink:hover, .wpsPortletToolbarLink:visited, .wpsPortletToolbarLink:active {color: #333333;}.wpsPortletToolbarSeparator {background-color: #95a5b9;width: 1px;margin: 0px;padding: 0px;border-top: 0px none #95a5b9;border-right: 1px solid #e4edf5;border-bottom: 0px none #e4edf5;border-left: 0px none #95a5b9;}.wpsPortletToolbarSpacer {padding: 0px 2px 0px 2px;}.wpsPortletToolbarHandle {background-color: #c5d1de;padding: 0px;margin: 0px;width: 1px;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsBreadcrumbTrail {font-weight: bold;}.wpsBreadcrumbTrailLink, .wpsBreadcrumbTrailLink:hover, .wpsBreadcrumbTrailLink:visited, .wpsBreadcrumbTrailLink:active {font-weight: bold;color: #3366CC;text-decoration: underline;}.wpsPortletAccentArea {background-color: #c5d1de;color: #333333;}.wpsPortletAccentArea3DHighlight {background-color: #e4edf5;color: #333333;}.wpsPortletAccentArea3DShadow {background-color: #95a5b9;color: #333333;}.wpsWizardTitle {font-weight: bold;background-color: #c1c1c1;color: black;padding-left: 5px;padding-top: 5px;padding-bottom: 5px;}.wpsWizardStepNotification {background-color: #dfdfdf;color: black;padding-left: 5px;padding-top: 5px;padding-bottom: 5px;}.wpsWizardBottomSubmit {background-color: #c1c1c1;color: black;padding-left: 5px;padding-top: 5px;padding-bottom: 25px;}.wpsCursorPointer {cursor: pointer;}a.wpsPersonName {text-decoration: none;white-space: nowrap;color: #3366CC;}a.wpsPersonName:visited {text-decoration: none;white-space: nowrap;color: #666699;}a.wpsPersonName:hover {text-decoration: underline;white-space: nowrap;color: #666699;}.wpsGettingStartedTitle{font-size: 1.1667em;font-weight: normal;color: #2055A3;}.wpsGettingStartedHeader{font-size: 1em;font-weight: normal;color: #2055A3;}.wpsGettingStartedBody{font-size: 0.9166em;color: #616161;padding-top: 10px;}.wpsSearchInfoBar{font-family: Helvetica, Arial, sans-serif;font-size: 1em;color: #333333;background-color: #c7d9f1;}.wpsSearchUrl, a.wpsSearchUrl {font-weight: bold;}.wpsSearchUrlAddressText{color: #008000;font-style: italic;}.wpsSearchAttributeText{color: #c1c1c1;font-style: italic;}.wpsEditorToolbar {max-height: 24px;background-color: #D8D8D8;border-top: 1px solid #aebccf;border-right: 1px solid #355787;border-bottom: 1px solid #355787;border-left: 1px solid #aebccf;border-top: 1px solid #cccccc;}.wpsEditorToolbarSection {border-width: 0px;}tr.wpsEditorToolbar {padding: 0px 2px 0px 2px;} table.wpsEditorToolbar {padding: 0px 0px 0px 0px;width: 100%;height: 24px; background-color: #f0f0f0;border-top: 1px solid #cccccc;border-bottom: 0px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;background-color: white;background-image: url(/wps/DocEditor/images/editor_toolbar_gradient.gif);background-repeat: repeat-x;background-position: 0px 0px;} .wpsEditorToolbarButton {padding: 3px;margin: 0px;border-width: 1px;border-style: none;}.wpsEditorToolbarButtonRollover {background-color: WHITE;margin:0px;padding: 2px;border-top: 1px solid WHITE;border-right: 1px solid WHITE;border-bottom: 1px solid WHITE;border-left: 1px solid WHITE;}.wpsEditorToolbarButtonPressed {background-color: #d8d8d8;margin:0px;padding: 2px;border-top: 1px solid #888888;border-right: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;border-left: 1px solid #888888;}.wpsEditorToolbarButtonSelected {background-color: #aeb8c4;margin:0px;padding: 2px;border-top: 1px solid #95a5b9;border-right: 1px solid #e4edf5;border-bottom: 1px solid #e4edf5;border-left: 1px solid #95a5b9;}.wpsEditorToolbarButtonSelectedRollover {background-color: #aeb8c4;margin:0px;padding: 2px;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsEditorToolbarButtonIcon {width: 18px;height: 18px;margin:0px;padding:0px;}.wpsEditorToolbarControl {padding: 1px 1px;}select.wpsEditorToolbarControl {border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;}.wpsEditorToolbarText {color: #333333;}.wpsEditorToolbarLink, .wpsEditorToolbarLink:hover, .wpsEditorToolbarLink:visited, .wpsEditorToolbarLink:active {color: #333333 ;}.wpsEditorToolbarSeparatorNew {background-color: #355787;height: 18px;width: 5px;margin: 0px;padding: 0px;border-top: 0px none #305080;border-bottom: 0px none #305080;border-left: 1px none #aebccf;}.wpsEditorToolbarSeparator {background-image: url(/wps/DocEditor/images/separator.gif);margin: 0px;padding: 0px 7px 0px 7px;}.wpsEditorToolbarSpacer {padding: 0px 2px 0px 2px;}.wpsEditorToolbarHandle {background-color: #c5d1de;padding: 0px;margin: 0px;width: 1px;border-top: 1px solid #e4edf5;border-right: 1px solid #95a5b9;border-bottom: 1px solid #95a5b9;border-left: 1px solid #e4edf5;}.wpsEditorTextArea {background-color: #fff;border: 1px solid #cccccc;padding: 0px;margin: 0px;}.wpsEditorTextAreaText {margin: 0px; padding: 0px;border: 0px none;}.clearing {clear: both;}.layoutRow {width: 99%;}.layoutColumn {width: 100%;}.generalErrorText {color: red;}.portlet-separator {margin:0px; line-height:1px;background-color: #999999;}.ibm-portlet-section-header {border-bottom: 1px solid #E0E0E0;}.information {color: #888; margin-bottom: 0.4em;}.ibm-portlet-section-body {width: 100%;clear: both;}.ibm-portlet-item-summary-list {padding:0;margin:0}.ibm-portlet-item-summary-list UL {padding: 0; margin: 0;}.ibm-portlet-item-summary-list LI {padding: 0; margin: 0; list-style: none;}.ibm-portlet-item-summary-list .ibm-portlet-item-summary {margin-bottom: 2em;}.centered-div-outer {overflow: hidden;position: relative; width: 100%;}.centered-div-outer[class] {display: table; position: static;}.centered-div-outer .centered-div-middle {position: absolute; top: 50%; text-align: center; width: 100%;} .centered-div-outer .centered-div-middle[class] {display: table-cell; vertical-align: middle; position: static;}.centered-div-outer .centered-div-middle .centered-div-inner {position: relative; top: -50%} .ibm-portlet-item-summary-list .ibm-portlet-item-summary {margin-bottom: 2em;}.ibm-portlet-item-summary H3 {margin:0;padding:0;display:inline; ;font-weight:normal;}.ibm-portlet-item-summary UL.property-list {margin: 0.05em 0; padding:0; width: 100%;}.ibm-portlet-item-summary UL.property-list LI {display: inline; color: gray; float: left; margin: 0; margin-right:0.5em; padding: 0; list-style-type: none;}.ibm-portlet-item-summary PRE.text {font-family: Helvetica, Arial, sans-serif; font-size: 1em;margin:0;padding:0;}.ibm-portlet-item-summary .abstract {padding: 0; margin-top: 0.75em;}.ibm-portlet-item-summary .abstract P {margin-top:0;padding-top:0;}.ibm-portlet-item-summary .item-affordance TD {padding-top: 0.7em; padding-bottom: 0.7em;}.ibm-portlet-item-summary .item-affordance TD.locked-icon {padding:0; vertical-align: top; text-align: right;}.ibm-portlet-item-summary .item-affordance TD.icon {vertical-align: middle; padding-left: 1.5em; padding-right: 1.5em;}.ibm-portlet-item-summary .item-affordance UL.property-list {padding-left: 0.7em;}.ibm-portlet-item-summary .item-affordance TD.folder .abstract {padding: 0 0.6em; margin-top: 0.75em;}.ibm-portlet-item-summary .item-affordance TD.document .abstract {padding: 0 0.6em; margin-top: 0.75em;}* HTML .ibm-portlet-item-summary .item-affordance TD .drag-image {margin-right: 10px;}*:first-child+html .ibm-portlet-item-summary .item-affordance TD .drag-image {margin-right: 10px;}TABLE.ibm-portlet-table-summary .ibm-portlet-item-summary DIV.name-indent {padding: 0 0.6em;}TABLE.ibm-portlet-table-summary .ibm-portlet-item-summary H3 A.folder-link,TABLE.ibm-portlet-table-summary .ibm-portlet-item-summary H3 A.folder-link:visited {color: #0063DC;}TABLE.ibm-portlet-table-summary .ibm-portlet-item-summary H3 A.document-link,TABLE.ibm-portlet-table-summary .ibm-portlet-item-summary H3 A.document-link:visited {color: #0063DC;}A.document-link {color: #0063DC; text-decoration: none;}A.document-link:visited {color: #0063DC;}A.document-link:hover {text-decoration: underline;}.ibm-portlet-sidebar .info-section UL.property-list {margin: 0;padding: 0;}.ibm-portlet-sidebar .info-section UL.property-list LI {margin: 0;padding: 0;margin-bottom: 0.5em;list-style: none;}.ibm-portlet-sidebar .info-section UL.property-list LI LABEL {color: #888;}.palette h5{color: #FFFFFF !important;background-color: #578adb;background: #578adb url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/toolbar_background.gif) repeat-x;font-size: 1.333em;border: 1px solid;border-right: 0px;border-color: #97A9C1;height: 48px;margin-top: 0px; margin-bottom: 0px;}.palette h5 div{margin-top: 18px;margin-left: 10px;}.palette form{display: inline;}.contentTypeSearch{background-color: #E8EBF1;color: #7A93BB;margin-top: 0px;margin-bottom: 0px;}.contentTypeSearch table{margin-left: 10px;} .categoryTitleExpanded{background: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/palette_selected_cat.gif") repeat-x;background-position: top;background-color: #E8EBF1;font-size: 0.9166em;font-family: arial;padding: 5px 10px;color: #7A93BB;margin-bottom: 0px;}.categoryTitleCollapsed{background: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/palette_unselected_cat.gif") repeat-x;background-position: top;background-color: #E8EBF1;font-family: arial;font-size: 0.9166em;color: #7A93BB;padding: 5px 10px;margin-bottom: 0px;}.contentItemListCollapsed{display: none;}.contentItem{font-weight: normal;font-family: arial;font-size: 0.9166em;color: #4E4E4E;}.contentItemGrayed{font-weight: normal;font-family: arial;font-size: 0.9166em;color: #C6C6C6;}.contentItemHover{font-weight: normal;font-family: arial;font-size: 0.9166em;color: #4E4E4E;}.contentItemGrayedHover{font-weight: normal;font-family: arial;font-size: 0.9166em;color: #C6C6C6;}.contentItemIcon{vertical-align: middle; border: 0px;} .contentItem button{visibility: hidden;}.contentItemHover button{visibility: visible;}.contextMenu{border: 0px; background-color: transparent;} .actionMainArea{margin: 4px;}.actionFooter{margin-top: 4px;}.dropActive{border: 1px solid #FF9000;}.dropAware{border: 1px solid #FFEBC5;}.dijitRtl .wpsPagingTableHeaderEnd {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PagingTableTopRight_rtl.gif); background-position: left top;}.dijitRtl .wpsPagingTableFooterEnd {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PagingTableBottomRight_rtl.gif); background-position: left bottom;}.dijitRtl .wpsPagingTableHeaderStart {border-width: 1px 1px 0 0; border-style: solid solid none none;}.dijitRtl .wpsPagingTableFooterStart {border-width: 0 1px 1px 0; border-style: none solid solid none;}.dijitRtl .wpsPortletSelectedTabTopStart {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabTopRight.jpg); background-position: right bottom;}.dijitRtl .wpsPortletTabTopStart {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabTopRight.jpg); background-position: right bottom;}.dijitRtl .wpsPortletSelectedTabMiddleStart, .dijitRtl .wpsPortletTabMiddleStart, .dijitRtl .wpsPortletSelectedTabBottomStart, .dijitRtl .wpsPortletTabBottomStart {border-width: 0 1px 0 0; border-style: none solid none none;}.dijitRtl .wpsPortletSelectedTabTopEnd {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletSelectedTabTopLeft.jpg); background-position: left bottom;}.dijitRtl .wpsPortletTabTopEnd {background-image: url(/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/PortletTabTopLeft.jpg); background-position: left bottom;}.dijitRtl .wpsPortletSelectedTabMiddleEnd, .dijitRtl .wpsPortletTabMiddleEnd, .dijitRtl .wpsPortletSelectedTabBottomEnd, .dijitRtl .wpsPortletTabBottomEnd {border-width: 0 0 0 1px; border-style: none none none solid;}.dijitRtl .wpsTableDataStart, .dijitRtl .wpsTableDataMiddle, .dijitRtl .wpsTableDataEnd {text-align: right;}.dijitRtl .wpsTableHeadStart, .dijitRtl .wpsTableHeadMiddle, .dijitRtl .wpsTableHeadEnd {text-align: right;}.dijitRtl H2.help {text-align: right;}#mainSitemContainer .dijitContentPane {width:50% !important}#mainSitemContainer #dijit_layout_ContentPane_1{left:50% !important;right:50% !important;} #mainSitemContainer .dijitSplitContainerSizerH {left:49% !important;right:49% !important;cursor:default;}.lwpMenuItem, a.lwpMenuItem, a.lwpMenuItem:visited, a.lwpMenuItem:hover a.lwpMenuItem:active {color: #000000;text-decoration: none;background-color: #ffffff;}.lwpSelectedMenuItem, a.lwpSelectedMenuItem:visited, a.lwpSelectedMenuItem:hover, a.lwpSelectedMenuItem:active{background-color: #284888;color: #ffffff !important;text-decoration: none;cursor: pointer;}.lwpMenuItemDisabled, a.lwpMenuItemDisabled, a.lwpMenuItemDisabled:visited, a.lwpMenuItemDisabled:hover, a.lwpMenuItemDisabled:active {color: #888888 !important;text-decoration: none;background-color: #ffffff;font-style: italic;}.lwpBorderAll {border-right: 1px solid #DCDCDC;border-left: 1px solid #DCDCDC; border-top: 1px solid #DCDCDC; border-bottom: 1px solid #DCDCDC;}.lwpShadowBorder {border-right: 1px solid #888888;border-bottom: 1px solid #888888;}.lwpPpkList {width: 250px;height: 200px;border-right: 1px solid #c0c0c0;border-bottom: 1px solid #c0c0c0;border-left: 1px solid black;border-top: 1px solid black;overflow: auto;}.lwpPpkListBorder {width: 250px;height: 200px;border-left: 1px solid #a0a0a0;border-top: 1px solid #a0a0a0;border-bottom: 2px solid #c0c0c0;}.lwpPpkNormalText {background-color: white; color: black;}.lwpPpkSelectedText {background-color: #284888;color: white;}.wpthemeImagesOff .portlet-form-input-field,.wpthemeImagesOff .portlet-menu,.wpthemeImagesOff .wpsButtonText,.wpthemeImagesOff .wpsEditField {border-style: outset;}.weekday_header {font-size: 1em;background-color: #999999;color: #333333;}.other_month_header {background-color: #E4E3E3;color: #7E7001;height: 20px;}.current_month_header {background-color: #CBDBF3;color: #333333;height: 20px;}.other_month_cell {background-color: #F0F0F0;}.current_month_cell {background-color: #FFFFFF;color: Black;}.current_day_header {font-size: 1em;background-color: #92B5E6;color: #333333;height: 20px;}a.current_day_header:link {background-color: transparent;color: #333333;}a.other_month_header:link {background-color: transparent;color: #0000ff;}a.current_month_header:link {background-color: transparent;color: #0050C9;}.lwp-teamSpace-title, .lwp-webConference-title {font-weight: bold;background-color: #5C5C5C;color: #FFFFFF;}.popup-background {background-color: #eeeeee;}.lwp-middleToolbar {font-size: 1em;color: #737373; background-color: #FFFFFF;border-bottom: 0px solid #D8D8E0;padding: 4px 4px;margin: 0px;}.lwpAdminButton {font-size: 1em;color: #FFFFFF; background-color: #A0A0A0;text-decoration: none;padding: 0px 5px;margin: 0px;}.lwpAdminButtonLink, .lwpAdminButtonLink:hover, .lwpAdminButtonLink:active, .lwpAdminButtonLink:visited {font-size: 1em;font-weight: normal;color: #FFFFFF; background-color: #A0A0A0;margin: 0px;text-decoration: none;}.lwpNavButton {color: #FFFFFF; background-color: #70A8F0;margin: 0px;text-decoration: none;padding: 0px 5px;}.lwpNavButtonLink, .lwpNavButtonLink:hover, .lwpNavButtonLink:active, .lwpNavButtonLink:visited {font-weight: normal;color: #FFFFFF; background-color: #70A8F0;margin: 0px;text-decoration: none;}.button-link, a.button-link, a.button-link:hover, a.button-link:visited {text-decoration: none;color: #000000;}.lwpIconOnly, .lwpIconOnlyDisabled {border:0px;background-color:white;}.lwpDialogDisabledIconBackground, .lwpDialogIconBackgroundDisabled {text-decoration: none;text-align: center;vertical-align: top;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconTextBackground.gif");background-repeat: repeat-x;background-position: left center;border: 1px solid #919191;padding: 0px 2px;margin: 0px;overflow: visible;font-weight: normal;color: #888888;}.lwpSeparatorBg {background-color: #999999;height: 1px;}div.lwpSeparatorBg {background-color: #999999;margin: 2px 0 2px 0;}.borderNone {border-width: 0 ! important;}.lwpPortletTitleBorder {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/skin_border.gif");background-position: bottom;background-repeat: repeat-x;}.lwpSearchBar{margin: 5px 0;background-color: #ECECEC; text-align: right;} .lwpSearchBar table{margin-right: 0;margin-left: auto;}.lwpSearchBar td{padding: 5px 3px 5px 2px;}.lwpSearchBar .portlet-form-field-label{padding-left: 10px;}.lwpInlineHelp td{padding: 5px 10px 5px 1px;vertical-align: top;}.lwpMenuHeader, a.lwpMenuHeader, a.lwpMenuHeader:visited, a.lwpMenuHeader:hover {background-color: #F0F0F0;color: #000000;text-decoration: none;font-weight: normal;cursor: pointer;}.lwpMenuBackground {background-color: #ffffff;}.lwpLastReadMark {font-weight: bold;color: #FFFFFF;background-color: #666666;text-align: center;padding: 3px 0;}.lwpDateStampMark {font-weight: bold;color: #666666;background-color: #999999;text-align: center;padding: 3px 0px;}a.lwpCalLinkText {text-decoration: none;}a.lwpCalLinkText:hover {text-decoration: underline;}a.lwpCalDateLinkText, a.lwpCalDateLinkText:visited {text-decoration: none;color: #000000;}a.lwpCalDateLinkText:hover {text-decoration: underline;color: #666699;}a.lwpCalInactiveDateLinkText, a.lwpCalInactiveDateLinkText:visited {text-decoration: none;color: #a0a0a0;}a.lwpCalInactiveDateLinkText:hover {text-decoration: underline;color: #666699;}.lwpCal1WeekCellRow {height: 6em;font-weight: normal;}.lwpCalCellRow {height: 2.2em;font-weight: normal;}.lwpCalLDivider {border-left: solid 1px #aaaaaa;}.lwpCalNoBottom {border-bottom: none;}.lwpCalHeaderImage {padding: 12px 3px 2px 0px; margin-bottom: 5px;}.lwpCalAttendeeHeading {color: #898989;}.lwpCalSectionHeader {font-weight: bold;color: black;padding-top: 12px;padding-bottom: 2px;margin-bottom: 5px;display: block;}.lwpCalInviteeSection {padding-left:2px;}.lwpCalWeekNumber {color: #808080;}.lwpCalEntryHoverDetail {border : solid 1px #000000;position: absolute; visibility: hidden; width: 400px;overflow: hidden;}.lwpCalEventField {padding:5px 0px 3px 0px;}.lwpCalEntryHoverPosition {padding-left: 5px;}.lwpCalBgMeeting, .lwpCalBgWebConf {background-color: #C3D3E6;}.lwpCalBgAppointment{background-color: #D8F8D8;}.lwpCalBgAnniversary{background-color: #F8E8D0;}.lwpCalBgReminder{background-color: #F8F8D0;}.lwpCalBgAllDayEvent{background-color: #F8E0E0;}.lwpCalTodayCell {border: solid 1px #000000;}.lwpCalMonthDayCell {border-top: solid 1px #AAAAAA;height: 6.4em;width: 14%;}.lwpCalInactiveDayCell {background-color: #efefef;}.lwpCalInactiveDay {color: #a0a0a0;}.lwpCalSeperator {border-bottom: solid 1px #ffffff;}.lwpCalConflict {border-left: solid 2px #000000;}.lwpCalTimeText {text-align: right;}.lwpCalEntryPosition {padding-top: 2px;}.lwpCalBDivider {border-bottom: solid 1px #aaaaaa;}.chat_background {background-color: #FFFFFF;}.chat_partner_presence {border-top : 1px solid #AAAAAA;border-left : 1px solid #AAAAAA;border-color : #AAAAAA;padding: 3px;background-color: #EEEEEE;}.chat_partner_presence_corner {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/chat_presence_corner.gif");background-repeat: no-repeat;background-position: top;background-color: transparent;background-color: #FFFFFF;}.chat_partner_alert {border-top : 1px solid #AAAAAA;border-left : 1px solid #AAAAAA;border-right : 1px solid #AAAAAA;border-color : #AAAAAA;padding: 3px;background-color: #FFFFFF;color: #666666;}.chat_transcript {border-left : 1px solid #AAAAAA;border-right : 1px solid #AAAAAA;border-bottom : 1px solid #AAAAAA;border-top : 1px solid #AAAAAA;border-color : #AAAAAA;}.chat_transcript_nway {border-top : 1px solid #456A8B;border-left : 1px solid #456A8B;border-right : 1px solid #456A8B;border-bottom : 1px solid #456A8B;border-color : #456A8B;}.chat_message_input {border-top : 1px solid #AAAAAA;border-left : 1px solid #AAAAAA;border-right : 1px solid #AAAAAA;border-bottom : 1px solid #AAAAAA;border-color : #AAAAAA;background-color: #FFFFFF;}.chat_statusbar {border-top : 1px solid #AAAAAA;border-color : #AAAAAA;background-color: #EEEEEE;color: #AAAAAA;}.chat_participants {border-bottom : 1px solid #D8D8D8;border-color : #D8D8D8;}.lwp-agendaItemDocument {color: #585858;padding-top: 3px;padding-bottom: 3px;}.lwp-agendaItem-ul {padding-top: 3px;list-style-type: none;margin-left: 0px;margin-right: 20px;padding-bottom: 0px;}.lwp-agendaItem-li {padding-top: 0px;padding-bottom: 0px;}.lwp-agendaItem, .lwp-agendaItem:visited, a.lwp-agendaItem, a.lwp-agendaItem:active, a.lwp-agendaItem:visited, .lwp-agendaItemPage, a.lwp-agendaItemPage, .lwp-agendaItemSlide, .lwp-agendaItemPage:visited, .lwp-agendaItemSlide:visited {background-color: rgb(246,246,246);text-decoration: none;color: #7080A8;font-weight: normal;padding-top: 1px;padding-bottom: 1px;}a.lwp-agendaItem:hover, .lwp-agendaItemPage:hover, .lwp-agendaItemSlide:hover {text-decoration: underline;color: #639ACE;font-weight: normal;}.lwp-selectedAgendaItem, a.lwp-selectedAgendaItem {background-color: rgb(49, 106, 197);padding-top: 1px;padding-bottom: 1px;color:#FFFFFF;line-height: 150%;text-decoration: none;font-weight: bold;}.lwp-selectedAgendaItem:visited, a.lwp-selectedAgendaItem:visited {color: #FFFFFF;}a.lwp-selectedAgendaItem:hover {background-color: rgb(49, 106, 197);padding-top: 1px;padding-bottom: 1px;color:#FFFFFF;line-height: 150%;text-decoration: underline;font-weight: bold;}.lwpProjectorHeaderStart {background-color: #70A8F0; border-top: 1px solid #777777;border-right: 0px none #777777;border-bottom: 0px none #777777;border-left: 1px solid #777777;}.lwpProjectorHeaderMiddle {background-color: #70A8F0;border-top: 1px solid #777777;border-right: 0px none #777777;border-bottom: 0px none #777777;border-left: 0px none #777777; color: #343434;font-weight: bold;}.lwpProjectorHeaderEnd {background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/projectorTableTopRight.gif");background-repeat: no-repeat;background-position: right top;background-color: transparent;}.lwpSlideTable {border-width: 1px;border-style: solid;border-color: #000000;}.lwpSlideTableHeadStart, .lwpSlideTableHeadMiddle, .lwpSlideTableHeadEnd {font-weight: bold;color: #989898;text-align: left;background-color: #ffffff;border-width: 0px 0px 0px 0px;border-style: solid;border-color: #000000;}.lwpSlideBorder{border-color: #b0b0c0;border-style: solid;border-width: 1px 1px 1px 1px;}.lwpAgendaFrameDiv{position:absolute;width:100%;visibility:hidden;bottom:0;border:1px solid rgb(233, 233, 233);background-color: rgb(246, 246, 246);top:80px;}.lwpAttendeesFrameDiv{width:100%;position:absolute;bottom:0;border:1px solid rgb(233, 233, 233);background-color: rgb(246, 246, 246);visibility:hidden;overflow:auto;top:26px;}.lwpDownloadsFrameDiv{width:100%;position:absolute;bottom:2px;visibility:hidden;top:26px;}.lwpHostingStarted {font-size: 1.1667em;font-weight: bold;color: #FFFFFF;}.lwpHostingStartedLarge {font-size: 1.1667em; font-weight: bold;color: #FFFFFF;}.lwp_labelNormalStyle, a.lwp_labelNormalStyle, a.lwp_labelNormalStyle:visited, a.lwp_labelNormalStyle:active {color: #000000; text-decoration: none;}.lwp_labelHighlightStyle, a.lwp_labelHighlightStyle, a.lwp_labelHighlightStyle:active, a.lwp_labelHighlightStyle:visited {font-weight: bold;text-decoration: none;color: #FFFFFF; background-color: #A0A0A0; padding-right: 5px;}.lwp_labelMouseoverStyle, a.lwp_labelMouseoverStyle:hover, a.lwp_labelMouseoverStyle:active {font-weight: normal;text-decoration: underline;color: #000000;}.lwp_labelDragoverStyle{font-weight: normal;text-decoration: underline;color: #000000;}.lwpFldNodeLableSpacing, .lwpFldNodeLabelSpacing {padding-left: 5px;}.lwpPeopleFlyoutExpanded {background-color: #DEDEDE;border-left: 1px solid #9A9A9A;border-right: 0px;border-top: 0px;border-bottom: 1px solid #DEDEDE;}.lwpPeopleFlyoutCollapsed {background-color: #DEDEDE;border-left: 1px solid #686868;border-right: 0px;border-top: 0px;border-bottom: 1px solid #DEDEDE;}.lwpPeopleFlyoutFrame {background-color: #DEDEDE;border-left: 1px solid #686868;border-right: 1px solid #686868;border-top: 1px solid #686868;border-bottom: 1px solid #686868;}.lwpTimeDateBorder {border:0px;} .lwpTimeDateCalBorder {background-color: white;border-top: 1px none #aaaaaa;border-right: 1px solid #aaaaaa;border-bottom: 1px solid #aaaaaa;border-left: 1px solid #aaaaaa;}.lwpTimeDateCalText {font-weight: bold;}.lwpTimeDateDayName {text-align: center;font-weight: normal;vertical-align: middle;background-color: white;border-top: 1px none #aaaaaa;border-right: 1px none #aaaaaa;border-bottom: 1px solid #aaaaaa;border-left: 1px none #aaaaaa;}.lwpTimeDateDay {text-align: center;vertical-align: middle;background-color: white;border-width: 0px 0px 0px 0px;border-style: solid;border-color: #aaaaaa;}.lwpTimeDateWeekendDay {text-align: center;vertical-align: middle;background-color: white;border-width: 0px 0px 0px 0px;border-style: solid;border-color: #aaaaaa;}.lwpTimeDateDayLink {text-decoration:none;}.lwpTimeDateCalTop {border: 1px solid #aaaaaa;background-color: #eeeeee;}.lwpTimeDateSelectedCalTop {border: 1px solid #606098;background-color: #d0d0d0;}.lwpTimeDateSelectedDay {text-align: center;vertical-align: middle;background-color: #ffffff;}.lwpTimeDateSelectedDayLink {text-decoration:none;text-align: center;vertical-align: middle;background-color: #d0d0d0;}.lwpTimeDateSelectedWeek {text-decoration:none;text-align: center;vertical-align: middle;background-color: #d0d0d0;}.lwpTimeDateSelectedAllWeeks {text-decoration:none;text-align: center;vertical-align: middle;background-color: #e8e8e8;}.lwpTimeDateWeek {text-decoration:none;text-align: center;vertical-align: middle;background-color: #ffffff;border: 1px solid #aaaaaa;}.lwpTimeDateMonthRadio {text-decoration:none;text-align: center;vertical-align: middle;width:15px;border-right: 1px solid #aaaaaa;}.lwpTimeDateWeekRadioOn {text-decoration:none;text-align: center;vertical-align: middle;background-color: #d0d0d0;width:15px;border-color: #aaaaaa;border-right: 1px solid #aaaaaa;border-left: 1px solid #aaaaaa;}.lwpTimeDateWeekRadioOff {text-decoration:none;text-align: center;vertical-align: middle;background-color: #ffffff;width:15px;border-color: #aaaaaa;border-right: 1px solid #aaaaaa;border-left: 1px solid #aaaaaa;}.lwpTimeDateEmptyDayName {font-weight: normal;text-align: center;vertical-align: middle;background-color: #ffffff;width:15px;border-right: 1px solid #aaaaaa;border-left: 1px none #aaaaaa;border-bottom: 1px solid #aaaaaa;}.outerTreeStyle{color: WindowText;border-width: 0px;border-style: none;padding:0px;font-weight: 400;}.nodeStyle{padding: 0px;letter-spacing: 0;border-collapse: collapse;}.scrollStyle{overflow: auto;width: 200px;}.tdStyle{padding: 0px;width: 200px;}.labelDragoverStyle{font-size: 11px;color: #000000;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;font-style: italic;}.linkTextStyle{text-decoration: none}.classForTreeSysIcons {}.tdTreeTabStyle{padding: 0px;width: 200px;margin:0px}.tdTableStyle{width: 200px;padding:0px;margin:0px}.headerStyle{width: 200px;background-color: ThreeDFace;color: WindowText;border-width: 1px;border-style: solid;border-color: ThreeDShadow;margin:0px;padding:0px;}.tree_outerTreeStyle{color: WindowText;border-width: 0px;border-style: none;padding: 0px;font-weight: 400;}.tree_nodeStyle {padding: 0px;letter-spacing: 0;border-collapse: collapse;margin: 0px;}.tree_scrollStyle{overflow: auto;width: 200px;}.tree_tdStyle{padding: 0px;width: 200px;}.tree_labelNormalStyle {font-size: 11px;color: #000000;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;}.tree_nodeImageStyle {border-right: 0px;border-top: 0px;border-left: 0px;width: 19px;border-bottom: 0px;height: 16px}.tree_labelHighlightStyle{font-size: 11px;color: #000000;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;font-weight: bold;}.tree_labelMouseoverStyle{font-size: 11px;color: #000000;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;font-style: italic;}.tree_labelDragoverStyle{font-size: 11px;color: #000000;background-color: #bbbbbb;font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;font-style: italic;}.tree_linkTextStyle{text-decoration: none}.tree_classForTreeSysIcons {}.tree_tdTreeTabStyle{padding: 0px;width: 200px;margin:0px}.tree_tdTableStyle{width: 200px;padding:0px;margin:0px}.tree_headerStyle{width: 200px;background-color: ThreeDFace;color: WindowText;border-width: 1px;border-style: solid;border-color: ThreeDShadow;margin:0px;padding:0px;}.personMenu .personMenuActions {-moz-border-radius: 7px;}.personMenu .personMenuActions tr, .personMenu .personMenuActions.toggle {float:right; margin:1px 1px 1px 1px; padding:0px;}.toggle img {float:right;}.personMenu .businessCardExtended {width:390px;}.personMenu .toggle {width:390px;}.personMenu .toggle img{float:right;}.X-person-display-inline .personMenu .personMenuActions a:link, .X-person-display-inline .personMenuActions a:visited{}.lwpDialogIconBackground {text-decoration: none;text-align: center;vertical-align: top;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/DialogIconTextBackground.gif");background-repeat: repeat-x;border: 1px solid #919191;padding: 0px 2px;margin: 0px;overflow: visible;font-weight: normal;color: #000000;cursor: pointer;}.lwpCalHeader {color: #3366CC;font-weight: bold;vertical-align: top;}.lwpCalTDivider {border-top: solid 1px #aaaaaa;}.lwpCalViewMenuPosition {padding-left: 2px;padding-top: 8px;padding-bottom: 8px;}.lwpCalFsizeX {font-size: 1.1667em;}.lwpButtonText {font-weight: bold;text-decoration: none;color: #000000;vertical-align: middle;background-color: #DDDDDD; background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center; border-top: 1px solid #919191;border-bottom: 1px solid #919191;border-right: 1px solid #919191;border-left: 1px solid #919191;padding: 0px 2px;overflow: visible;margin: 0px;text-align: center;cursor: pointer;}.lwpButtonTextDisabled {text-decoration: none;text-align: center;vertical-align: middle;background-color: #DDDDDD;background-image: url("/wps/contenthandler/!ut/p/digest!XjhnmcKrLeLhwbYI_y2m1w/dav/fs-type1/common-resources/ibm/css/portal/images/ButtonBackground.gif");background-repeat: repeat-x;background-position: left center;border-top: 1px solid #919191;border-bottom: 1px solid #919191;border-right: 1px solid #919191;border-left: 1px solid #919191;padding: 0px 2px;margin: 0px;overflow: visible;font-weight: bold;color: #888888;}.lwpButtonSpacer {margin-right: 2px;}.lwpButtonGroup{margin: .25em 4px;}.lwpTreePanel {overflow: auto;height: 100%;width: 18em;}.lwpTreePanelBody {border-left: 1px solid #aaaaaa;border-right: 0px;border-top: 0px;border-bottom: 0px;}.lwpTreePanelHeader {background-color: #F0F0F0;border-left: 1px solid #aaaaaa;border-right: 0px;border-top: 1px solid #aaaaaa;border-bottom: 1px solid #aaaaaa;}.lwpTreePanelFooter {background-color: #F0F0F0;border-left: 1px solid #aaaaaa;border-right: 0px;border-top: 1px solid #aaaaaa;border-bottom: 1px solid #aaaaaa;}.lwpAlignRight {text-align: right;}.lwpMailboxRecipientAnchor, a.lwpMailboxRecipientAnchor {color: black;text-decoration: underline;cursor: pointer;}.lwpMailboxRecipientAnchor:hover, a.lwpMailboxRecipientAnchor:hover {color: black;text-decoration: underline;cursor: pointer;}.lwpMailboxRecipientAnchor:visited, a.lwpMailboxRecipientAnchor:visited {color:black;}.unreadMailText, a.unreadMailText {font-weight: bold;text-decoration: underline;color: #3366CC;}.lwp_nodeStyle {border-collapse: collapse; border-spacing:0px;}.lwp_tdStyle {white-space:nowrap; padding:0px;}.lwp_nodeImageStyle {border-top: 0px; border-right: 0px; border-left: 0px; border-bottom: 0px;}.lwp_linkTextStyle {text-decoration:none;}.wpthemeImagesOff .lwpButtonText {border-style: outset;}.stBanner {background-color: #006d5d; padding: 0; position: static; box-sizing: border-box; font-size: 75%;}.stBanner.stGroup {max-height: 54px; overflow: hidden;}.stBanner ul {padding: 0; overflow: visible; list-style-type: none;}#stBannerMenus {z-index: 999; position: relative; background-color: #006d5d;}ul.stBannerMenus>li {display: block; float: left; margin: 0; color: #fff; padding: 0; height: 54px;}.stNoTouch ul.stBannerMenus > li > a:hover, .stNoTouch ul.stBannerMenus > li > a.selected {background-color: rgba(255, 255, 255, 0.13);}.stBanner ul.stBannerMenus>li>span,.stBanner ul.stBannerMenus li a:link,.stBanner ul.stBannerMenus li a:visited,.stBanner ul.stBannerMenus li a:active {color: #fff; font-weight: normal; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin: 0; padding: 15px;}.stBanner .stBranding {display: inline-block; border: 0; padding: 4px 25px 0; height: 48px; float: left;}@media ( max-width : 768px) {.stBanner .stBranding {padding: 2px 15px 0; position: absolute; left: 55px;}}.stBannerPhoto {height: 24px; width:24px; border-radius: 50%;}
+.stMainContent {padding: 0 0 25px;}
+.stControlHeader {position: relative; height: 0;}.stControlHeader > div {background-color: #e0e0e0; left: -1px; border: 1px solid #e0e0e0; float: right; opacity: 0.94; position: absolute; top: -54px; z-index: 99; display: none; width: 100%;}.stControlHeader div h2 {margin: 0; font-size: 14px; padding-left: .833em; display: table-cell; font-weight: normal; vertical-align: middle; color: #323232;}.stControlHeader .dndHandle {display: none;}.stControlHeader .stFocusableLink {display: none; visibility: hidden;}.edit-mode .stControlHeader .stFocusableLink {display: inline; visibility: visible;}.edit-mode .stControlHeader .dndHandle {display: inline; float: left; margin: 0 .333em 0 0; height: 1.6em; width: 100%; cursor: move; padding: 15px;}.stControlHeader > div > div {display: table-row; word-wrap: break-word;}.stControlHeader > div > div > a {border-width: 0; display: table-cell; vertical-align: top; width: 44px; outline: medium none; text-decoration: none; font-size: 0.9em; padding: 14px 8px 10px;}.stControlHeader > div > div > a:focus {outline: 1px dotted black;}.stControl {background-image: none; background-color: transparent; margin: 0 0 20px; padding: 0; width: auto;}.edit-mode.stNoTouch div.stControl.stHover .stControlHeader > div {display: table;}.edit-mode.stNoTouch div.stControl.stFocus .stControlHeader > div {display: table;}.edit-mode .component-container {box-shadow: 0 0 0 1px #e0e0e0; min-height: 20px; padding: 0;}.stWholeCol .stControl {margin: 0;}.edit-mode .stControlBody {min-height: 20px; box-shadow: 0 -1px 0 #e0e0e0; background-color: #fff;}.edit-mode .layoutNode {outline: 1px dotted #222; min-height: 1.667em; min-width: 3.333em;}iframe#dj_history {display: none;}.stLayoutContainers .portal-drop-target {display: none;}.stLayoutContainers div.ibmDndDropZonesActive .portal-drop-target {display: block; position: relative;}.stLayoutContainers div.ibmDndDropZonesActive .portal-drop-target div {color: #83B995; border: 1px solid #83B995; border-radius: 2px; background-color: #EDFCF2; position: absolute; z-index: 1000; opacity: 0.8;}.stLayoutContainers div.ibmDndDropZonesActive .portal-drop-target.ibmDndDropZoneOver div {background-color: #a0efba;}.stLayoutContainers div.ibmDndDropZonesActive .portal-drop-target.ibmDndDropZoneIllegal div,.stLayoutContainers div.ibmDndDropZonesActive.ibmDndDropZoneIllegal .portal-drop-target div {background-color: #ED486E; border-color: #A11222;}.stLayoutContainers div.ibmDndColumn.ibmDndDropZonesActive :first-child.portal-drop-target div {top: 0px;}.stLayoutContainers div.ibmDndColumn.ibmDndDropZonesActive .portal-drop-target div {top: -1.667em; left: -.083em; width: 100%; height: 2.5em;}.stLayoutContainers div.ibmDndRow.ibmDndDropZonesActive .portal-drop-target div {left: -1.25em; top: 2.083em; width: 1.667em;}.stLayoutContainers table.ibmDndDropZonesActive .portal-drop-target {display: block; color: #83B995; background-color: #EDFCF2; border: 1px solid #83B995; border-radius: 2px; margin: .417em; height: 2em; min-width: 1.667em;}.stLayoutContainers table.ibmDndDropZonesActive .portal-drop-target.ibmDndDropZoneOver {background-color: #a0efba;}.stLayoutContainers table.ibmDndDropZonesActive .portal-drop-target.ibmDndDropZoneIllegal,.stLayoutContainers table.ibmDndDropZonesActive.ibmDndDropZoneIllegal .portal-drop-target {background-color: #ED486E; border-color: #A11222;}.hiddenWidgetsDiv {font-size: 0.75rem;}.hiddenWidgetsDiv .stControl {margin: 0;}.hiddenWidgetsContainer {background-color:#ccc; display:none; margin: 16px 20px 10px; min-height: 20px !important;}
+#stFooter {min-height: 44px; background-color: #006d5d; clear: both; position: absolute; bottom: 0; width: 100%; line-height: 1; font-size: 75%;}#stFooter ul li {display: inline-table; float: left;}#stFooter ul li a {font-size: 14px; font-weight: normal; color: #FFFFFF; padding: 1.25em 2.5em 1.083em 0;}@media ( max-width : 480px) {#stFooter ul {padding: 0;} #stFooter ul li a{display: block; padding: 1em 1.25em;}}
+html,body {margin: 0; padding: 0; height: 100%;}/*body#content {font: 100%/1.5 Helvetica Neue, Helvetica, Arial, Sans Serif; background-color: #fff; color: #222;}*/a,a:active {color: #10498F; text-decoration: none;}ul,ol {list-style-type: none; margin: 0;}li {margin: 0;}#stPageFrame {min-height: 100%; position: relative;}.stToolbar {font-size: 75%;}.wpthemeAltText {display: none;}.a11yHighContrast .wpthemeAltText {display: block;}.a11yHighContrast .stSearchButton span {width: 1em;}.a11yHighContrast .stMobileNavToggle span{width: 7.5em;}.a11yHighContrast .stBranding {padding-left: 6em;}.a11yHighContrast .stBannerIcon, .a11yHighContrast .stSearchIcon {display: none;}.stSearchIcon title, .stLogo title {color: #FFF;}
+
+.stLogo {height: 4em; width: 4em; fill: #a7fae6;}.stBannerIcon {height: 2em; width: 2em; fill: #FFF;}.stBannerIcon .fade-out {opacity: 0;}.stBannerIcon .fade-in {opacity: 1; transition: opacity 0.25s ease-in-out; -moz-transition: opacity 0.25s ease-in-out; -webkit-transition: opacity 0.25s ease-in-out;}.stNavChildOpenIcon {height: 14px; width: 16px; fill: #FFF;}@media ( max-width : 768px) {.stNavChildOpenIcon {height: 24px; width: 24px; fill: #FFF;}}.stSkinMenuIcon {height: 24px; width: 44px; fill: #323232;}
+ .stPageSelectedMsg {position: absolute; top: -99999px;}.stDraftPageText::before {content: "(";}.stDraftPageText::after {content: ")";}.stHiddenPageText::before {content: "[";}.stHiddenPageText::after {content: "]";}.stHiddenPageText.stDraftPageText::before {content: "([";}.stHiddenPageText.stDraftPageText::after {content: "])";}.stNavigation, .stNavigationShow {padding-top: .667em; line-height: 1; height: 54px;}.stNoTouch .stNavigation nav a:hover, .stNoTouch .stNavigation nav a:focus,.stNoTouch .stNavigationShow nav a:hover, .stNoTouch .stNavigationShow nav a:focus {background-color: rgba(255, 255, 255, 0.13); color: #ffffff; text-decoration: none;}@media ( max-width : 768px) {.stNavigation, .stNavigationShow {position: absolute; bottom: 0; width: 100%; padding: 0; background: transparent; height: auto;} .stNavigation .stMobileNavBackground {background: transparent;} .stNavigation .stMobileNavBackgroundShow, .stNavigationShow .stMobileNavBackgroundShow {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6); z-index: 99; height: 100%;} .stNavigation .stPageNavigation, .stNavigationShow .stPageNavigation {height: auto; position: absolute; top: 0; bottom: 0; float: left; clear: both; padding-top: 0; line-height: 1; transition: left 0.25s; -moz-transition: left 0.25s; -webkit-transition: left 0.25s; transition-timing-function: linear;} .stNavigation .stPageNavigation {left: -150%;} .stNavigationShow .stPageNavigation {left: 0;} .stNoTouch .stNavigation nav div:hover, .stNoTouch .stNavigation nav a:focus, .stNoTouch .stNavigationShow nav div:hover, .stNoTouch .stNavigationShow nav a:focus {background-color: rgba(255, 255, 255, 0.13); color: #ffffff; text-decoration: none;} .stNoTouch .stNavigation nav a:hover, .stNoTouch .stNavigationShow nav a:hover {background-color: rgba(255, 255, 255, 0);}}@media (max-width: 550px) {.wpToolbarRight, .wpToolbarApplications.wpToolbarToggle, .wpToolbarAdministration.wpToolbarToggle, .wpToolbarActionArea.toolbarToggle {display: none;}}.stNavigation ul {line-height: 1; margin: 0; overflow: visible; padding: 0;}.stNavList .stClose,.stNavList .stClose:active,.stNoTouch .stNavList .stClose:hover,.stNoTouch .stNavList .stClose:focus {background: none repeat scroll 0 0 #F9FBFF !important; border: 1px solid #00649D !important; color: #00649D !important; font-size: 0.8em; font-weight: bold !important; line-height: 0.8em; margin: .667em .417em 0 -1.25em; padding: .167em !important; text-decoration: none !important;}.stPageNavigation div {float: left;}.stPageNavigation nav:after {content: ""; display: table; clear: both;}.stPageNavigation nav ul {padding: 0; margin: 0; list-style: none; overflow: visible}.stPageNavigation nav ul li {margin: 0; display: inline; float: none;}.stPageNavigation nav ul li li{display: inline-block; float: left;}@media ( max-width : 768px) {.stPageNavigation nav ul li {border-top: 1px solid #006d5d; margin: 0px; display: block; float: left; width: 100%;} .stPageNavigation nav ul li div li {border-top: none;}}.stPageNavigation nav > ul > li > div > a {color: #fff; display: block; font-weight: normal; padding: 16px 20px; text-decoration: none; font-size: 16px; text-transform: uppercase; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}.stNoTouch .stPageNavigation nav > ul > li > div > a:hover, .stNoTouch .stPageNavigation nav > ul > li > div > a:focus {color: #fff; text-decoration: none;}.stPageNavigation .stNavHasChild {padding: 0 0 0 6px;}@media ( max-width : 768px) {.stPageNavigation nav > ul > li > div > a {padding: 0.875em 1.25em;} .stNavTapArea {width: 200px;} .stPageNavigation .stNavHasChild {display: none;}}.stPageNavigation .stNavSelected > div {background-color: rgba(255, 255, 255, 0.13);}.stNoTouch .stNavigation nav .stNavSelected a:hover {background-color: rgba(255, 255, 255, 0.03);}.stPageNavigation nav ul ul ul li {display: block; float: none; font-weight: normal; text-transform: none;}.stPageNavigation nav ul div ul ul {float: none; display: list-item; position: relative;}.stPageNavigation div > ul > li {padding-bottom: 1em;}.stPageNavigation li > div > ul > li > a{padding: 1em 4.167em .5em 0;}.stPageNavigation div > ul > li > ul > li {padding: .5em 4.167em .5em 0;}@media ( max-width : 768px) {.stPageNavigation div > ul > li {padding-bottom: 0;} .stPageNavigation li > div > ul > li > a{padding: 1.071em 1.429em;} .stPageNavigation div > ul > li > ul > li {padding: 1.071em 1.429em;}}.stPageNavigation div > ul > li {font-size: 14px; font-weight: bold; color: #121212; text-transform: uppercase;}.stPageNavigation div > ul > li > a{padding: 1em 2.5em 1em 0;}.stPageNavigation .stNavParent {font-weight: normal; text-transform: uppercase;}.stPageNavigation .stNavChild li a:link,.stPageNavigation .stNavChild li a:visited {background-color: #ffffff; color: #000000; display: block; text-decoration: none; width: 100%; overflow: hidden; text-overflow: ellipsis; max-width: 200px;}.stPageNavigation .stNavChild .stNavChildSelected a span, .stPageNavigation .stNavChild a:hover span {color: #006d5d;}@media ( max-width : 768px) {.stPageNavigation .stNavParent {display: none;} .stPageNavigation .stNavChild li a:link,.stPageNavigation .stNavChild li a:visited {background: none; color: #ddd; max-width: 100%} .stPageNavigation .stNavChild .stNavChildSelected a span {color: #6eedd8;}}.stPageNavigation .stNavChild .stNavChildSelected ul li a span {color: #000000;}@media ( max-width : 768px) {.stPageNavigation .stNavChild .stNavChildSelected ul li a span {color: #ddd;} .stPageNavigation .stNavChild a:hover span {color: #ffffff;}}@media ( min-width : 768px) {.stPageNavigation .stOpenNavLevel.stSecondLevelNav {position: absolute; float: left; background: none repeat scroll 0 0 #FFFFFF; border-bottom: 1px solid #006d5d; left: 0; right: 0; z-index: 99;}}@media ( max-width : 768px) {.stPageNavigation .stOpenNavLevel.stSecondLevelNav {background: none repeat scroll 0 0 #003c32; position: inherit; width: 275px; text-overflow: ellipsis;} .stPageNavigation nav ul div {position: inherit; background: none; border-bottom: none; padding-left: 0; width: 100%;} .stPageNavigation nav ul .stSecondLevelNavOpen {display: block;}}.stPageNavigation .stOpenNavLevel {display: block;}.stMobileNavToggle,.stBanner .stPageNavigation nav ul .stNavParentToggle {display: none;}@media ( max-width : 768px) {.stPageNavigation {background: none repeat scroll 0 0 #003c32; margin-right: 2.5em; width: 300px; height: 100%;} .stMobileNavToggle {display: inline-block; box-sizing: border-box; float: left; padding: 13px 15px; position: absolute; left: 0; height: 54px;} .stMobileNavToggle.selected, .stNoTouch .stMobileNavToggle:hover, .stNoTouch .stNavigationShow .stParentContainer:hover{background-color: rgba(255, 255, 255, 0.13);} .stBanner .stPageNavigation nav ul .stNavParentToggle {display: block; color: #FFF; text-decoration: none; background: none; float: right; padding: 0.5em 0.938em; font-size: 16px; font-weight: normal;}}
+.stLeft {float: left;}.stRight {float: right;}.stClear {clear: both;}.stDisplayNone {display: none;}.stDisplayInherit {display: inherit;}.stOverflowAuto {overflow: auto;}.stNoTouch .stUnderlineText:hover,.stNoTouch .stUnderlineText:focus {text-decoration: underline; cursor: pointer;}.stGroup:after {content: ""; display: table; clear: both;}
+.wpToolbarActionBarImages-Administration{width:26px;height:18px;background-position:0 0}
+.wpToolbarActionBarImages-AdministrationSelected{width:26px;height:18px;background-position:0 -28px}
+.wpToolbarActionBarImages-AdministrationSelected-rtl{width:26px;height:18px;background-position:0 -56px}
+.wpToolbarActionBarImages-Administration-rtl{width:26px;height:18px;background-position:0 -84px}
+.wpToolbarActionBarImages-Applications{width:26px;height:18px;background-position:0 -112px}
+.wpToolbarActionBarImages-ApplicationsSelected{width:26px;height:18px;background-position:0 -140px}
+.wpToolbarActionBarImages-ApplicationsSelected-rtl{width:26px;height:18px;background-position:0 -168px}
+.wpToolbarActionBarImages-Applications-rtl{width:26px;height:18px;background-position:0 -196px}
+.wpToolbarActionBarImages-Close{width:18px;height:18px;background-position:0 -224px}
+.wpToolbarActionBarImages-Close-rtl{width:18px;height:18px;background-position:0 -252px}
+.wpToolbarActionBarImages-Dashboard{width:18px;height:18px;background-position:0 -280px}
+.wpToolbarActionBarImages-DashboardHover{width:18px;height:18px;background-position:0 -308px}
+.wpToolbarActionBarImages-DashboardHover-rtl{width:18px;height:18px;background-position:0 -336px}
+.wpToolbarActionBarImages-Dashboard-rtl{width:18px;height:18px;background-position:0 -364px}
+.wpToolbarActionBarImages-InfoMode{width:18px;height:18px;background-position:0 -392px}
+.wpToolbarActionBarImages-InfoModeHover{width:18px;height:18px;background-position:0 -420px}
+.wpToolbarActionBarImages-InfoModeHover-rtl{width:18px;height:18px;background-position:0 -448px}
+.wpToolbarActionBarImages-InfoModeSelected{width:18px;height:18px;background-position:0 -476px}
+.wpToolbarActionBarImages-InfoModeSelected-rtl{width:18px;height:18px;background-position:0 -504px}
+.wpToolbarActionBarImages-InfoMode-rtl{width:18px;height:18px;background-position:0 -532px}
+.wpToolbarActionBarImages-More{width:26px;height:18px;background-position:0 -560px}
+.wpToolbarActionBarImages-MoreSelected{width:26px;height:18px;background-position:0 -588px}
+.wpToolbarActionBarImages-MoreSelected-rtl{width:26px;height:18px;background-position:0 -616px}
+.wpToolbarActionBarImages-More-rtl{width:26px;height:18px;background-position:0 -644px}
+.wpToolbarActionBarImages-Open{width:18px;height:18px;background-position:0 -672px}
+.wpToolbarActionBarImages-OpenHover{width:18px;height:18px;background-position:0 -700px}
+.wpToolbarActionBarImages-OpenHover-rtl{width:18px;height:18px;background-position:0 -728px}
+.wpToolbarActionBarImages-Open-rtl{width:18px;height:18px;background-position:0 -756px}
+.wpToolbarActionBarImages-Preview{width:26px;height:18px;background-position:0 -784px}
+.wpToolbarActionBarImages-PreviewSelected{width:26px;height:18px;background-position:0 -812px}
+.wpToolbarActionBarImages-PreviewSelected-rtl{width:26px;height:18px;background-position:0 -840px}
+.wpToolbarActionBarImages-Preview-rtl{width:26px;height:18px;background-position:0 -868px}
+.wpToolbarActionBarImages-Sites{width:26px;height:18px;background-position:0 -896px}
+.wpToolbarActionBarImages-SitesSelected{width:26px;height:18px;background-position:0 -924px}
+.wpToolbarActionBarImages-SitesSelected-rtl{width:26px;height:18px;background-position:0 -952px}
+.wpToolbarActionBarImages-Sites-rtl{width:26px;height:18px;background-position:0 -980px}
+.wpToolbarActionBarImages-Toolbar{width:18px;height:18px;background-position:0 -1008px}
+.wpToolbarActionBarImages-ToolbarSelected{width:18px;height:18px;background-position:0 -1036px}
+.wpToolbarActionBarImages-ToolbarSelected-rtl{width:18px;height:18px;background-position:0 -1064px}
+.wpToolbarActionBarImages-Toolbar-rtl{width:18px;height:18px;background-position:0 -1092px}
+
+.wpToolbarActionBarImages{background-image:url('/wps/toolbarModules/modules/common/css/images/commonActionBar.png');background-repeat:no-repeat;display:-moz-inline-box;display:inline-block}
+.lotusImagesOff .wpToolbarActionBarImages{display:none}
+
+.wpToolbarCommon .wpToolbarAltText,
+.wpToolbarCommon .wpToolbarImagesOff {
+    display: none;
+}
+.lotusImagesOff .wpToolbarCommon img,
+.wpthemeImagesOff .wpToolbarCommon img,
+.lotusImagesOff.wpToolbarCommon img,
+.wpthemeImagesOff.wpToolbarCommon img {
+    display: none !important;
+}
+.wpthemeImagesOff .wpToolbarCommon .wpToolbarImagesOff,
+.lotusImagesOff .wpToolbarCommon .wpToolbarImagesOff,
+.wpthemeImagesOff.wpToolbarCommon .wpToolbarImagesOff,
+.lotusImagesOff.wpToolbarCommon .wpToolbarImagesOff {
+    display: inline;
+}
+/**
+ * CSS for building toggle links and toggle buttons.
+ * Both can have a label or an image.
+ *
+ * Examples:
+ *
+ * <div class="wpToolbarCommon">
+ *   ...
+ *   <div class="wpToolbarToggleLink selected">
+ *     <a href="#" title="tooltip" role="button" aria-pressed="true">
+ *       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+ *     </a>
+ *     <div class="wpToolbarAltText">Alt text</div>
+ *   </div>
+ *   ...
+ *   <div class="wpToolbarToggleLink">
+ *     <a href="#" title="tooltip" role="button" aria-pressed="false">
+ *       My Label
+ *     </a>
+ *     <div class="wpToolbarAltText">Alt text</div>
+ *   </div>
+ *   ...
+  *   <div class="wpToolbarToggle selected">
+ *     <a href="#" title="tooltip" role="button" aria-pressed="true">
+ *       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+ *     </a>
+ *     <div class="wpToolbarAltText">Alt text</div>
+ *   </div>
+ *   ...
+ *   <div class="wpToolbarToggle">
+ *     <a href="#" title="tooltip" role="button" aria-pressed="false">
+ *       My Label
+ *     </a>
+ *     <div class="wpToolbarAltText">Alt text</div>
+ *   </div>
+ * </div>
+ *
+ */
+.wpToolbarCommon .wpToolbarToggle,
+.wpToolbarCommon .wpthemeMenuShow.wpToolbarToggleLink {
+    display: inline-block;
+}
+
+.wpToolbarCommon .wpToolbarToggle > a,
+.wpToolbarCommon .wpToolbarToggleLink > a {
+	box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    min-width: 48px;
+    min-height: 24px;
+    padding: 3px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+/* center the img element */
+.wpToolbarCommon .wpToolbarToggle a img,
+.wpToolbarCommon .wpToolbarToggleLink a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.wpToolbarCommon .wpToolbarToggle:hover a .wpToolbarAltText,
+.wpToolbarCommon .wpToolbarToggleLink:hover a .wpToolbarAltText {
+	color: #222;
+	text-decoration: underline;
+}
+/*
+ * Overrides for toggle button
+ */
+.wpToolbarCommon .wpToolbarToggle > a {
+    border-radius: 2px;
+    border: 1px solid #c4c4c4;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #fff;
+    -moz-box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #fff;
+    background-color: #f2f2f2;
+    background: linear-gradient(to top, #f2f2f2 0%, #e0e0e0 100%);
+    background: -o-linear-gradient(to top, #f2f2f2 0%, #e0e0e0 100%);
+    background: -moz-linear-gradient(to top, #f2f2f2 0%, #e0e0e0 100%);
+    background: -webkit-linear-gradient(to top, #f2f2f2 0%, #e0e0e0 100%);
+    background: -ms-linear-gradient(to top, #f2f2f2 0%, #e0e0e0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #f2f2f2), color-stop(1.0, #e0e0e0) );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#f2f2f2' );
+}
+.wpToolbarCommon .wpToolbarToggle > a:hover,
+.wpToolbarCommon .wpToolbarToggle > a:focus {
+    box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #c4c4c4, 0px 1px 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #c4c4c4, 0px 1px 0px #fff;
+    -moz-box-shadow: inset 0px 0px 2px #fff, inset 0px -2px 1px #c4c4c4, 0px 1px 0px #fff;
+    background-color: #f2f2f2;
+    background: linear-gradient(to top, #e0e0e0 0%, #d8d8d8 100%);
+    background: -o-linear-gradient(to top, #e0e0e0 0%, #d8d8d8 100%);
+    background: -moz-linear-gradient(to top, #e0e0e0 0%, #d8d8d8 100%);
+    background: -webkit-linear-gradient(to top, #e0e0e0 0%, #d8d8d8 100%);
+    background: -ms-linear-gradient(to top, #e0e0e0 0%, #d8d8d8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #e0e0e0), color-stop(1.0, #d8d8d8) );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8d8d8', endColorstr='#e0e0e0' );
+}
+.wpToolbarCommon .wpToolbarToggle.selected > a {
+    box-shadow: inset 0px 1px 2px #646464, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #FFFFFF;
+    -webkit-box-shadow: inset 0px 1px 2px #646464, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #FFFFFF;
+    -moz-box-shadow: inset 0px 1px 2px #646464, inset 0px -2px 1px #d4d4d4, 0px 1px 0px #FFFFFF;
+    background-color: #aaaaaa;
+    background: linear-gradient(to top, #aaa 0%, #cfcfcf 100%);
+    background: -o-linear-gradient(to top, #aaa 0%, #cfcfcf 100%);
+    background: -moz-linear-gradient(to top, #aaa 0%, #cfcfcf 100%);
+    background: -webkit-linear-gradient(to top, #aaa 0%, #cfcfcf 100%);
+    background: -ms-linear-gradient(to top, #aaaaaa 0%, #cfcfcf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #aaa), color-stop(1.0, #cfcfcf) );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcfcf', endColorstr='#aaaaaa' );
+    border: 1px solid #aaaaaa;
+}.wpthemeMenuAnchor {display:inline-table !important;}.wpthemeMenuBorder {top: -9999px; border:3px solid #454545; border:3px solid rgba(23, 23, 23, 0.8); -moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.4); -webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.4); box-shadow:0 0 4px rgba(0, 0, 0, 0.4); -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; margin:0; z-index: 10000; position: absolute; padding:0; display: none;}.wpthemeMenuBorder .wpthemeMenuNotchBorder {position:absolute; background-image: url(/wps/contenthandler/!ut/p/digest!f9JF9hYd3jYwEFRVwS7mfQ/war/HCLSoftwareStatic/themes/HCLSoftwareTheme/css/images/cam_sharkfin_normal_top.png); background-position: center; background-repeat: no-repeat; width: 13px; height: 10px; padding: 0 20px; top: -10px;}.wpthemeMenuBorder .wpthemeMenuDropDown {list-style: none outside none; margin: 0; white-space: nowrap; padding: 7px 10px; background-color:white; cursor:default;}.wpthemeMenuBorder .wpthemeMenuDropDown li {color:#222; margin: 1px; padding: 2px 8px; font-family: arial; font-size: 1.1em; text-align: left; border: 1px solid transparent;}.wpthemeMenuBorder .wpthemeMenuDropDown li:focus,.wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li:hover{background-color:#F0FAFA; border: 1px solid rgb(215,230,232);}.wpthemeMenuBorder .wpthemeMenuDropDown li.typeMenuitem:focus .wpthemeMenuText, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeMenuitem:hover .wpthemeMenuText {text-decoration: underline;}.wpthemeMenuBorder .wpthemeMenuDropDown li.typeMenuitem {cursor:pointer;}.wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader {font-weight:bold; color:#000; font-size: 1.15em;}.wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuError:focus,.wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:focus, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:hover,.wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:focus, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:hover {background-color: transparent;}.wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuError:focus .wpthemeMenuText,.wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:focus .wpthemeMenuText, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:hover .wpthemeMenuText,.wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:focus .wpthemeMenuText, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:hover .wpthemeMenuText {text-decoration: none;}.wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuError:focus,.wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:focus, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:hover {border: 1px solid transparent;}.wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:focus, .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator:hover {border-left: 1px solid transparent; border-right: 1px solid transparent; border-bottom: 1px solid transparent;}.wpthemeMenuBorder .wpthemeMenuDropDown li.wpthemeMenuDisabled {color: #CCCCCC;}.wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator {border-top: thin solid #e0e0e0; background-color: transparent; padding: 0px 10px; font-size:0px; line-height:0;}.wpthemeMenuBorder .wpthemeMenuDropDown .wpthemeMenuText {display:inline; width:100%;}.wpthemeMenuLoading {top: -99999px !important; white-space: nowrap; margin: 1px; padding: 5px 10px 5px 25px; position: absolute; background-image:url(/wps/contenthandler/!ut/p/digest!f9JF9hYd3jYwEFRVwS7mfQ/war/HCLSoftwareStatic/themes/HCLSoftwareTheme/css/images/loading.gif); background-repeat:no-repeat; background-position:5px center;}.wpthemeMenuLoadingText {color:#222; font-family: arial; font-size: 1.1em;}.wpthemeMenuNotchBorder {visibility:hidden;}.wpthemeMenuShow .wpthemeMenuNotchBorder {visibility: visible;}.wpthemeMenuBadge {border-radius: 3px; color: #FFFFFF; font-size: 0.95em; font-weight: bold; margin-left: 6px; padding: 1px 4px; line-height: 1em; vertical-align: 1px;}.wpthemeMenuBadgeInfo {background-color: #009900;}.wpthemeMenuBadgeWarn {background-color: #EE8800;}.wpthemeMenuBadgeError {background-color: #CC0000;}.wpthemeMenuShow .wpthemeAnchorSubmenu.wpthemeTemplateSubmenu .wpthemeMenuBorder.wpthemeMenuSubmenu {top: -9999px;}.wpthemeMenuDropDown li.typeSubmenu {}.wpthemeMenuDropDown .wpthemeAnchorSubmenu {position: relative;}.wpthemeMenuShow .wpthemeMenuDropDown .typeSubmenu.wpthemeMenuShow .wpthemeAnchorSubmenu.wpthemeTemplateSubmenu .wpthemeMenuSubmenu {top: -2em;}.wpthemeMenuSubmenu .wpthemeMenuDropDown li {font-size: 1.1em;}.wpthemeMenuSubmenu .wpthemeMenuDropDown .wpthemeMenuLoading {font-size: 1.1em;}.wpthemeMenuOverlay {visibility:hidden; position: absolute;}.wpthemeMenuShow .wpthemeMenuOverlay {visibility: visible; z-index: 10000;}.lotusui_ie7 .wpthemeControlBody .lotusSection,.lotusui_ie7 .wpthemeControlBody .lotusWelcomeBox {position: static;}.wpthemePlain .wpthemeControlHeader .wpthemeMenuFocus,.wptheme_ie7 .wpthemePlain .wpthemeControlHeader .wpthemeMenuFocus {display:none;}.wptheme_ie7 .wpthemeMenuDropDown {min-height: 0;}
+.wpthemeMenuLeft {color: #000; float:left; position: absolute; z-index:10000; font-size: 0.9em;}.wpthemeMenuRight {color: #000; float:right; position: absolute; z-index:10000; font-size: 0.9em;}.lotusui_ie7 .wpthemeMenuRight {float: none;}.wpthemeMenuLeft .wpthemeMenuBorder .wpthemeMenuNotchBorder {left: 0px;}.wpthemeIcon .wpthemeMenuLeft .wpthemeMenuBorder .wpthemeMenuNotchBorder {left: -20px;}.wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {right: 0px;}.wpthemeActionsMenu .wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {padding: 0 30px;}.wpthemeIcon .wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {right: -5px;}.wpthemeMenuBorder .wpthemeMenuDropDown li.rtl {text-align: right;}.wpthemeMenuShow .wpthemeMenuLeft .wpthemeMenuBorder {left: -10px; top: 25px; display: block;}.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuBorder {right: -10px; top: 25px; display: block;}.wpthemeIcon.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuBorder {right: 0px;}.wpthemeMenuShow .wpthemeMenuLeft .wpthemeMenuLoading {position: static;}.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuLoading {position: static;}.wpthemeMenuLeft .typeSubmenu.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {left: 104%;}.wpthemeMenuLeft .typeSubmenu.rtl.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {left: auto; right: 102%;}.wpthemeMenuRight .typeSubmenu.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {right: 102%;}.wpthemeMenuRight .typeSubmenu.rtl.wpthemeMenuShow .wpthemeMenuBorder.wpthemeMenuSubmenu {left: 104%; right: auto;}
+.stActionMenu .wpthemeMenuBorder .wpthemeMenuNotchBorder {background-image: none;}.stActionMenu .wpthemeMenuBorder {border: 2px solid #e0e0e0; box-shadow: none; border-radius: 0;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuLoading {margin: 0; margin-left: 10px;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuDropDown {border: none; padding: 0;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuDropDown li {padding: 14px 20px; margin: 0; font-size: 14px; color: #323232; border: none;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeSeparator {background-color: transparent; border-top: thin solid #e0e0e0; font-size: 0; line-height: 0; padding: 0 10px;}.wpToolbarMenu {font-size: 75%;}.wpToolbarMenu .wpthemeMenuBorder .wpthemeMenuDropDown li{font-size: 1.1em;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuDropDown li:focus, .stActionMenu .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li:hover {background-color: #e0e0e0; margin: 0; border: 0;}.stActionMenu .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader {font-size: 14px;}.stActionMenu .wpthemeNoTouch .wpthemeMenuBorder .wpthemeMenuDropDown li.typeHeader:hover {border: none;}.stActionMenu .wpthemeMenuLoading {padding: 14px 20px;}.stActionMenu .wpthemeMenuLoadingText {padding-left: 30px; font-size: 14px;}.stActionMenu.wpthemeMenuShow .wpthemeMenuRight .wpthemeMenuBorder {top: 54px !important; right: -2px;}.stActionMenu .wpthemeAnchorSubmenu.wpthemeTemplateSubmenu .wpthemeMenuBorder {top: -99999px !important;}.stActionMenuFixed {position: fixed;}
+/** CSS styles for the project mode container (project menu + edit mode toggle) */
+.wpToolbarProjectModeContainer {
+    line-height: 1.5em;
+    display: inline-block;
+    padding: 0px;
+}
+.wpToolbarProjectModeContainer > div {
+    float: left;
+    display: block;
+    padding: 4px 12px;
+}
+
+/* CSS styles for edit mode switch */
+.wpPageModeLabel {
+    float: left;
+    padding-right: 7px;
+    cursor: text;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+}
+.wpPageModeToggle {
+    /* min-width: 64px;
+    line-height: 1.35em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+    color: #FEFEFE;
+    cursor: pointer;
+    float: left;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 1px;
+    box-shadow: inset 0px 1px 2px #1a1a1a, 0px 1px 0px #262626;
+    -webkit-box-shadow: inset 0px 1px 2px #1a1a1a, 0px 1px 0px #262626;
+    -moz-box-shadow: inset 0px 1px 2px #1a1a1a, 0px 1px 0px #262626;
+    background: linear-gradient(to top, #454545 0%, #8b8b8b 100%);
+    background: -o-linear-gradient(to top, #454545 0%, #8b8b8b 100%);
+    background: -moz-linear-gradient(to top, #454545 0%, #8b8b8b 100%);
+    background: -webkit-linear-gradient(to top, #454545 0%, #8b8b8b 100%);
+    background: -ms-linear-gradient(to top, #454545 0%, #8b8b8b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #454545), color-stop(1.0, #8b8b8b));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#454545', endColorstr='#8b8b8b');
+    background-color: #454545; */
+}
+.wpPageModeToggle .off,
+.wpPageModeToggle .on,
+.wpPageModeToggle .knob {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.wpPageModeToggle .off {
+    padding-right: 6px;
+    text-shadow: 0 0 2px rgba(0,0,0,1);
+    text-align: right;
+}
+.a11yHighContrast .wpPageModeToggle.disabled .off,
+.a11yHighContrast .wpPageModeToggle.disabled .on,
+.lotusImagesOff .wpPageModeToggle.disabled .off,
+.lotusImagesOff .wpPageModeToggle.disabled .on,
+.wpThemeImagesOff .wpPageModeToggle.disabled .off,
+.wpThemeImagesOff .wpPageModeToggle.disabled .on {
+    font-style: italic;
+}
+.wpPageModeToggle .on span {
+    padding-left: 6px;
+    text-overflow: ellipsis;
+}
+.wpPageModeToggle .on {
+    position: absolute;
+    top: 1px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: inset 0px 1px 3px #262626;
+    -webkit-box-shadow: inset 0px 1px 3px #262626;
+    -moz-box-shadow: inset 0px 1px 3px #262626;
+    background: linear-gradient(to top, #3079af 0%, #4993c9 100%);
+    background: -o-linear-gradient(to top, #3079af 0%, #4993c9 100%);
+    background: -moz-linear-gradient(to top, #3079af 0%, #4993c9 100%);
+    background: -webkit-linear-gradient(to top, #3079af 0%, #4993c9 100%);
+    background: -ms-linear-gradient(to top, #3079af 0%, #4993c9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #3079af), color-stop(1.0, #4993c9));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3079af', endColorstr='#4993c9');
+    background-color: #3079af;
+    margin: -1px;
+    padding: 1px;
+    width: 100%;
+}
+.lotusui_ie8 .wpPageModeToggle .disabled,
+.lotusui_ie9 .wpPageModeToggle .disabled,
+.lotusui_ie8 .wpPageModeToggle .on,
+.lotusui_ie9 .wpPageModeToggle .on {
+    margin: 0;
+    padding: 0;
+}
+.wpPageModeToggle .disabled {
+    display: none;
+    color: #000;
+    position: absolute;
+    cursor: default;
+    top: 1px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: rgba(240, 240, 240, 0.5);
+    margin: -1px;
+    padding: 1px;
+    width: 100%;
+}
+.a11yHighContrast .wpPageModeToggle .disabled,
+.lotusImagesOff .wpPageModeToggle .disabled,
+.wpThemeImagesOff .wpPageModeToggle .disabled {
+    background-color: rgba(240, 240, 240, 0);
+}
+.wpPageModeToggle.disabled .disabled {
+    display: block;
+}
+.wpPageModeToggle .filler {
+    display: inline-block;
+    width: 28px;
+}
+.wpPageModeToggle .knob a {
+    width: 22px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    display: block;
+    background-color: #eaeaea;
+    background: linear-gradient(to top, #eaeaea 0%, #b5b5b5 100%);
+    background: -o-linear-gradient(to top, #eaeaea 0%, #b5b5b5 100%);
+    background: -moz-linear-gradient(to top, #eaeaea 0%, #b5b5b5 100%);
+    background: -webkit-linear-gradient(to top, #eaeaea 0%, #b5b5b5 100%);
+    background: -ms-linear-gradient(to top, #eaeaea 0%, #b5b5b5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #eaeaea), color-stop(1.0, #b5b5b5));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5b5b5', endColorstr='#eaeaea');
+    box-shadow: inset 0px 0px 2px #d9d9d9;
+    -webkit-box-shadow: inset 0px 0px 2px #d9d9d9;
+    -moz-box-shadow: inset 0px 0px 2px #d9d9d9;
+    text-decoration: none;
+}
+.wpPageModeToggle .knob {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+.wpPageModeToggle .knob span {
+    color: #000;
+    background-color: #eaeaea;
+}
+.wpPageModeToggle.valueon .knob {
+    right: 0px;
+}
+.wpPageModeToggle.valueon .on {
+    left: 1px;
+}
+.wpPageModeToggle.valueoff .knob {
+    left: 0px;
+}
+.wpPageModeToggle.valueoff .on {
+    left: -100%;
+}
+/* defect #93231 HCM should be OneUI independent */
+.a11yHighContrast .wpPageModeToggle,
+.wpthemeImagesOff .wpPageModeToggle,
+.lotusImagesOff .wpPageModeToggle {
+    border: 1px solid #C4C4C4;
+}
+
+/* General CSS style definitions for action bar */
+.wpthemeComplementaryContent #actionBar {
+    display: none;
+}
+.wpToolbarActionBar {
+    position: relative;
+    height: 3em;
+    line-height: 3em;
+    min-height: 36px;
+    max-height: 48px;
+    z-index: 1000;
+}
+#wpToolbarActionBarBackground{
+    background-color: #262626;
+    background: #262626;
+}
+.wpToolbarActionBar > ul,
+.wpToolbarActionBar > ul > li,
+.wpToolbarActionBar > ul > li > div,
+.wpToolbarActionBar > ul > li > div > a,
+.wpToolbarProjectModeContainer > div,
+.wpToolbarMoreMenuContainer > div,
+.wpToolbarMoreMenuContainer > div > a {
+    height: 100%;
+    box-sizing: border-box;
+}
+.wpToolbarActionBar > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid #4c4d53;
+}
+.wpToolbarActionBar .wpToolbarActionArea,
+.wpToolbarActionBar .wpToolbarToggleLink,
+.wpToolbarActionBar .wpToolbarToggle {
+    float: left;
+}
+.wpToolbarActionBar .wpToolbarToggleLink a {
+    min-width: 36px;
+    padding: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.wpToolbarSites, 
+.wpToolbarApplications, 
+.wpToolbarMoreMenu, 
+.infoModeToggle, 
+.wpToolbarAdministration {
+    padding: 0 6px 0 6px;
+}
+#wpToolbarSitesNavMenu:hover, 
+#wpToolbarApplicationsNavMenu:hover, 
+#wpToolbarMoreMenu:hover, 
+#wpHelpArticleLink:hover, 
+#wpToolbarAdministrationNavMenu:hover, 
+#wpInfoModeToggleLink:hover, 
+#wpToolbarToggle:not(.selected):hover a, 
+#wpToolbarToggle.selected:hover a,
+#wpToolbarSitesNavMenu:focus, 
+#wpToolbarApplicationsNavMenu:focus, 
+#wpToolbarMoreMenu:focus, 
+#wpHelpArticleLink:focus, 
+#wpToolbarAdministrationNavMenu:focus, 
+#wpInfoModeToggleLink:focus, 
+#wpToolbarToggle:not(.selected):focus a, 
+#wpToolbarToggle.selected:focus a {
+    background-color: #555;
+    background-clip: content-box;
+    margin: 3px;
+}
+.wpToolbarLanguage {
+    padding:  6px 6px 4px;
+}
+.wb-translation-desktop:hover,
+.wb-translation-desktop:focus {
+    background-color: #555;
+    border-radius: 2px;
+ }   
+.wb-translation-desktop:hover select,
+.wb-translation-desktop:focus select {
+    background-color: #555;
+    padding:  0;
+    margin: 0;
+    border-radius: 2px;
+}
+#wpToolbarSitesNavMenu, 
+#wpToolbarApplicationsNavMenu, 
+#wpToolbarMoreMenu, 
+#wpHelpArticleLink, 
+#wpToolbarAdministrationNavMenu, 
+#wpInfoModeToggleLink, 
+#wpToolbarToggle:not(.selected) a, 
+#wpToolbarToggle.selected a {
+    min-width: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+.wpToolbarActionBar .toolbarToggle {
+    visibility: visible;
+}
+.wpToolbarActionBar .toolbarToggle .disabled {
+    visibility: hidden;
+}
+#wpToolbarToggle {
+    padding: 0 9px 0 9px;
+}
+#wpToolbarToggle.selected {
+    background-color: #363636;
+}
+.a11yHighContrast .wpToolbarActionBar .wpToolbarActionArea.toolbarToggle a,
+.wpthemeImagesOff .wpToolbarActionBar .wpToolbarActionArea.toolbarToggle a,
+.lotusImagesOff .wpToolbarActionBar .wpToolbarActionArea.toolbarToggle a {
+    width: 100px;
+}
+.wpToolbarActionBar .wpToolbarActionArea.modeToggle {
+    padding: 6px 6px 4px;
+}
+.wpToolbarActionBar .wpToolbarActionArea.modeToggle .wpToolbarToggle > a{
+    cursor: default;
+    padding: 0px 11px;
+}
+.wpToolbarActionBar .wpToolbarActionArea.modeToggle .wpToolbarToggle.selected  > a{
+    border: 1px solid #adadad;
+    box-shadow: inset 1px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 1px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 1px 1px 0px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, #D1D1D1 10%, #DBDBDB 90%);
+    background: -o-linear-gradient(to top, #D1D1D1 10%, #DBDBDB 90%);
+    background: -moz-linear-gradient(to top, #D1D1D1 10%, #DBDBDB 90%);
+    background: -webkit-linear-gradient(to top, #D1D1D1 10%, #DBDBDB 90%);
+    background: -ms-linear-gradient(to top, #D1D1D1 10%, #DBDBDB 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #D1D1D1), color-stop(0.9, #DBDBDB));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#D1D1D1');
+}
+.a11yHighContrast .wpToolbarActionBar img {
+    display: none;
+}
+.a11yHighContrast .wpToolbarActionBar .wpToolbarMenu .wpToolbarAltText,
+.a11yHighContrast .wpToolbarActionBar .selected .wpToolbarImagesOff.on,
+.wpthemeImagesOff .wpToolbarActionBar .selected .wpToolbarImagesOff.on,
+.lotusImagesOff .wpToolbarActionBar .selected .wpToolbarImagesOff.on,
+.a11yHighContrast .wpToolbarActionBar .wpToolbarImagesOff.off,
+.wpthemeImagesOff .wpToolbarActionBar .wpToolbarImagesOff.off,
+.lotusImagesOff .wpToolbarActionBar .wpToolbarImagesOff.off {
+    display: inline;
+}
+.a11yHighContrast .wpToolbarActionBar .wpToolbarImagesOff.on,
+.wpthemeImagesOff .wpToolbarActionBar .wpToolbarImagesOff.on,
+.lotusImagesOff .wpToolbarActionBar .wpToolbarImagesOff.on,
+.a11yHighContrast .wpToolbarActionBar .selected .wpToolbarImagesOff.off,
+.wpthemeImagesOff .wpToolbarActionBar .selected .wpToolbarImagesOff.off,
+.lotusImagesOff .wpToolbarActionBar .selected .wpToolbarImagesOff.off {
+    display: none;
+}
+.wpToolbarLeft {
+    float: left;
+}
+.wpToolbarRight {
+    float: right;
+}
+.wpToolbarToggle .wpthemeMenu {
+    z-index: 5000;
+}
+/** Login link */
+.wpToolbarActionBar .wpToolbarLoginContainer {
+    width: 100%;
+    position: absolute;
+    z-index: 5000;
+}
+.wpToolbarActionBar .wpToolbarLogin {
+    position: absolute;
+    left: 50%;
+    z-index: 5000;
+}
+.wpToolbarActionBar .wpToolbarLogin > div {
+    position: relative;
+    left: -50%;
+    height: 20px;
+}
+.wpToolbarActionBar .wpToolbarLogin a,
+.wpToolbarActionBar .wpToolbarLogin a:visited,
+.wpToolbarActionBar .wpToolbarLogin a:hover,
+.wpToolbarActionBar .wpToolbarLogin a:active,
+.wpToolbarActionBar .wpToolbarLogin a:focus,
+.wpToolbarActionBar .wpToolbarLogin a:link {
+    color: #fff;
+    font-family: "Helvetica Neue";
+}
+
+.wb-translation-icon {
+    margin-top: 6px;
+}
+
+.wb-translation-select {
+    color: white;
+    border: none;
+    font-size: 12px;
+    appearance:  none;
+    height:  1.5em;
+    background: #262626 url("data:image/svg+xml;utf8,<svg focusable='false' viewBox='0 0 32 32' aria-hidden='true' role='presentation' data-mui-test='caret--downIcon' xmlns='http://www.w3.org/2000/svg'><g><path d='M23 12l-7 8-7-8h14z' fill='white'/></g></svg>") no-repeat;
+    background-position: right 0 top 50%; 
+}
+
+.wb-translation-desktop {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font: 75%/1.5 Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.wb-translation-select-hide {
+    visibility: hidden;
+}
+
+.form-inline.wb-translation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-translate {
+    fill: #fff;
+    width: 2em;
+    height: 2em;
+    margin-top: 4px;
+}
+
+/* DXQ-1988 update */
+.typeMenuitem.wpthemeSelected.typeMenuitem.wpthemeSelected,
+.typeMenuitem.wpthemeSelected:hover.typeMenuitem.wpthemeSelected:hover {
+    background-color: #0066b3;
+    color: #ffffff;
+}
+.wpToolbarToggle .wpthemeMenuBorder .wpthemeMenuDropDown li {
+    text-align: left;
+}
+.wpToolbarActionBar .wpToolbarLogo {
+    position: relative;
+    width: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+:-moz-focusring {
+    outline: 2px dotted white;
+}
+.wpToolbarActionBar .wpToolbarLogo img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    vertical-align: baseline;
+}
+
+.wpToolbarLogo a {
+    line-height: 3em;
+}
+.selected .wpToolbarActionBarImages-Toolbar,
+.wpToolbarActionBarImages-ToolbarSelected,
+.selected .wpToolbarActionBarImages-InfoMode,
+:hover > .wpToolbarActionBarImages-InfoMode,
+.wpToolbarActionBarImages-InfoModeSelected,
+.wpToolbarActionBarImages-InfoModeHover,
+.selected:hover .wpToolbarActionBarImages-InfoModeHover,
+.selected .wpToolbarActionBarImages-Sites,
+:hover > .wpToolbarActionBarImages-Sites,
+.wpToolbarActionBarImages-SitesSelected,
+.selected .wpToolbarActionBarImages-Applications,
+:hover > .wpToolbarActionBarImages-Applications,
+.wpToolbarActionBarImages-ApplicationsSelected,
+.selected .wpToolbarActionBarImages-Administration,
+:hover > .wpToolbarActionBarImages-Administration,
+.wpToolbarActionBarImages-AdministrationSelected,
+.wpToolbarActionBarImages-DashboardHover,
+:hover > .wpToolbarActionBarImages-Dashboard {
+    display: none;
+}
+.selected .wpToolbarActionBarImages-ToolbarSelected,
+.selected .wpToolbarActionBarImages-InfoModeSelected,
+:hover > .wpToolbarActionBarImages-SitesSelected,
+:hover > .wpToolbarActionBarImages-ApplicationsSelected,
+:hover > .wpToolbarActionBarImages-AdministrationSelected,
+.selected .wpToolbarActionBarImages-SitesSelected,
+.selected .wpToolbarActionBarImages-ApplicationsSelected,
+.selected .wpToolbarActionBarImages-AdministrationSelected,
+:hover > .wpToolbarActionBarImages-InfoModeHover,
+:hover > .wpToolbarActionBarImages-DashboardHover {
+    display: inline-block;
+}
+@media (max-width: 979px) {
+    .wpToolbarActionBar .wpToolbarLogo {
+        display: none;
+    }
+}
+/*
+ * If the screen is smaller than 768 pixels,
+ * we want to hide the controls to open the toolbar.
+ */
+@media (max-width: 767px) {
+    .wpToolbarActionBar .toolbarToggle,
+    .wpToolbarActionBar .infoModeToggle,
+    .wpToolbarActionBar .contextSensitiveHelp,
+    .wpToolbarActionBar .wpPageModeToggleContainer {
+        display: none;
+    }
+}
+/*
+ * If the screen is smaller than 480 pixels,
+ * we only want to display the navigation controls.
+ */
+@media (max-width: 479px) {
+    .wpToolbarActionBar .wpToolbarPreviewMenu,
+    .wpToolbarActionBar .wpToolbarMoreMenu {
+        display: none;
+    }
+}
+/*
+ * Draft ribbon overrides
+ */
+body.toolbar-closed .wpthemeDraftRibbonLeft,
+body.toolbar-closed .wpthemeDraftRibbonRight {
+    top: calc(3em + 1px);
+}
+/*
+ * Hide the Create Page link on the No Content Available screen.
+ */
+#ibm\.portal\.home\.createpage,
+#ibm\.portal\.home\.createpage + br  {
+    display: none;
+}
+/*
+ * Show the Create Page link on the No Content Available screen for edit mode.
+ */
+.edit-mode #ibm\.portal\.home\.createpage,
+.edit-mode #ibm\.portal\.home\.createpage + br {
+    display: inline-block;
+}
+
+/* ENCHANTED UI */
+/* DIALOG ROOT */
+
+.wpHelpCenterBackdrop-root  {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: fixed;
+    touch-action: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+
+/* DIALOG CONTAINER */
+.wpHelpCenterDialog-container {
+    /* height: 100%; */
+    /* outline: none; */
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    opacity: 1;
+}
+
+.wpHelpCenterDialog-root {
+    display: none;
+}
+
+.wpHelpCenterDialog-scrollPaper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* DIALOG */
+.wpHelpCenterDialog-paperWidthSm {
+    max-width: 100%;
+    min-width: 55%;
+}
+
+.wpHelpCenterDialog-paperScrollPaper {
+    display: flex;
+    max-height: 100%;
+    flex-direction: column;
+}
+
+.wpHelpCenterDialog-paper {
+    margin: 48px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.wpHelpCenterPaper-elevation24 {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px
+    rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.wpHelpCenterPaper-rounded {
+    border-radius: 2px;
+}
+
+.wpHelpCenterPaper-root {
+    color: #001423; 
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+}
+
+/* MODAL TITLE */
+.wpHelpCenterDialogTitle-title {
+    margin: 0;
+    padding: 16px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.wpHelpCenterDialogTitle-root {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 8px 8px;
+    line-height: 1.5em;
+}
+
+/* CLOSE BUTTON */
+.wpHelpCenterIconButton-root:hover {
+    background-color: rgba(113, 113, 113, 0.1);
+}
+
+.wpHelpCenterIconButton-button {
+    top: 8px;
+    color: #8D8D8D;
+    right: 8px;
+    position: absolute;
+}
+
+.wpHelpCenterIconButton-root {
+    flex: 0 0 auto;
+    color: #717171;
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+
+.wpHelpCenterButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    position: inherit;
+    align-items: center;
+    border-radius: 0;
+    background-color: transparent;
+    float: right;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.wpHelpCenterIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.wpHelpCenterSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    -webkit-user-select: none;
+}
+
+.wpHelpCenterTouchRipple-root {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+/* DIALOG CONTENT */
+.wpHelpCenterDialogContent-content {
+    margin: 0;
+    padding: 16px;
+}
+
+#wpHelpCenterDialogContent-root {
+    flex: 0 1 auto;
+    padding: 16px 24px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.wpHelpCenterTypography-gutterBottom {
+    margin-bottom: 1.0em;
+}
+
+.wpHelpCenterTypography-body1 {
+    font-size: 1rem;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* DIALOG FOOTER */
+.wpHelpCenterDialogActions-spacing {
+    margin: 0;
+    /* padding: 8px; */
+    border-top: 1px solid #C6C6C6;
+}
+
+.wpHelpCenterDialogActions-root {
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.wpHelpCenterFooterBase-root{
+    padding: 8px 24px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: 1.5em;
+}
+
+/* IFRAME */
+.wpHelpIFrame {
+    min-width: 100%;
+    height: 640px;
+    box-shadow: none;
+}
+.wpToolbarActionBarSVG{
+    margin-top: 6px;
+    fill: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.wpToolbarActionBarSVGCaret{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.wpToolbarActionBarImagesSVG{
+    background-image: none;
+}
+.wpToolbarActionBarSVGFontSize{
+    font-size: 1em;
+}
+
+.remove{
+    display: none;
+}
+
+.label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.label-text {
+    margin-left: 8px;
+    color: #fff;
+    float: right;
+}
+
+.toggle {
+    isolation: isolate;
+    position: relative;
+    margin-top: -3px;
+    height: 20px;
+    width: 44px;
+    border-radius: 15px;
+    background: #555555;
+    overflow: hidden;
+}
+
+.toggle-inner {
+    z-index: 2;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 18px;
+    width: 42px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.active-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    background: #8E521B;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 0.05s linear 0.17s;
+}
+
+.toggle-state {
+    display: none;
+}
+
+.indicator {
+    height: 100%;
+    width: 200%;
+    background: #EFEFEF;
+    border-radius: 13px;
+    transform: translate3d(-75%, 0, 0);
+    transition: transform 0.35s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+}
+
+.toggle-state:checked ~ .active-bg {
+    transform: translate3d(-50%, 0, 0);
+}
+
+.toggle-state:checked ~ .toggle-inner .indicator {
+    transform: translate3d(25%, 0, 0);
+    background: #F58318;
+}
+.disableClick{
+    /* pointer-events: none; */
+    opacity:0.5;
+}
+.show-text{
+    display: block;
+}
+.hide-text{
+    display: none;
+}
+.wpthemeMenuRight .wpthemeMenuBorder .wpthemeMenuNotchBorder {
+    right: 16px;
+}
+.label-container{
+    float: left;
+}
+
+/* Tooltips */
+
+.tooltipContextMenu,
+.wpToolbarLogo .wpLogoTooltip {
+
+    visibility: hidden;
+    width: auto;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 8px 0px 8px;
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    min-height: 22px;
+    line-height: 14px;
+    top: 115%;
+    margin-left: -11px;
+    box-sizing: content-box;
+}
+
+/* Horizontally center toolbar tooltips for the context menu buttons  */
+.contextMenus 
+.tooltipContextMenu,
+.wpLogoTooltip {
+    transform: translateX(50%);
+}
+
+.tooltipLeft{ left: 50%; }
+.tooltipLeftProject{ left: 3%; }
+.tooltipRight{ right: 50%; }
+#projectMenu {top: 130%;}
+
+.wpToolbarMenu.wpToolbarSites.wpToolbarToggleLink:hover span.tooltipContextMenu,
+.wpToolbarMenu.wpToolbarApplications.wpToolbarToggleLink:hover span.tooltipContextMenu,
+div#wpHelpArticleButtonId:hover span.tooltipContextMenu,
+.wpToolbarMenu.wpToolbarMoreMenu.wpToolbarToggleLink:hover a span.tooltipContextMenu,
+.label-container:hover span.tooltipContextMenu,
+.wpToolbarMenu.wpToolbarAdministration.wpToolbarToggleLink:hover span.tooltipContextMenu,
+#wpToolbarProjectMenuLink:hover span#projectMenu,
+#wpToolbarToggleLink:hover span.tooltipContextMenu,
+.wpToolbarLogo:hover .wpLogoTooltip {
+    visibility: visible;
+}
+
+.wb-translation-desktop:hover span#lang_tooltip {
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+#wpToolbarSitesNavMenu,
+#wpToolbarApplicationsNavMenu,
+#wpToolbarMoreMenu,
+#wpHelpArticleLink,
+#wpToolbarProjectInfoBox,
+#wpToolbarToggleLink,
+.label{
+    position: relative;
+}
+/* End Tooltips */header.stFixedNavbar {position: fixed; top: 0; left: 0; right: 0; z-index: 99;}header.stFixedNavbar .stNavigationShow {position: fixed;}.wpthemeDraftRibbonLeft,.wpthemeDraftRibbonRight {width: 40px; height: 100%; position: fixed; top: 0; background-color: rgba(0, 0, 0, 0.6);}.wpthemeDraftRibbonLeft {border-right: 1px solid rgba(256, 256, 256, 0.6);}.wpthemeDraftRibbonRight {right: 0; border-left: 1px solid rgba(256, 256, 256, 0.6);}.wpthemeDraftRibbonLeft .wpthemeDraftText,.wpthemeDraftRibbonRight .wpthemeDraftText {font-style: italic; font-weight: bold; color: white; white-space: nowrap; position: fixed; bottom: -50px;}.wpthemeDraftRibbonLeft .wpthemeDraftText {-webkit-transform: rotate(-90deg); -webkit-transform-origin: left top; -moz-transform: rotate(-90deg); -moz-transform-origin: left top; -o-transform: rotate(-90deg); -o-transform-origin: left top; -ms-transform: rotate(-90deg); -ms-transform-origin: 0px 0px; transform: rotate(-90deg); transform-origin: left top; left: 10px;}.wpthemeDraftRibbonRight .wpthemeDraftText {-webkit-transform: rotate(-270deg); -webkit-transform-origin: right top; -moz-transform: rotate(-270deg); -moz-transform-origin: right top; -o-transform: rotate(-270deg); -o-transform-origin: right top; -ms-transform: rotate(-270deg); -ms-transform-origin: 100% 0px; transform: rotate(-270deg); -ms-transform: rotate(-270deg); -ms-transform-origin: 100% 0px; transform-origin: right top; right: 10px;}.wpToolbarPreview {
+    width:100%;
+    position: absolute;
+    z-index: 5000;
+}
+.wpToolbarPreview .wpToolbarPreviewContainer {
+    position:fixed;
+    left: 50%;
+    z-index: 5000;
+}
+.wpToolbarPreview .wpToolbarPreviewContainer .wpToolbarStopPreview {
+    position: relative;
+    left: -50%;
+}
+.wpToolbarPreview .wpToolbarStopPreview button {
+    border-radius: 0px 0px 3px 3px;
+    color: #000;
+    text-decoration: none !important;
+    vertical-align: top;
+    padding: 3px 40px;
+    cursor: pointer;
+    display: inline;
+    font-size: 1.2em;
+    border: 1px solid #BBB;
+    border-left-color: #FFF;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    -webkit-box-shadow: 0px 2px 5px rgba(40, 40, 40, 0.8);
+    -moz-box-shadow: 0px 2px 5px rgba(40, 40, 40, 0.8);
+    box-shadow: 0px 2px 5px rgba(40, 40, 40, 0.8);
+    background-color: #EDEDED;
+    background: linear-gradient(to top, #EDEDED 10%, #E1E1E1 90%);
+    background: -o-linear-gradient(to top, #EDEDED 10%, #E1E1E1 90%);
+    background: -moz-linear-gradient(to top, #EDEDED 10%, #E1E1E1 90%);
+    background: -webkit-linear-gradient(to top, #EDEDED 10%, #E1E1E1 90%);
+    background: -ms-linear-gradient(to top, #EDEDED 10%, #E1E1E1 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #EDEDED), color-stop(0.9, #E1E1E1) );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E1E1E1', endColorstr='#EDEDED' );
+    max-height: 100px;
+    -webkit-transition: max-height 0.5s, color 0.5s;
+    -moz-transition: max-height 0.5s, color 0.5s;
+    transition: max-height 0.5s, color 0.5s;
+}
+.wpToolbarPreview .wpToolbarStopPreview button:hover,
+.wpToolbarPreview .wpToolbarStopPreview button:focus,
+.wpToolbarPreview .wpToolbarStopPreview button:active {
+    border-bottom-color: #888;
+    border-right-color: #FFF;
+    border-left-color: #FFF;
+    border-top-color: #FFF;
+    -webkit-box-shadow: 0px 3px 5px rgba(30, 30, 30, 0.8);
+    -moz-box-shadow: 0px 3px 5px rgba(30, 30, 30, 0.8);
+    box-shadow: 0px 3px 5px rgba(30, 30, 30, 0.8);
+}
+.wpToolbarPreview .wpToolbarStopPreview.minimized button {
+    max-height: 7px;
+    color: transparent;
+}
+.wpToolbarPreview .wpToolbarStopPreview button:focus {
+  max-height: inherit;
+  color: inherit;
+}
+.selected .wpToolbarActionBarImages-Preview,
+:hover > .wpToolbarActionBarImages-Preview,
+.wpToolbarActionBarImages-PreviewSelected,
+.selected .wpToolbarActionBarImages-Preview-rtl,
+:hover > .wpToolbarActionBarImages-Preview-rtl,
+.wpToolbarActionBarImages-PreviewSelected-rtl {
+	display: none;
+}
+.selected .wpToolbarActionBarImages-PreviewSelected,
+:hover > .wpToolbarActionBarImages-PreviewSelected,
+.selected .wpToolbarActionBarImages-PreviewSelected-rtl,
+:hover > .wpToolbarActionBarImages-PreviewSelected-rtl {
+	display: inline-block;	
+}.stNotice {border-radius: 2px; position: fixed; z-index: 99; top: 56px; right: -200%; min-width: 300px; background: #323232; opacity: 0.95; transition: right 0.2s ease-in;}.stNotice.open {right: 15px;}.stNotice.open:hover, .stNotice.open:focus, .stNotice.active {outline: 1px dotted #fff;}.stNotice .stNoticeClose {font-size: 24px; color: #fff; padding: 0px 15px; position: absolute; top: 0; right: 0;}.stNotice .stNoticeClose:hover {text-decoration: none; color: #fff;}.stNotice .stNoticeTitle {color: #fff; font-size: 16px; font-weight: bold; padding: 15px 25px 25px;}.stNotice .stNoticeDescription {color: #fff; padding: 0px 25px 25px;}.selected .wpToolbarActionBarImages-More,
+:hover > .wpToolbarActionBarImages-More,
+.wpToolbarActionBarImages-MoreSelected,
+.selected .wpToolbarActionBarImages-More-rtl,
+:hover > .wpToolbarActionBarImages-More-rtl,
+.wpToolbarActionBarImages-MoreSelected-rtl {
+	display: none;
+}
+.selected .wpToolbarActionBarImages-MoreSelected,
+:hover > .wpToolbarActionBarImages-MoreSelected,
+.selected .wpToolbarActionBarImages-MoreSelected-rtl,
+:hover > .wpToolbarActionBarImages-MoreSelected-rtl {
+	display: inline-block;	
+}.st-section,.st-section > *,.st-section > *:before,.st-section > *:after,.st-row > *,.st-row > *:before,.st-row > *:after,.st-col > *,.st-col > *:before,.st-col > *:after,.st-container > *,.st-container > *:before,.st-container > *:after {list-style: none; margin: 0; padding: 0; border: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}.st-section {width: 100%; margin: 0 auto; vertical-align: top; text-align: center; font-size: 0; position: relative;}.st-section-content {padding: 1rem;}.st-row {position: relative; display: block; text-align: left; font-size: 0; margin: -10px;}.st-section > .st-row {margin: 0 10px;}.st-section > .st-row.st-hidden {margin: 0;}.st-row:after {content: ''; display: inline-block; width: 100%;}.st-row-content {max-width: 1000px;}.st-row-gap {padding-top: 3rem;}.st-col {display: inline-block; width: 100%; vertical-align: top; font-size: 0; text-align: left; padding: 10px;}.st-container {width: 100%; box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; font-size: 0.75rem;}.st-col-whole{width:100%;}.st-col-0-of-12{width:0%;}.st-col-1-of-12{width:8.333333333333334%;}.st-col-2-of-12,.st-col-1-of-6{width:16.666666666666668%;}.st-col-3-of-12,.st-col-1-of-4{width:25.0%;}.st-col-4-of-12,.st-col-1-of-3{width:33.333333333333336%;}.st-col-5-of-12{width:41.666666666666664%;}.st-col-6-of-12,.st-col-1-of-2{width:50.0%;}.st-col-7-of-12{width:58.333333333333336%;}.st-col-8-of-12,.st-col-2-of-3{width:66.66666666666667%;}.st-col-9-of-12,.st-col-3-of-4{width:75.0%;}.st-col-10-of-12,.st-col-5-of-6{width:83.33333333333333%;}.st-col-11-of-12{width:91.66666666666667%;}.st-col-12-of-12,.st-col-1-of-1{width:100.0%;}@media (max-width: 435px) {.st-col.st-col-hidden{display:none;}}@media (min-width: 436px) {.st-col-a-whole{width:100%;}.st-col-a-1-of-12{width:8.333333333333334%;}.st-col-a-2-of-12,.st-col-a-1-of-6{width:16.666666666666668%;}.st-col-a-3-of-12,.st-col-a-1-of-4{width:25.0%;}.st-col-a-4-of-12,.st-col-a-1-of-3{width:33.333333333333336%;}.st-col-a-5-of-12{width:41.666666666666664%;}.st-col-a-6-of-12,.st-col-a-1-of-2{width:50.0%;}.st-col-a-7-of-12{width:58.333333333333336%;}.st-col-a-8-of-12,.st-col-a-2-of-3{width:66.66666666666667%;}.st-col-a-9-of-12,.st-col-a-3-of-4{width:75.0%;}.st-col-a-10-of-12,.st-col-a-5-of-6{width:83.33333333333333%;}.st-col-a-11-of-12{width:91.66666666666667%;}.st-col-a-12-of-12,.st-col-a-1-of-1{width:100.0%;}}@media (min-width: 436px) and (max-width: 600px) {.st-col.st-col-a-hidden{display:none;}}@media (min-width: 601px) {.st-col-b-whole{width:100%;}.st-col-b-1-of-12{width:8.333333333333334%;}.st-col-b-2-of-12,.st-col-b-1-of-6{width:16.666666666666668%;}.st-col-b-3-of-12,.st-col-b-1-of-4{width:25.0%;}.st-col-b-4-of-12,.st-col-b-1-of-3{width:33.333333333333336%;}.st-col-b-5-of-12{width:41.666666666666664%;}.st-col-b-6-of-12,.st-col-b-1-of-2{width:50.0%;}.st-col-b-7-of-12{width:58.333333333333336%;}.st-col-b-8-of-12,.st-col-b-2-of-3{width:66.66666666666667%;}.st-col-b-9-of-12,.st-col-b-3-of-4{width:75.0%;}.st-col-b-10-of-12,.st-col-b-5-of-6{width:83.33333333333333%;}.st-col-b-11-of-12{width:91.66666666666667%;}.st-col-b-12-of-12,.st-col-b-1-of-1{width:100.0%;}}@media (min-width: 601px) and (max-width: 800px) {.st-col.st-col-b-hidden{display:none;}}@media (min-width: 801px) {.st-col-c-whole{width:100%;}.st-col-c-1-of-12{width:8.333333333333334%;}.st-col-c-2-of-12,.st-col-c-1-of-6{width:16.666666666666668%;}.st-col-c-3-of-12,.st-col-c-1-of-4{width:25.0%;}.st-col-c-4-of-12,.st-col-c-1-of-3{width:33.333333333333336%;}.st-col-c-5-of-12{width:41.666666666666664%;}.st-col-c-6-of-12,.st-col-c-1-of-2{width:50.0%;}.st-col-c-7-of-12{width:58.333333333333336%;}.st-col-c-8-of-12,.st-col-c-2-of-3{width:66.66666666666667%;}.st-col-c-9-of-12,.st-col-c-3-of-4{width:75.0%;}.st-col-c-10-of-12,.st-col-c-5-of-6{width:83.33333333333333%;}.st-col-c-11-of-12{width:91.66666666666667%;}.st-col-c-12-of-12,.st-col-c-1-of-1{width:100.0%;}}@media (min-width: 801px) and (max-width: 896px) {.st-col.st-col-c-hidden{display:none;}}@media (min-width: 897px) {.st-col-d-whole{width:100%;}.st-col-d-1-of-12{width:8.333333333333334%;}.st-col-d-2-of-12,.st-col-d-1-of-6{width:16.666666666666668%;}.st-col-d-3-of-12,.st-col-d-1-of-4{width:25.0%;}.st-col-d-4-of-12,.st-col-d-1-of-3{width:33.333333333333336%;}.st-col-d-5-of-12{width:41.666666666666664%;}.st-col-d-6-of-12,.st-col-d-1-of-2{width:50.0%;}.st-col-d-7-of-12{width:58.333333333333336%;}.st-col-d-8-of-12,.st-col-d-2-of-3{width:66.66666666666667%;}.st-col-d-9-of-12,.st-col-d-3-of-4{width:75.0%;}.st-col-d-10-of-12,.st-col-d-5-of-6{width:83.33333333333333%;}.st-col-d-11-of-12{width:91.66666666666667%;}.st-col-d-12-of-12,.st-col-d-1-of-1{width:100.0%;}}@media (min-width: 897px) and (max-width: 1024px) {.st-col.st-col-d-hidden{display:none;}}@media (min-width: 1025px) {.st-col-e-whole{width:100%;}.st-col-e-1-of-12{width:8.333333333333334%;}.st-col-e-2-of-12,.st-col-e-1-of-6{width:16.666666666666668%;}.st-col-e-3-of-12,.st-col-e-1-of-4{width:25.0%;}.st-col-e-4-of-12,.st-col-e-1-of-3{width:33.333333333333336%;}.st-col-e-5-of-12{width:41.666666666666664%;}.st-col-e-6-of-12,.st-col-e-1-of-2{width:50.0%;}.st-col-e-7-of-12{width:58.333333333333336%;}.st-col-e-8-of-12,.st-col-e-2-of-3{width:66.66666666666667%;}.st-col-e-9-of-12,.st-col-e-3-of-4{width:75.0%;}.st-col-e-10-of-12,.st-col-e-5-of-6{width:83.33333333333333%;}.st-col-e-11-of-12{width:91.66666666666667%;}.st-col-e-12-of-12,.st-col-e-1-of-1{width:100.0%;}}@media (min-width: 1025px) and (max-width: 1280px) {.st-col.st-col-e-hidden{display:none;}}@media (min-width: 1281px) {.st-col.st-col-f-hidden{display:none;}.st-col-f-whole{width:100%;}.st-col-f-1-of-12{width:8.333333333333334%;}.st-col-f-2-of-12,.st-col-f-1-of-6{width:16.666666666666668%;}.st-col-f-3-of-12,.st-col-f-1-of-4{width:25.0%;}.st-col-f-4-of-12,.st-col-f-1-of-3{width:33.333333333333336%;}.st-col-f-5-of-12{width:41.666666666666664%;}.st-col-f-6-of-12,.st-col-f-1-of-2{width:50.0%;}.st-col-f-7-of-12{width:58.333333333333336%;}.st-col-f-8-of-12,.st-col-f-2-of-3{width:66.66666666666667%;}.st-col-f-9-of-12,.st-col-f-3-of-4{width:75.0%;}.st-col-f-10-of-12,.st-col-f-5-of-6{width:83.33333333333333%;}.st-col-f-11-of-12{width:91.66666666666667%;}.st-col-f-12-of-12,.st-col-f-1-of-1{width:100.0%;}}.stSearch {height: 54px; width: 54px; transition: width 0.2s ease; display: none;}.stLoggedIn .stSearch {display: inherit;}.stNoTouch .stSearch:hover, .stNoTouch .stSearch:focus {background-color: rgba(255, 255, 255, 0.13); color: #ffffff; outline: none;}.stSearch div {display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; padding: 13px 0px; margin: 0; overflow: hidden; vertical-align: middle; float: right; width: 0px; transition: width 0.2s ease;}.stSearch form {margin-left: 0; height: 2em; border: none; border-bottom: 1px solid #fff; width: 100%;}.stSearch.open {width: 250px;}.stSearch.open div {width: 16.3em;}.stSearch.open form {margin-left: 15px; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex;}.stSearch input.stSearchText {background: transparent; padding: .417em; font-size: 14px; color: #fff; border: 0; float: left; width: 100%; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex;}.stSearch input.stSearchText:focus {outline: none;}.stSearch input.stSearchText::-webkit-input-placeholder {color: #fff; opacity: 1; font-size: 14px;}.stSearch input.stSearchText::-moz-placeholder {color: #fff; opacity: 1; font-size: 14px;}.stSearch input.stSearchText:-moz-placeholder {color: #fff; opacity: 1; font-size: 14px;}.stSearch input.stSearchText:-ms-input-placeholder {color: #fff; opacity: 1; font-size: 14px;}.stSearch form button.stSearchClear {color: #fff; background: transparent; border: none; display: inline; float: right; padding: 5px 2px; font-size: 14px; line-height: 1;}.stSearch a.stSearchButton {float: right; padding: 15px 15px 10px; vertical-align: middle; display: inline-block;}.stSearch a.stSearchButton:focus {color: #fff;}.stSearchIcon {height: 2em; width: 2em; fill: #FFF;} .wpthemeMessage {background-color: #FFEBE6; border-color: #F08137; border-radius: 3px 3px 3px 3px; font-size: 0.9em; padding: 10px; margin-bottom: 12px; overflow: hidden; position: relative; border-style: solid; border-width: 1px;} .wpthemeMessage .wpthemeDetails {background-color: #FFF; padding: 6px; margin-top: 6px; color: #333; border-radius: 0px 0px 3px 3px;}.wpthemeMessage .wpthemeMsgIcon {margin-right: 7px; margin-top: 0; float: left;}.wpthemeMsgIcon16 {background-image: url("/wps/themeModules/modules/pagebuilder/css/images/statusSprite.png"); background-repeat: no-repeat; height: 16px; width: 16px;}.wpthemeMessage.wpthemeMoreMsg {margin-left: 10px;}.wpthemeMessage.wpthemeInfo {background-color: #D9F1FB; border-color: #00B0DA;}.wpthemeMessage.wpthemeWarning {background-color: #FDF4C8; border-color: #E48617;}.wpthemeMessage.wpthemeSuccess {background-color: #ECF9DF; border-color: #108F53;}.wpthemeMsgIconInfo {background-position: 0px -26px;}.wpthemeMsgIconError {background-position: 0px 0px;}.wpthemeMsgIconWarning {background-position: 0px -78px;}.wpthemeMsgIconSuccess {background-position: 0px -52px;}.wpthemeMsgIconInfo, .wpthemeMsgIconError, .wpthemeMsgIconWarning,.wpthemeMsgIconSuccess {background-image: url("/wps/themeModules/modules/pagebuilder/css/images/statusSprite.png"); background-repeat: no-repeat; display: inline-block; height: 16px; width: 16px;}.wpthemeMessage span.wpthemeAltText {float: left; margin-left: 5px; margin-right: 5px;}.wpthemeMessage .wpthemeMessageBody {margin: 0 20px;}a.wpthemeHideShow {position: absolute; right: 22px; top: 5px;}.wpthemeMsgIconHide {background-position: 0 -104px; opacity: 0.55; height: 12px; width: 12px;}.wpthemeMsgIconShow {background-position: 0 -126px; opacity: 0.55; height: 12px; width: 12px;}a.wpthemeHideShow img {opacity: 0.60; filter: alpha(opacity=60); margin: 7px;}a.wpthemeHideShow:hover img, a.wpthemeHideShow:focus img, a.wpthemeHideShow:active img {opacity: 0.85; filter: alpha(opacity=85);}.wpthemeMessage .wpthemeDelete {right: 10px; top: 10px; position: absolute; background-repeat: no-repeat;}a.wpthemeDelete img {background-image: url("/wps/themeModules/modules/pagebuilder/css/images/statusSprite.png"); background-position: 0px -148px; height: 12px; opacity: 0.45; vertical-align: top; width: 12px; float: none; margin-top: 2px;}.wpToolbarProjectModeContainer > div.divider {
+    display: block !important;
+}
+.wpToolbarProjectInfoBox > div {
+    display: none;
+}
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled > div {
+    display: block;
+}
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled a.wpToolbarProjectMenuLink,
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled a.wpToolbarProjectMenuLink:link,
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled a.wpToolbarProjectMenuLink:active,
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled a.wpToolbarProjectMenuLink:focus,
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled a.wpToolbarProjectMenuLink:hover {
+    display: none;
+}
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink,
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink:link,
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink:active,
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink:visited,
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink:hover {
+    color: #fff;
+}
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled .wpToolbarProjectLabel:hover,
+.wpToolbarProjectInfoBox.wpToolbarProjectMenuDisabled .wpToolbarPublishedSiteLabel:hover,
+.wpToolbarProjectInfoBox a {
+    text-decoration: none !important;
+}
+.wpToolbarProjectInfoBox .wpToolbarProjectLabel,
+.wpToolbarProjectInfoBox .wpToolbarPublishedSiteLabel {
+    padding-right: 1px;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+}     
+.wpToolbarProjectInfoBox:hover,
+.wpToolbarProjectInfoBox:focus {
+    background-color: #555;
+    border-radius: 2px;
+}
+.wpToolbarProjectInfoBox:hover a,
+.wpToolbarProjectInfoBox:focus a {
+    background-color: #555; 
+    padding:  0;
+    margin:  0;
+    border-radius: 2px;
+}  
+.wpToolbarProjectInfoBox a.wpToolbarProjectMenuLink img {
+    width: 9px;
+    height: 9px;
+}
+.lotus_rtl .wpToolbarProjectInfoBox .wpToolbarProjectLabel,
+.lotus_rtl .wpToolbarProjectInfoBox .wpToolbarPublishedSiteLabel {
+    padding-left: 1px;
+    padding-right: 0px;
+}
+/*
+ * If the screen is smaller than 768 pixels,
+ * we just want to display the label but not
+ * let the user open the project menu.
+ */
+@media (max-width: 767px) {
+    .wpToolbarProjectInfoBox > div {
+        display: block !important;
+    }
+    .wpToolbarProjectInfoBox > a {
+        display: none !important;
+    }
+}
+/*
+ * If the screen is smaller than 480 pixels,
+ * we want to hide the entire UI control.
+ */
+@media (max-width: 479px) {
+    .wpToolbarProjectInfoBox {
+        display: none !important;
+    }
+}
+
+.wpToolbarActionBarSVGPublishCaret {
+    fill: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wpToolbarActionBarSVGFontSize{
+    font-size: 1em;
+}
+.oobSampleContentContainer{
+   position: relative; 
+}
+
+.oobSampleContentContainer:focus{
+   outline: 0; 
+}
+
+.oobSampleHeading{
+	color: #333333;
+	font-family: Georgia,Times New Roman,sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 140%;
+	margin: 0;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid #999999;
+	padding-bottom: 9px;
+}
+
+.wpthemeSecondaryContainer .oobSampleHeading, .wpthemeTertiaryContainer .oobSampleHeading{
+	color: #444444;
+	font-size:16px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bfbfbf;
+	text-shadow:none;
+}
+
+.wpthemeHeadlineContainer .oobSampleHeading {
+	font-size: 46px;
+	border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 12px;
+}
+
+.oobSampleRichText h2{
+    color: #333333;
+    font-family: georgia,serif;
+    font-size: 1.7em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 0.5em;
+}
+
+.wpthemeSecondaryContainer .oobSampleRichText h2, .wpthemeTertiaryContainer  .oobSampleRichText h2{
+    font-size: 1.3em;
+    font-weight: bold; 
+    color: #000000;
+    text-shadow: none;
+}
+
+.wpthemeHeadlineContainer .oobSampleRichText h2{
+    font-size: 3em;
+}
+
+.oobSampleRichText h3{
+    color: #333333;
+    font-family: georgia,serif;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.wpthemeSecondaryContainer .oobSampleRichText h3, .wpthemeTertiaryContainer  .oobSampleRichText h3{
+    font-size: 1em;
+    color: #444444;
+}
+
+.wpthemeHeadlineContainer .oobSampleRichText h3{
+    font-size: 1.7em;
+}
+
+.oobSampleRichText p{
+    color: #696969;
+    font-size: 1em;
+}
+
+.wpthemeSecondaryContainer .oobSampleRichText p, .wpthemeTertiaryContainer  .oobSampleRichText p {
+    font-size: 0.8em;
+}
+
+.wpthemeHeadlineContainer .oobSampleRichText p {
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.oobSampleImage{
+        max-width: 100%;
+}
+
+.contentEditContainer:focus {
+	outline:0;
+}
+.contentInlineEditBar {
+  width:28px;
+  position:absolute;
+  z-index:100;
+  margin: 0px -40px;
+  top:10px;
+  padding:3px;
+  background-color:rgba(0,0,0,0.3);
+  -moz-border-radius:3px 3px 3px 3px;
+  -webkit-border-top-left-radius:3px; -webkit-border-top-right-radius:3px; -webkit-border-bottom-left-radius:3px; -webkit-border-bottom-right-radius:3px;
+  border-radius:3px 3px 3px 3px;
+  display:none;
+  outline:0;
+}
+.edit-mode .component-control:hover .contentInlineEditBar {
+  display:block;
+}
+.component-control:focus {
+  outline:0;
+}
+.contentInlineEditBar .container {
+  background-color:#f4f4f4;
+  background:-webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#eaeaea));
+  background:-moz-linear-gradient(top, #f4f4f4, #eaeaea);
+  background:-o-linear-gradient(top, #f4f4f4, #eaeaea);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#EAEAEA');
+  border:1px solid #757575;
+}
+.contentInlineEditBar .button {
+  text-align:center;
+  font-size:1em;
+  color:#000000;
+  padding:4px 0;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #dedede;
+}
+.contentInlineEditBar .first {
+}
+.contentInlineEditBar .button:hover {
+  background-color:#e3e3e3;
+}
+
+.contentInlineEditBar .newButtonsPopup {
+  display:none;
+  position:absolute;
+  top:-7px;
+  right:26px;
+  background-color:rgba(0,0,0,0.3);
+  -moz-border-radius:3px 3px 3px 3px;
+  -webkit-border-top-left-radius:3px; -webkit-border-top-right-radius:3px; -webkit-border-bottom-left-radius:3px; -webkit-border-bottom-right-radius:3px;
+  border-radius:3px 3px 3px 3px;
+  padding:3px;
+  width:123px;
+  text-align:left
+}
+.contentInlineEditBar .newButtonsPopupInner {
+  background-color:white;
+  padding:12px;
+}
+.contentInlineEditBar .newButtonsPopup .sharkfin {
+  position:absolute;
+  top:13px;
+  right:-8px;
+}
+.contentInlineEditBar .newButtonsPopup .popupTitle {
+  font-size:1.2em;
+  font-weight:bold;
+  color:black;
+  border-bottom:2px solid #A0A0A0;
+  padding-bottom:8px;
+  margin-bottom:10px;
+}
+.contentInlineEditBar .newButtonsPopup .actionLink {
+  font-size:1.2em;
+}
+.contentInlineEditBar .newButtonsPopup .actionLink a {
+  color:#115D94;
+  text-decoration:none;
+}
+.contentInlineEditBar .newButtonsPopup .actionLink a:hover {
+  color:#0F5283;
+  text-decoration:underline;
+}
+  
+.contentInlineEditBar .popupTrigger:hover .newButtonsPopup {
+  display:block;
+}
+.list .contentInlineEditBar {
+  padding:1px;
+  -moz-border-radius:1px 1px 1px 1px;
+  -webkit-border-top-left-radius:1px; -webkit-border-top-right-radius:1px; -webkit-border-bottom-left-radius:1px; -webkit-border-bottom-right-radius:1px;
+  border-radius:1px 1px 1px 1px;
+  width:24px;
+}
+.list .contentInlineEditBar .button {
+  padding:2px 0;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #dedede;
+  border-left:1px solid #ffffff;
+  border-right:1px solid #dedede;
+}
+.list .item:focus {
+  outline:0;
+}
+.edit-mode .list .item .contentInlineEditBar {
+  display:block;
+}
+
+.oobLeft {
+  float:left;
+  text-align:left;
+}
+
+.oobRight {
+  float:right;
+  text-align:right;
+}

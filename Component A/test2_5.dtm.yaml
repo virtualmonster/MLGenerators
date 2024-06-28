@@ -1,0 +1,218 @@
+note: Generated from recorded traffic
+messages:
+  req:
+    includes:
+      - '#commonReq'
+    paths:
+      - headers:
+          - paths:
+              - :authority:
+                  - val: cdn.cookielaw.org
+              - :method:
+                  - val: GET
+              - :path:
+                  - val: /logos/static/ot_persistent_cookie.png
+              - accept:
+                  - val: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+              - sec-ch-ua:
+                  - val: |-
+                      "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+              - sec-ch-ua-mobile:
+                  - val: ?0
+              - sec-ch-ua-platform:
+                  - val: |-
+                      "Windows"
+              - sec-fetch-dest:
+                  - val: image
+              - sec-fetch-mode:
+                  - val: no-cors
+  res:
+    includes:
+      - '#commonRes'
+    paths:
+      - headers:
+          - paths:
+              - accept-ranges:
+                  - val: bytes
+              - access-control-expose-headers:
+                  - val: x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding
+              - age:
+                  - val: '38937'
+              - cache-control:
+                  - val: max-age=86400
+              - cf-cache-status:
+                  - val: HIT
+              - cf-ray:
+                  - val: 89ae9fcfaa2063c8-LHR
+              - content-length:
+                  - val: '4968'
+              - content-md5:
+                  - val: Pls8jLpIDufJkjP3ms5dvg==
+              - content-type:
+                  - val: image/png
+              - date:
+                  - val: Fri, 28 Jun 2024 15:14:02 GMT
+              - etag:
+                  - val: '0x8DC96E2546FC9FD'
+              - last-modified:
+                  - val: Thu, 27 Jun 2024 19:50:00 GMT
+              - vary:
+                  - val: Accept-Encoding
+              - x-content-type-options:
+                  - val: nosniff
+              - x-ms-blob-type:
+                  - val: BlockBlob
+              - x-ms-lease-status:
+                  - val: unlocked
+              - x-ms-request-id:
+                  - val: 64b22a0f-901e-00e7-7a13-c98387000000
+              - x-ms-version:
+                  - val: 2009-09-19
+      - content:
+          - src: blob/52jl5u.png
+    cascade:
+      - transport: test2.dtt.yaml
+        url: https://privacyportal.onetrust.com/request/v1/consentreceipts
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - method:
+                - val: OPTIONS
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: privacyportal.onetrust.com
+                    - :method:
+                        - val: OPTIONS
+                    - :path:
+                        - val: /request/v1/consentreceipts
+                    - accept:
+                        - val: '*/*'
+                    - access-control-request-headers:
+                        - val: content-type
+                    - access-control-request-method:
+                        - val: POST
+                    - origin:
+                        - val: https://www.hcl-software.com
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - access-control-allow-headers:
+                        - val: content-type
+                    - access-control-allow-methods:
+                        - val: GET,POST,PUT,PATCH,DELETE,OPTIONS,HEAD
+                    - cf-cache-status:
+                        - val: DYNAMIC
+                    - cf-ray:
+                        - val: 89ae9fd0b97e0666-LHR
+                    - content-length:
+                        - val: '0'
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:14:03 GMT
+                    - vary:
+                        - val: Origin
+                    - vary:
+                        - val: Access-Control-Request-Method
+                    - vary:
+                        - val: Access-Control-Request-Headers
+      - transport: test2.dtt.yaml
+        url: https://privacyportal.onetrust.com/request/v1/consentreceipts
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers:
+                - paths:
+                    - :authority:
+                        - val: privacyportal.onetrust.com
+                    - :method:
+                        - val: POST
+                    - :path:
+                        - val: /request/v1/consentreceipts
+                    - accept:
+                        - val: '*/*'
+                    - content-length:
+                        - val: '11785'
+                    - content-type:
+                        - val: application/json
+                    - origin:
+                        - val: https://www.hcl-software.com
+                    - sec-ch-ua:
+                        - val: |-
+                            "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+                    - sec-ch-ua-mobile:
+                        - val: ?0
+                    - sec-ch-ua-platform:
+                        - val: |-
+                            "Windows"
+                    - sec-fetch-dest:
+                        - val: empty
+                    - sec-fetch-mode:
+                        - val: cors
+            - content:
+                - src: blob/xi7jhw.json
+        response:
+          includes:
+            - '#commonRes'
+          paths:
+            - headers:
+                - paths:
+                    - cf-cache-status:
+                        - val: DYNAMIC
+                    - cf-ray:
+                        - val: 89ae9fd18a580666-LHR
+                    - content-encoding:
+                        - val: gzip
+                    - content-type:
+                        - val: application/json
+                    - date:
+                        - val: Fri, 28 Jun 2024 15:14:03 GMT
+                    - vary:
+                        - val: Origin
+                    - vary:
+                        - val: Access-Control-Request-Method
+                    - vary:
+                        - val: Access-Control-Request-Headers
+                    - vary:
+                        - val: Origin
+                    - vary:
+                        - val: Access-Control-Request-Method
+                    - vary:
+                        - val: Access-Control-Request-Headers
+                    - x-onetrust-receiptid:
+                        - val: 821d483a-7d8f-4608-9c5f-8be46a099718
+            - content:
+                - src: blob/culhgy.json
+  commonReq:
+    paths:
+      - headers/:scheme:
+          - val: https
+      - headers/accept-encoding:
+          - val: gzip, deflate, br, zstd
+      - headers/accept-language:
+          - val: en-GB,en-US;q=0.9,en;q=0.8
+      - headers/referer:
+          - val: https://www.hcl-software.com/
+      - headers/sec-fetch-site:
+          - val: cross-site
+      - headers/user-agent:
+          - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+              like Gecko) Chrome/123.0.0.0 Safari/537.36
+  commonRes:
+    paths:
+      - headers/:status:
+          - val: '200'
+      - headers/access-control-allow-origin:
+          - val: '*'
+      - headers/server:
+          - val: cloudflare
+      - headers/strict-transport-security:
+          - val: max-age=31536000; includeSubDomains; preload

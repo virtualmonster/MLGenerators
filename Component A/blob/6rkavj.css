@@ -1,0 +1,30 @@
+/* Content moved to styles.css */
+.domino-v12-event .feature-box-2.campaign .icon img { top: 16px;}
+.domino-v12-event .feature-box-2.campaign .icon { background: #fff;}
+.vmxind-box .feature-box-3 { box-shadow: none; }
+.vmxind-box .feature-box-3 .gradient-bg2.img-responsives img { height: 95px;}
+.vmx-industries .home-section.pnpui-product-section.section-home-item-single-box {float: none !important;}
+.tab-content.vmx-industries {clear: both; display: block; content: ' ';}
+.vmmbox-flex h4.subtitle_tags {padding-bottom: 10px; margin-bottom: 15px;}
+.insurance .vmmbox-flex h4.subtitle_tags { height: 80px !important;}
+.retail .vmmbox-flex h4.subtitle_tags {height: 60px !important;}
+.energy-and-utilities .vmmbox-flex h4.subtitle_tags { height: 60px !important;}
+.vmx-industry-logo { padding-top: 30px;}
+@media screen and (min-width: 766px){
+.partner-connect-blue-line.mg-top .col-sm-6 h2.title.bold.text-black { margin-top: 10px !important;}
+.devops-banner { height: 350px !important;}
+}
+/*.bigfix-on-cloud .feature-box-2.campaign .icon { background-image: linear-gradient(to bottom, #fff, #f2f8fc 99%);}*/
+.bigfix-on-cloud .feature-box-2 .icon img { position: relative; top: 20px;}
+.bigfix-on-cloud-bg {background: #f2f2f2;}
+.row-card-caroousel-section {margin-top: 60px;}
+.before-after { margin-top: 20px;}
+.row-card-caroousel-section .flex-row [class*="col-"] { margin-bottom: 55px;}
+.bfr-aftr {font-size: 15px; border: 1px solid #000; font-weight: 500; width: 150px; margin: 15px auto;}
+/*@media screen and (min-width: 768px){
+.before-after { position: relative;} 
+.before-after .before:after { content: ""; background: url(/wps/wcm/connect/d211c7b6-1bc1-4a16-9479-ffe51afe9465/arrow.svg?MOD=AJPERES) no-repeat;
+    width: 70px; height: 74px; display: inline-block; position: absolute; top: 45%; -webkit-transform: translateY(-45%); -o-transform: translateY(-50%); transform: translateY(-50%); left: 0; right: 0; margin: 0 auto; z-index: 1;} 
+.before-after .before .text-center.graph-img.img-responsives { margin: 0px 23px;}
+.cyberfocus-learn h3.sub-title { margin-top: 50px;}
+}*/

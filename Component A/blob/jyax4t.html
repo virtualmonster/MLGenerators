@@ -1,0 +1,663 @@
+
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr" style="width:100%;height:100%;border:none;overflow:auto;margin:0px;padding:0px;outline:none;">
+
+    <head>
+		<!--[if IE 8]>
+		<script type="text/javascript">
+		  document.getElementsByTagName("html")[0].className+=" lotusui_ie lotusui_ie8";
+		</script>
+		<![endif]-->
+		<!--[if IE 9]>
+		<script type="text/javascript">
+		  document.getElementsByTagName("html")[0].className+=" lotusui_ie lotusui_ie9";
+		</script>
+		<![endif]-->
+		
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="cache" content="no store" />
+        <meta http-equiv="expires" content="-1" />
+        
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+        	    
+        <title>FY24 HCL DevOps Test 2023 Continuous Testing Trends Survey Report 29-Jan-24</title>
+        
+        <link rel="Shortcut Icon" href="../../../../../open/9.2.1.14/freedom/images/branding/IBMFEB_favicon.ico">
+        <script type="text/javascript">
+
+	        var appModulePath = "../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en";
+	        if ("full" == "preview")
+	        {
+	           appModulePath += "_preview";
+	        }	        
+	        appModulePath += "/desktop";
+	        var djConfig =
+	        {
+	            isDebug: false,
+	            parseOnLoad: false,
+	            baseUrl: "../../../../../open/9.2.1.14/dojo/",
+	            modulePaths:
+	            {
+        	        dojox: "../dojox",
+	                dijit: "../dijit",
+	                freedom: "../freedom",
+	                freedomapplication: appModulePath
+	            },
+	            locale: 'en',
+	            extraLocale : [ 'en' ]
+	        };
+	        if (navigator.userAgent.indexOf('Electron/') != -1) {
+				djConfig.has = {'host-node': false}; 
+	        }
+        </script>
+        
+        <script type="text/javascript">
+            
+            
+			var appLabel = "FY24 HCL DevOps Test 2023 Continuous Testing Trends Survey Report 29-Jan-24";
+            document.title = appLabel;
+            
+
+            var FREEDOM = FREEDOM || {};
+            FREEDOM.detectBrowser = "warn";
+            FREEDOM.mPublishMode = "full";
+            FREEDOM.mHideLogout = false;
+            FREEDOM.isDemoMode = false;
+            FREEDOM.isIEMediaUseHTML5 = false;
+            FREEDOM.isCloud = false;
+            FREEDOM.mShowDraftWithoutConfirm = false;
+            FREEDOM.mIsForm = true;
+            FREEDOM.mIsWorkflow = {};
+            FREEDOM.mIsOneItemPerUserForm = {};
+            FREEDOM.formToViewParamsMap = {};
+            FREEDOM.mAppId = "b45375a1-39d1-44cf-8282-c71e48aabce7";
+            FREEDOM.mIsEmbedded = false || self !== top;
+            FREEDOM.mIsSecure = false;
+            FREEDOM.docsBaseUrl = "http://leap.hcldoc.com/help/topic/LEAPv9/";
+            FREEDOM.reauthInNewWindow = false;
+            FREEDOM.reauthOnFailedRequest = false;
+            FREEDOM.instrumentation = {
+            	enabled : false,
+            	analyticsSubscriptionID : "s_feb",
+            	subscriptionType : "Paid",
+            	primaryCategory : "FEB",
+            	siteID : "CLOUDEXCHANGETEST",
+            	clientID : "unknown"
+            };
+
+
+
+
+            FREEDOM.mIsWorkflow.F_Form1 = true;
+
+            FREEDOM.formToViewParamsMap["F_Form1"] =
+            {
+                id: "F_Form1-current-item-view",
+                formName: "freedomapplication.widget.F_Form1",
+                fullName: "Form 1", 
+                plainName: "Form 1",
+                showPhase: "true",
+                useAnonymousServiceCalls: true
+            };
+
+        </script>
+        
+        <script type="text/javascript" src="../../../../../open/9.2.1.14/dojo/dojo.js"></script>
+        
+        <script type="text/javascript">
+        	if (FREEDOM.mIsEmbedded)
+        	{
+	        	var queryObj = dojo.queryToObject(self.location.search.substring(1));
+				FREEDOM.embeddedCommunityUid = queryObj.communityUid;
+			}
+        </script>
+
+
+
+        <script type="text/javascript">
+                	        	
+        
+			// TODO rlintern - Revisit this. It doesn't seem right. There is an overlap in functionality with dojo.lfMnContainer()
+	        dojo.body = function(){
+				return dojo.byId("lfMn"); 
+			}
+        
+	    	dojo.require("freedom.freedomApplication");
+		    dojo.require("freedom.client.util");
+		    dojo.require("freedom.util.styleUtils");
+        </script>
+        <link rel="stylesheet" type="text/css" href="../../../../../open/9.2.1.14/freedom/css/application_form.css">
+		<link rel="stylesheet" type="text/css" href="../../../../../open/9.2.1.14/freedom/css/application_form_2.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../open/9.2.1.14/freedom/css/application_form_3.css">
+
+		<link rel="stylesheet" type="text/css" href="../../../../../open/9.2.1.14/freedom/css/themes/flat-blue-theme/flat-blue-theme.css">
+
+		<style id="customTheme"></style>
+
+	    <script type="text/javascript">
+	    
+	    	function initPageDialogWidgets()
+			{
+				// Initialize dialogs
+				var issueDialog = new freedom.widget.common.environment.IssuesDialog
+					(
+						{
+							style: "display: none;",
+				            dialogTitleKey: "INVALID_INPUT_TITLE",
+				            listTitleKey: "INVALID_INPUT_ISSUES_TITLE"
+						},
+						"errorMessageDialog"
+					);
+				issueDialog.startup();
+				var eventIssueDialog = new freedom.widget.common.environment.IssuesDialog
+					(
+						{
+							style: "display: none;",
+				 			dialogTitleKey: "ERROR",
+				 			listTitleKey: "GENERIC_APPLICATION_ERROR"
+						},
+						"eventErrorMessageDialog"
+					);
+				eventIssueDialog.startup();
+				
+				var formSelectionBox = new freedom.widget.common.environment.InfoBox
+					(
+						{
+							style: "display: none;"						
+						},
+						"form-selection"
+					);
+				formSelectionBox.startup();
+				dojo.place(dojo.doc.createTextNode(formSelectionBox.getString("FORM_SELECTION_HEADER")), dojo.query(".form-selection-header", formSelectionBox.domNode)[0]);
+				dojo.place(dojo.doc.createTextNode(formSelectionBox.getString("FORM_SELECTION_INSTRUCTION")), dojo.query(".form-selection-instruction", formSelectionBox.domNode)[0]);
+			}
+			
+			function createBanner ()
+			{
+				var bannerParams = 
+				{
+					"class": "lfBanner",
+					logout: (FREEDOM.mHideLogout || !FREEDOM.mIsSecure) ? null: freedom.client.util.logout,
+					bannerUrl: "",
+					application: "FY24 HCL DevOps Test 2023 Continuous Testing Trends Survey Report 29-Jan-24"
+				};
+				// hide the banner if rendering form in an iframe		
+				if (FREEDOM.mIsEmbedded)
+					bannerParams.style = "display: none";
+				var banner = new freedom.widget.common.environment.PageBanner(bannerParams, "lfBanner");	
+				banner.startup();				
+			}
+						
+				dojo.addOnLoad(initPageDialogWidgets);
+				dojo.addOnLoad(createBanner);
+			
+	    
+            FREEDOM.thePageParameters = freedom.client.util.parsePageParameters(FREEDOM.validFormNames, "F_Form1");
+	        FREEDOM.theMainFormName = FREEDOM.thePageParameters.formName;
+	        // for update mode.
+	        FREEDOM.theAppUid = FREEDOM.thePageParameters.uid;
+	        //require statements
+            dojo.require("dojo.parser");
+            dojo.require("dijit.Dialog");
+            dojo.require("dijit.Tooltip");
+
+            dojo.require("freedom.widget.common.environment.InfoBox");
+            dojo.require("freedom.widget.common.environment.IssuesDialog");
+            dojo.require("freedom.widget.common.environment.PageBanner");
+            dojo.require("freedom.widget.common.environment.StatusDialog");
+            dojo.require("freedom.widget.common.environment.ProgressDialog");
+            dojo.require("freedom.widget.common.environment.FreedomNlsMixin");
+            
+            dojo.require('freedom.utilities');
+            dojo.require('freedom.gui_util');
+
+            if(FREEDOM.theMainFormName != null)
+            {
+                dojo.require("freedom.widget.solution.environment.CurrentItemView");
+                dojo.require("freedomapplication._b45375a1_39d1_44cf_8282_c71e48aabce7");
+                dojo.require('freedom.client.DataStore');
+                dojo.require('freedom.client.SimpleController');
+            }
+            dojo.require('freedom.client.MasterSimpleController');
+
+            FREEDOM.mController = new freedom.client.MasterSimpleController();
+
+        </script>
+
+        <script type="text/javascript">
+            // Global context is defined in initGlobalContext()
+            GlobalContext = {};
+			function loadUserJS()
+			{	
+				 
+			};
+			
+			FREEDOM.notifyPortalActiveSiteAnalytics = function(pForm)
+			{
+				if (!dojo.getObject('com.ibm.portal.analytics.SiteAnalyticsMediator'))
+					return;
+				
+				var asaMicroformatContainer = dojo.byId('nitro.asa.container');
+				if (!asaMicroformatContainer)
+					return;
+
+				var screenId = pForm;
+				var screenTitle = FREEDOM.formToViewParamsMap[pForm].fullName;
+				
+				dojo.query("[class = 'asa.portlet.screen.id']", asaMicroformatContainer)[0].innerHTML = screenId;
+				dojo.query("[class = 'asa.portlet.screen.title']", asaMicroformatContainer)[0].innerHTML = screenTitle;
+				
+				com.ibm.portal.analytics.SiteAnalyticsMediator.notify([asaMicroformatContainer]);
+			};
+			
+            FREEDOM.localInit = function(pForm, pUid)
+            {
+                if(null == FREEDOM.theMainFormName)
+                {
+                    dojo.byId('lfMn').style.display = 'block';
+                    dojo.byId('form-selection').style.display = 'block';
+                    dojo.byId('initializing-msg').style.display = 'none';
+                    return;
+                }
+                
+				if (!pForm)
+				{
+					pForm = FREEDOM.theMainFormName;
+				}
+
+				FREEDOM.notifyPortalActiveSiteAnalytics(FREEDOM.theMainFormName);
+
+                dojo.byId('form-selection').style.display='none';
+
+                var controller;
+                var dataStore;
+                var formToDS = {};
+                var formToController = {};
+                var currView = null;
+
+				var redirected = false;
+				var savedPostSubmitData = null;
+				if (_passedPageParameters.detachContextId &&  _passedPageParameters.detachId)
+				{
+	            	dojo.require("freedom.client.StateDataStore");
+					FREEDOM.stateDataStore = new freedom.client.StateDataStore(_passedPageParameters.detachContextId, _passedPageParameters.detachId);
+					
+					savedPostSubmitData = FREEDOM.stateDataStore.getSavedPostSubmitData(false);
+					if (!savedPostSubmitData) {
+						// If there post submit data saved, then that means we need to show a success message "page" (done further below). 
+						// In that case, the redirect shouldn't be automatically done here; it will be triggered by the user an "OK" button on the success "page"
+						redirected = FREEDOM.stateDataStore.performRedirect();
+					}
+				}
+
+				if (!redirected)
+				{
+                	freedom.client.util.initGlobalContext();
+                } else {
+					return true;
+                }
+
+
+
+				FREEDOM.mIsOneItemPerUserForm['F_Form1'] = false;
+                dataStore = new freedom.client.DataStore('F_Form1',
+                                                     freedomapplication.data.F_Form1);
+                dataStore.setBaseServiceURL(ANON_RESOURCE_ACCESS_ROOT_URL);
+                dataStore.setTableName('b45375a1-39d1-44cf-8282-c71e48aabce7/' +
+                                           'F_Form1');
+                dataStore.setDelegate(new freedomapplication.widget.F_Form1DataStoreDelegate());
+                dataStore.setDraftSupport(false, false);
+                formToDS['F_Form1'] = dataStore;
+
+                controller = new freedom.client.SimpleController();                
+                formToController['F_Form1'] = controller;
+                FREEDOM.mController.registerController(formToController['F_Form1'], formToDS['F_Form1']);
+                formToController['F_Form1'].setDataStore(formToDS['F_Form1']);
+
+
+                    controller.setPostSubmit(POST_SUBMIT_ACTIVITY_SHOW_MESSAGE_PAGE);
+
+
+                controller.setErrorMessageDialog(dijit.byId('errorMessageDialog'));
+
+                currView = null;
+                if("F_Form1" == FREEDOM.theMainFormName)
+                {
+                    currView = new freedom.widget.solution.environment.CurrentItemView(FREEDOM.formToViewParamsMap[FREEDOM.theMainFormName],
+                                                                                       dojo.byId("form-should-be-here"));
+                    currView.startup();
+                    controller.addView(currView);
+                                   
+                	if(!FREEDOM.theAppUid)
+                		currView.displayToolbar(false);
+                		
+                	if (savedPostSubmitData) {
+                		dojo.byId('initializing-msg').style.display = 'none';
+                		dojo.byId('lfMn').style.display = 'block';
+                		currView.enterPostSubmitMode(savedPostSubmitData.message, savedPostSubmitData.redirectUrl);
+                		return true;
+                	}
+                }
+                freedom.client.util.initGlobalContextForForm('F_Form1', 
+                    currView,
+                    null,   // no overview view in single form version
+                    dataStore);
+
+                loadUserJS();                
+                // Show the body, this way we avoid needless flicker that happen
+                // when the unready freedom is presented to the user
+                dojo.byId('lfMn').style.display = 'block';
+                FREEDOM.onApplicationStart();
+            }
+
+            FREEDOM.onApplicationStart = function()
+            {
+                    
+
+
+				    try
+				    {
+	      
+     	var app = NitroApplication;
+    	var get = freedom.client.util.unsecureGet;
+    	var set = freedom.client.util.unsecureSet;
+    	var forEach = freedom.client.util.unsecureForEach;
+    	//generic for all apps - do not customize as it may get replaced at any time
+//alert(this.getId()+" = "+this.getValue());
+//app.getSharedData().fieldLengthValidation(item, 1000, 'Field will only accept 1000 characters or less');
+
+app.getSharedData().alertFromLibrary = function(inStr){
+  alert('function is accessed from ' + inStr);
+  return 'done';
+}
+
+app.getSharedData().fieldLengthValidation = function (theItem, theLength, theMsg) {
+  var dval = theItem.getDisplayValue();
+  if(dval.length > theLength) {
+    theItem.getBOAttr().setValid(false, theMsg);
+  } else {
+    theItem.getBOAttr().setValid(true, '');
+  }
+}
+app.getSharedData().getCaList = function() {
+  return " Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland & Labr., Northwest Terr., Nova Scotia, Nunavut, Ontario, Prince Edward Island, Quebec, Saskatchewan, Yukon Territory"
+}
+
+app.getSharedData().getUSList = function() {
+  return " Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, District of Columbia, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming"
+}
+
+app.getSharedData().getReferrer = function(){
+  var ref = "";
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('referrer')) {
+    ref = urlParams.get('referrer');
+  } else  {
+    var url = document.referrer;
+    ref = url.split('/')[2];
+  }
+  return ref;
+}
+
+app.getSharedData().getLangCode = function() {
+  var val = "";
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('lang')) {
+    val = urlParams.get('lang');
+  }
+  return val;
+}
+
+app.getSharedData().getUtm_source = function(inStr){
+  var val = inStr;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('utm_source')) {
+    val = urlParams.get('utm_source');
+  }
+  return val;
+}
+
+app.getSharedData().getUtm_medium = function(inStr){
+  var val = inStr;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('utm_medium')) {
+    val = urlParams.get('utm_medium');
+  }
+  return val;
+}
+
+app.getSharedData().getUtm_campaign = function(inStr){
+  var val = inStr;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('utm_campaign')) {
+    val = urlParams.get('utm_campaign');
+  }
+  return val;
+}
+
+
+let height;
+app.getSharedData().sendHeight = function(){
+  if (height !== document.getElementById('main-application-area').offsetHeight) {
+    height = document.getElementById('main-application-area').offsetHeight;
+    window.parent.postMessage({
+      frameHeight: height
+    }, '*');
+    console.log(height);
+    //alert(height); // check the message is being sent correctly
+  }
+}
+
+				    }
+				    catch (origErr)
+				    {
+				    	freedom.client.util.handleEventCodeError(this.nls, "onStart", origErr);		   		    	
+				    }
+            }
+            
+            
+    	// make sure the "Loading..." message is hidden when everything is initialized        
+    	var finishedInitializationHandle = dojo.subscribe ("com/ibm/form/nitro/finishedInitialization", dojo.hitch (this, function ()
+        {
+        	dojo.unsubscribe(finishedInitializationHandle);
+        	dojo.byId('initializing-msg').style.display = 'none'
+        }));    
+
+        
+            dojo.addOnLoad(function () 
+            {           
+                // using a setTimeout to give browser a chance to draw something
+                setTimeout (function () {
+                    freedom.client.util.startInitialization();
+                    
+                    var antiPhishingShownAlready = null;
+                    try {
+                       antiPhishingShownAlready = !!sessionStorage.getItem("launch_" + FREEDOM.mAppId + ":" + FREEDOM.theMainFormName);
+	    	        } catch (e) {
+				    	//sessionStorage likely not available
+	    	            console && console.debug && console.debug("error: " + e.message);
+	    	        }
+					if (!FREEDOM.mIsEmbedded && FREEDOM.isDemoMode && FREEDOM.mPublishMode !== PUBLISH_MODE_PREVIEW && !antiPhishingShownAlready) {
+						var msg = FREEDOM.nls.getString("ANTI_PHISHING_MESSAGE");
+						// alert(msg); // undesirable by offering management at this point in febdemo on cloud
+						sessionStorage.setItem("launch_" + FREEDOM.mAppId + ":" + FREEDOM.theMainFormName, true);
+					}        
+                }, 0);
+                
+                dojo.attr(document.body, "aria-label", document.title);
+                dojo.attr(dojo.body(), "aria-label", document.title);
+            });
+            
+            // The function is exported by the Nitro View Portlet. If Form data exists, then call onDataReceived to set them.
+            dojo.addOnLoad(function ()
+            {
+            	try
+            	{
+            		var portletFreedom = freedom.client.util.getPortletGlobalFreedom();
+	            	if(portletFreedom && typeof portletFreedom.payloadData != "undefined" && portletFreedom.payloadData != null)
+	            	{
+	            		var receivedDataPayload = decodeURIComponent(portletFreedom.payloadData);
+	            		var processReceivedData = dojo.subscribe('com/ibm/form/nitro/finishedInitialization', function(bo){
+	            			dojo.unsubscribe(processReceivedData);
+	            			portletFreedom.dataObjectChanged = true;
+	            			bo.onDataReceived(receivedDataPayload);
+	            		});
+	            	}
+	       		} 
+	          	catch (err)
+	          	{
+	          		//  probably xss
+	          		console && console.debug && console.debug("error: " + err.message);
+	          	}
+            		 
+            });
+            
+            dojo.addOnLoad(function ()
+            {
+            	generateCustomTheme();
+			});
+			
+            function generateCustomTheme()
+            {
+				var appFiles = {};
+
+			appFiles["Gotham-Book.woff2"] = "../../../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en/desktop/files/Gotham-Book.woff2";
+
+			appFiles["GothamMedium.woff2"] = "../../../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en/desktop/files/GothamMedium.woff2";
+
+			appFiles["HCL Software.png"] = "../../../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en/desktop/image/HCL%20Software.png";
+
+			appFiles["DS banner@4x.png"] = "../../../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en/desktop/image/DS%20banner%404x.png";
+
+			appFiles["HCLTechRoobert-Regular.woff2"] = "../../../../../anon/1/content/9.2.1.14/b45375a1-39d1-44cf-8282-c71e48aabce7/1707465068124-7/desktop/en-GB/en/en/desktop/files/HCLTechRoobert-Regular.woff2";
+					
+            	// dynamically generate custom theme css content
+            	var customThemeJsonStr = '{\"name\":\"MyTheme\",\"baseTheme\":\"flat-blue-theme\",\"customCSS\":{\"global\":{\"font-family\":\"HCLTechRoobert-Regular\"},\"general\":{\"pageLayoutBox\":{\"background\":\"#ffffff\",\"box-shadow\":\"none\",\"-moz-box-shadow\":\"none\",\"-webkit-box-shadow\":\"none\",\"margin-right\":\"auto\",\"margin-left\":\"auto\"}},\"buttons\":{\"background\":\"#17707f\",\"submitButton\":{\"border-color\":\"#17707f\"},\"cancelButton\":{\"border-color\":\"#17707f\",\"buttonText\":{\"color\":\"#ffffff\"}},\"nextButton\":{\"buttonText\":{\"color\":\"#ffffff\"}},\"backButton\":{\"border-color\":\"#17707f\",\"buttonText\":{\"color\":\"#ffffff\"}}},\"customButton\":{\"border-color\":\"#17707f\",\"buttonText\":{\"color\":\"#ffffff\"}}}}';
+            	var themeData = JSON.parse(customThemeJsonStr);
+            	if (themeData && themeData.customCSS)
+            	{
+            		freedom.util.styleUtils.sanitizeCssData(themeData.customCSS);
+            		if (JSON.stringify(themeData.customCSS) === "{}")
+            			return;
+            	}
+            	var themeObj = dojo.clone(FREEDOM.STYLE_OBJECT_LAYOUT);
+            	freedom.util.styleUtils.deepMixin(themeObj, themeData);
+            	var bgImgFileName = themeObj["customCSS"]["general"]["pageLayout"]["background"];
+				if (bgImgFileName)
+				{ // replace file name with URL
+					var imgUrl = appFiles[bgImgFileName];
+					if (imgUrl)
+						themeObj["customCSS"]["general"]["pageLayout"]["background"] = 'url("' + imgUrl + '")';
+				}	
+            	var themeCSS = freedom.util.styleUtils.objToCSS(themeObj);
+            	if (themeCSS)
+				{
+					themeCSS += freedom.util.styleUtils.generateFontFamilyCSS4Runtime(themeObj, appFiles);
+				}
+				if (themeCSS)
+				{
+					var styleEle = document.getElementById("customTheme");
+					if (dojo.isIE == 8)
+						styleEle.styleSheet.cssText = themeCSS;
+					else if (dojo.isIE > 8)
+						styleEle.innerText = themeCSS;
+					else 
+						styleEle.textContent = themeCSS;
+				}
+
+            } // end of generateCustomTheme
+            
+        </script>
+	
+	
+		<script type="text/javascript">
+		    if (FREEDOM.instrumentation.enabled) 
+		    {
+				digitalData = {
+					page : {
+						pageInfo : {
+							pageID : 'ICE - s_feb - Paid - Runtime Views - Launch',
+							ibm : {
+								siteID : 'CLOUDEXCHANGETEST',
+							}
+						},
+						category : {
+							primaryCategory : 'FEB',
+						},
+						attributes : {
+							cspClient : 'unknown'
+						}
+					}
+				};	
+				// load analytics after dojo is ready. to prevent collision between jQuery and Dojo
+				dojo.addOnLoad(function () {
+				   dojo.require("dojo.io.script");
+				   dojo.io.script.get({url: "//www.ibm.com/common/stats/ida_sdk.js"}).then(function (){
+				       console.debug("instrumentation script loaded");
+				   }, function (err) {
+				       console.error("instrumentation script not loaded", err);
+				   });
+				});
+		    }
+		</script>
+    
+        <noscript>
+			<style type="text/css">
+				#initializing-msg {display: none;}
+			</style>
+		</noscript>
+    </head>
+    <body class='lfMnBody lfAppBackground' style="width:100%;height:100%;border:none;margin:0px;padding:0px;outline:none" role="document" aria-label="Document">
+
+	<div id="lfMn" class='lfMn  lotusui lotusui30_body lotusui30_fonts lotusui30 lotusui30dojo  lfSingleFormArea' dir="ltr">
+	<div id="navTop" role="navigation"><a href="#navskip" style="position:absolute;top:-10em" id="navSkipLink">PAGE_NAVIGATOR_FIELD</a></div>
+	<noscript style="position:absolute;width:100%">
+		<div class="lotusErrorBox lotusError">
+			<div class="lotusErrorContent">
+				<img src="../../../../../open/9.2.1.14/freedom/images/msgError48.png" alt="">
+				<div class="lotusErrorForm">
+					<h1>Turn on JavaScript</h1>
+					<p>JavaScript has been disabled in your web browser.  HCL Leap requires JavaScript in order to function.  Once you have turned it on, please refresh the page.</p>
+					<p>Refresh the page to continue.</p>
+				</div>
+			</div>
+		</div>
+	</noscript>
+		
+	        <div id="lfBanner">
+	        </div>
+	    
+	    
+
+        <div id="main-application-area" class="lfAppMainArea" role="main" aria-label="main">
+			<a name="navskip" id="navskip"></a>
+    		<div id="initializing-msg" style="padding:24px">Loading...</div>
+            <div id='form-selection' style="display: none;">
+                <div data-dojo-type="freedom.widget.common.environment.InfoBox">
+                    <h1 class="form-selection-header" style="margin: 0px;"></h1>
+                    <p class="form-selection-instruction"></p>
+                    <ul>
+
+                        <li><a href='javascript:freedom.client.util.gotoForm("F_Form1")'> Form 1 </a>
+
+                    </ul>
+                </div>
+            </div>
+            <div id="form-should-be-here"></div>
+        </div>
+        
+        <div style="display: none;" id="errorMessageDialog"></div>
+        <div style="display: none;" id="eventErrorMessageDialog"></div>
+        
+</div>
+
+
+    </body>
+</html>

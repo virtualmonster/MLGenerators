@@ -1,0 +1,161 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open https://google.com/
+      url: ${WEBSITE_ROOT_URL}/
+      emulate:
+        - send:
+            transport: test2.dtt.yaml
+            url: https://google.com/
+            request:
+              includes:
+                - test2_1.dtm.yaml#req
+            response:
+              includes:
+                - test2_1.dtm.yaml#res
+  - with:
+      note: Google
+      steps:
+        - click:
+            shot: shot/rjssbb.dti.jpeg#274
+            object: html.div
+            target:
+              - properties:
+                  - content:
+                      - val: Reject all
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://www.google.com/gen_204?ei=F9N-ZsWjBoKi5NoPrJGzWA&ved=0ahUKEwiFi-2Dy_6GAxUCEVkFHazIDAsQ4cIICHo&uact=3&bl=INYZ&s=webhp
+                  request:
+                    includes:
+                      - test2_2.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_2.dtm.yaml#res
+        - click:
+            shot: shot/thsubj.dti.jpeg#331
+            object: html.textarea
+            target:
+              - properties:
+                  - xpath:
+                      - val: //textarea[@id='APjFqb']
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://www.google.com/gen_204?atyp=csi&ei=F9N-ZsWjBoKi5NoPrJGzWA&s=jsa&jsi=hd,st.4692,t.0,at.36,et.click,n.vZr2rb,cn.1,ie.0,vi.1&zx=1719587610788&opi=89978449
+                  request:
+                    includes:
+                      - test2_3.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_3.dtm.yaml#res
+  - with:
+      note: hcl devops test - Google Search
+      steps:
+        - click:
+            shot: shot/gqu3t4.dti.jpeg#1106
+            object: html.h3
+            target:
+              - properties:
+                  - content:
+                      - val: Automated Software Testing Tool and Solutions - DevOps
+                          ...
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://www.google.com/gen_204?atyp=csi&ei=INN-ZrDFH7mZ5OMPy8OPyAE&s=jsa&jsi=s,st.3234,t.0,at.123,et.click,n.msmzHf,cn.1,ie.1,vi.1&zx=1719587619539&opi=89978449
+                  request:
+                    includes:
+                      - test2_4.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_4.dtm.yaml#res
+  - with:
+      note: Automated Software Testing Tool and Solutions - DevOps Test
+      steps:
+        - click:
+            shot: shot/e3mnry.dti.jpeg#2652
+            object: html.button
+            target:
+              - properties:
+                  - content:
+                      - val: Reject All Cookies
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://cdn.cookielaw.org/logos/static/ot_persistent_cookie.png
+                  request:
+                    includes:
+                      - test2_5.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_5.dtm.yaml#res
+        - click:
+            shot: shot/paaqwm.dti.jpeg#2814
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: Download report
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://www.hcl-software.com/devops-test/2023-trends-report?referrer=www.google.com
+                  request:
+                    includes:
+                      - test2_6.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_6.dtm.yaml#res
+  - with:
+      note: FY24 HCL DevOps Test 2023 Continuous Testing Trends Survey Report 29-Jan-24
+      steps:
+        - click:
+            shot: shot/j6kthv.dti.jpeg#518
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: First Name*
+        - click:
+            shot: shot/x2rbpg.dti.jpeg#757
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: First Name*
+        - type:
+            shot: shot/hovlf2.dti.jpeg#995
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: First Name
+            value: stuart
+        - click:
+            shot: shot/wyyo4h.dti.jpeg#1478
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Last Name
+        - click:
+            shot: shot/2ppv6z.dti.jpeg#1716
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Last Name
+            emulate:
+              - send:
+                  transport: test2.dtt.yaml
+                  url: https://beacons.gcp.gvt2.com/domainreliability/upload
+                  request:
+                    includes:
+                      - test2_7.dtm.yaml#req
+                  response:
+                    includes:
+                      - test2_7.dtm.yaml#res
+vars:
+  WEBSITE_ROOT_URL: https://google.com

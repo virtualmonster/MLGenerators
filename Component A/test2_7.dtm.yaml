@@ -1,0 +1,68 @@
+note: Generated from recorded traffic
+messages:
+  req:
+    includes:
+      - '#commonReq'
+    paths:
+      - headers/content-length:
+          - val: '1204'
+      - content:
+          - src: blob/c5gz2l.json
+  res:
+    includes:
+      - '#commonRes'
+    cascade:
+      - transport: test2.dtt.yaml
+        url: /domainreliability/upload
+        request:
+          includes:
+            - '#commonReq'
+          paths:
+            - headers/content-length:
+                - val: '1422'
+            - content:
+                - src: blob/im4t4z.json
+        response:
+          includes:
+            - '#commonRes'
+  commonReq:
+    paths:
+      - headers/:authority:
+          - val: beacons.gcp.gvt2.com
+      - headers/:method:
+          - val: POST
+      - headers/:path:
+          - val: /domainreliability/upload
+      - headers/:scheme:
+          - val: https
+      - headers/accept-encoding:
+          - val: gzip, deflate, br, zstd
+      - headers/accept-language:
+          - val: en-GB,en-US;q=0.9,en;q=0.8
+      - headers/content-type:
+          - val: application/json; charset=utf-8
+      - headers/user-agent:
+          - val: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+              like Gecko) Chrome/123.0.0.0 Safari/537.36
+  commonRes:
+    paths:
+      - headers/:status:
+          - val: '200'
+      - headers/alt-svc:
+          - val: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      - headers/content-length:
+          - val: '0'
+      - headers/content-type:
+          - val: application/javascript; charset=utf-8
+      - headers/date:
+          - val: Fri, 28 Jun 2024 15:14:28 GMT
+      - headers/nel:
+          - val: '{"failure_fraction":1,"include_subdomains":false,"max_age":300,"report_to":"nel","success_fraction":0.25}'
+      - headers/report-to:
+          - val: '{"endpoints":[{"priority":1,"url":"https://beacons.gcp.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons2.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons3.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons4.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://clients2.google.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt3.com/domainreliability/upload-nel","weight":1}],"group":"nel","max_age":300}'
+      - headers/server:
+          - val: Domain Reliability Server
+      - headers/x-frame-options:
+          - val: SAMEORIGIN
+      - headers/x-xss-protection:
+          - val: '0'
