@@ -1,0 +1,23 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+      url: http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+  - with:
+      note: Home - BBC News
+      steps:
+        - click:
+            shot: shot/ut5phn.dti.jpeg#2653
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: England
+  - with:
+      note: England | Latest News & Updates | BBC News
+      steps:
+        - click:
+            shot: shot/o66zaj.dti.jpeg#2103
+            object: html.path
+            target:
+              - {}
