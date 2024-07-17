@@ -1,0 +1,23 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+      url: http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+  - with:
+      note: BBC - Home
+      steps:
+        - click:
+            shot: shot/z4yzce.dti.jpeg#2375
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: News
+  - with:
+      note: Home - BBC News
+      steps:
+        - click:
+            shot: shot/2uka62.dti.jpeg#2472
+            object: html.path
+            target:
+              - {}
