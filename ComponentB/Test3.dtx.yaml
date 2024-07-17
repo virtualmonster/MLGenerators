@@ -2,7 +2,7 @@ note: Generated from recorded traffic
 steps:
   - open:
       note: Open http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
-      url: http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+      url: http://bbc.co.uk
   - with:
       note: BBC - Home
       steps:
