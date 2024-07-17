@@ -1,0 +1,32 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+      url: http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+  - with:
+      note: Home - BBC News
+      steps:
+        - click:
+            shot: shot/wtrwec.dti.jpeg#2658
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: More
+        - click:
+            shot: shot/6auzac.dti.jpeg#5173
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: Science
+  - with:
+      note: Science & Environment | Latest News & Updates | BBC News
+      steps:
+        - click:
+            shot: shot/lo4j2p.dti.jpeg#1758
+            object: html.span
+            target:
+              - properties:
+                  - content:
+                      - val: News
