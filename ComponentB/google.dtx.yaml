@@ -60,7 +60,7 @@ steps:
       steps:
         - click:
             shot: shot/3liuy5.dti.jpeg#731
-            object: html.inputtext
+            object: html.inputtextfield
             target:
               - properties:
                   - label:
