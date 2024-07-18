@@ -1,0 +1,102 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open https://www.google.com/
+      url: https://www.google.com/
+  - with:
+      note: Google
+      steps:
+        - click:
+            shot: shot/wkqjqk.dti.jpeg#283
+            object: html.div
+            target:
+              - properties:
+                  - content:
+                      - val: Reject all
+        - click:
+            shot: shot/rgjw6p.dti.jpeg#340
+            object: html.textarea
+            target:
+              - properties:
+                  - xpath:
+                      - val: //textarea[@id='APjFqb']
+  - with:
+      note: hcl devops test - Google Search
+      steps:
+        - click:
+            shot: shot/lar6en.dti.jpeg#1099
+            object: html.h3
+            target:
+              - properties:
+                  - content:
+                      - val: Automated Software Testing Tool and Solutions - DevOps
+                          ...
+  - with:
+      note: Automated Software Testing Tool and Solutions - DevOps Test
+      steps:
+        - click:
+            shot: shot/7iozso.dti.jpeg#2194
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: Request a demo
+  - with:
+      note: DevOps Demo request
+      steps:
+        - open:
+            note: DevOps Demo request
+            url: https://www.hcl-software.com/devops/demo?referrer=www.google.com
+  - with:
+      note: DevOps Demo request
+      steps:
+        - click:
+            shot: shot/3liuy5.dti.jpeg#731
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Email
+        - click:
+            shot: shot/ecoxmy.dti.jpeg#1076
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Email
+        - type:
+            shot: shot/lmcuqw.dti.jpeg#1421
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: Email
+            value: bill@ben.com
+        - click:
+            shot: shot/hqsnhn.dti.jpeg#2133
+            object: html.inputtext
+            target:
+              - properties:
+                  - label:
+                      - val: First Name
+        - click:
+            shot: shot/xjg6sw.dti.jpeg#2768
+            object: html.div
+            target:
+              - properties:
+                  - xpath:
+                      - val: //div[@id='freedom_widget_common_environment_ProgressDialog_0_dialog_underlay']
+  - with:
+      note: HCL Secure DevOps | Request a Demo
+      steps:
+        - click:
+            shot: shot/b27cwh.dti.jpeg#559
+            object: html.img
+            target:
+              - properties:
+                  - alt:
+                      - val: HCL Logo
+  - with:
+      steps:
+        - open:
+            url: https://hcl.com/
