@@ -18,3 +18,5 @@ steps:
         - log: went down the true branch
 vars:
   BOOLVAL: 'FALSE'
+  TRUE: 'TRUE'
+  FALSE: 'FALSE'
