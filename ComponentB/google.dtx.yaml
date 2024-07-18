@@ -63,8 +63,8 @@ steps:
             object: html.inputtext
             target:
               - properties:
-                  - id:
-                      - val: 1b102912-2a9e-49be-8478-514b1cd63944F_EmailAddress1-widget
+                  - label:
+                      - val: Email
                 locators:
                   - leftof:
                       object: html.label
