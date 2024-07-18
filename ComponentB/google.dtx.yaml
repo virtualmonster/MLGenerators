@@ -1,0 +1,62 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+      url: http://localhost:7895/moeb/service/com.ibm.rational.test.rtw.webgui.service.IWebGuiRecorderService?action=getUiPage&path=nl/en_US/readme.html
+  - with:
+      note: Google
+      steps:
+        - click:
+            shot: shot/d6hjh2.dti.jpeg#283
+            object: html.div
+            target:
+              - properties:
+                  - content:
+                      - val: Reject all
+        - click:
+            shot: shot/ydonpp.dti.jpeg#340
+            object: html.textarea
+            target:
+              - properties:
+                  - xpath:
+                      - val: //textarea[@id='APjFqb']
+        - type:
+            shot: shot/qqwcnb.dti.jpeg#439
+            object: html.textarea
+            target:
+              - properties:
+                  - xpath:
+                      - val: //textarea[@id='APjFqb']
+            value: hck devops test
+        - click:
+            shot: shot/ni72pk.dti.jpeg#882
+            object: html.textarea
+            target:
+              - properties:
+                  - content:
+                      - val: hck devops test
+  - with:
+      note: hcl devops test - Google Search
+      steps:
+        - click:
+            shot: shot/e6waoh.dti.jpeg#1205
+            object: html.h3
+            target:
+              - properties:
+                  - content:
+                      - val: Automated Software Testing Tool and Solutions - DevOps
+                          ...
+  - with:
+      note: Automated Software Testing Tool and Solutions - DevOps Test
+      steps:
+        - click:
+            shot: shot/7seuhd.dti.jpeg#1970
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: Download datasheet
+  - with:
+      steps:
+        - open:
+            url: https://www.hcl-software.com/wps/wcm/connect/cdd0feed-cd49-48b2-a67b-21349e0783f2/HCL-DevOps-Test-Brochure-2024.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-cdd0feed-cd49-48b2-a67b-21349e0783f2-oTR5Q5G&referrer=www.google.com
