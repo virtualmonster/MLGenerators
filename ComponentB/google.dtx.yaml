@@ -63,8 +63,8 @@ steps:
             object: html.inputtext
             target:
               - properties:
-                  - class:
-                      - val: dijitReset dijitTextBox notDojoDndHandle
+                  - id:
+                      - val: 1b102912-2a9e-49be-8478-514b1cd63944F_EmailAddress1-widget
                 locators:
                   - leftof:
                       object: html.label
