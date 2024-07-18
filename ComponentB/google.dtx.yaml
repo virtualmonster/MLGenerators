@@ -28,6 +28,13 @@ steps:
               - properties:
                   - aria-label:
                       - val: Google Search
+        - verify:
+            shot: shot/rgjw6p.dti.jpeg
+            object: html.a
+            target:
+              - properties:
+                  - content:
+                      - val: About
   - with:
       note: hcl devops test - Google Search
       steps:
