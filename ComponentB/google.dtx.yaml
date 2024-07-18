@@ -65,6 +65,13 @@ steps:
   - with:
       note: DevOps Demo request
       steps:
+        - verify:
+            shot: shot/3liuy5.dti.jpeg#731
+            object: html.em
+            target:
+              - properties:
+                  - content:
+                      - val: Complete the form and we will be in touch.
         - click:
             shot: shot/3liuy5.dti.jpeg#731
             object: html.inputtextfield
