@@ -7,19 +7,12 @@ steps:
       note: Google
       steps:
         - click:
-            shot: shot/wkqjqk.dti.jpeg#283
-            object: html.div
-            target:
-              - properties:
-                  - content:
-                      - val: Reject all
-        - click:
             shot: shot/rgjw6p.dti.jpeg#340
             object: html.textarea
             target:
               - properties:
-                  - xpath:
-                      - val: //textarea[@id='APjFqb']
+                  - aria-label:
+                      - val: Search
   - with:
       note: hcl devops test - Google Search
       steps:
