@@ -1,5 +1,20 @@
 note: Generated from recorded traffic
 steps:
   - log: 'Variable Value : ${BOOLVAL}'
+  - if:
+      condition: ' BOOLVAL == FALSE'
+      steps:
+        - log: went down the false branch
+  - assign:
+      vars:
+        BOOLVAL: 'TRUE'
+  - if:
+      condition: ' BOOLVAL == FALSE'
+      steps:
+        - log: went down the false branch
+  - if:
+      condition: ' BOOLVAL == TRUE'
+      steps:
+        - log: went down the true branch
 vars:
   BOOLVAL: 'FALSE'
