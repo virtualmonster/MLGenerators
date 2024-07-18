@@ -2,5 +2,6 @@ concurrent: '0'
 tests:
   - google.dtx.yaml
   - google.dtx.yaml
+  - test1.dtx.yaml
   - google.dtx.yaml
   - google.dtx.yaml
