@@ -13,6 +13,14 @@ steps:
               - properties:
                   - aria-label:
                       - val: Search
+        - type:
+            shot: shot/rgjw6p.dti.jpeg
+            object: html.textarea
+            target:
+              - properties:
+                  - aria-label:
+                      - val: Search
+            value: HCL DevOps Test
   - with:
       note: hcl devops test - Google Search
       steps:
@@ -72,13 +80,6 @@ steps:
               - properties:
                   - label:
                       - val: First Name
-        - click:
-            shot: shot/xjg6sw.dti.jpeg#2768
-            object: html.div
-            target:
-              - properties:
-                  - xpath:
-                      - val: //div[@id='freedom_widget_common_environment_ProgressDialog_0_dialog_underlay']
   - with:
       note: HCL Secure DevOps | Request a Demo
       steps:
