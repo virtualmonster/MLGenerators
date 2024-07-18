@@ -1,0 +1,54 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open http://10.0.2.15:8090/vbooking-home/
+      url: http://10.0.2.15:8090/vbooking-home/
+  - with:
+      note: Vacation Booking online flight booking
+      steps:
+        - click:
+            shot: shot/h72adl.dti.jpeg#162
+            object: html.inputsubmit
+            target:
+              - properties:
+                  - content:
+                      - val: Barcelona
+                  - domainName:
+                      - val: html
+                locators:
+                  - position: '2'
+  - with:
+      note: Book Flight
+      steps:
+        - click:
+            shot: shot/llgjnr.dti.jpeg#218
+            object: html.inputradio
+            target:
+              - properties:
+                  - label:
+                      - val: Superior Hotel
+        - select:
+            shot: shot/x2rfsb.dti.jpeg#375
+            object: html.select
+            target:
+              - properties:
+                  - content:
+                      - val: Autofill Customer
+            value: David
+        - click:
+            shot: shot/756ko3.dti.jpeg#528
+            object: html.inputsubmit
+            target:
+              - properties:
+                  - content:
+                      - val: PROCEED
+  - with:
+      note: Booking made
+      steps:
+        - click:
+            shot: shot/h5lfse.dti.jpeg#27
+            object: html.img
+            target:
+              - properties:
+                  - alt:
+                      - val: logo
