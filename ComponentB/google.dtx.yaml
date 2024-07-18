@@ -21,6 +21,13 @@ steps:
                   - aria-label:
                       - val: Search
             value: HCL DevOps Test
+        - click:
+            shot: shot/rgjw6p.dti.jpeg
+            object: html.inputsubmit
+            target:
+              - properties:
+                  - aria-label:
+                      - val: Google Search
   - with:
       note: hcl devops test - Google Search
       steps:
