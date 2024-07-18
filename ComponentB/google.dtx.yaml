@@ -72,6 +72,7 @@ steps:
               - properties:
                   - content:
                       - val: Complete the form and we will be in touch.
+            timeout: 30s
         - click:
             shot: shot/3liuy5.dti.jpeg#731
             object: html.inputtextfield
