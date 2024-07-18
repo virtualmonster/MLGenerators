@@ -1,5 +1,5 @@
 note: Generated from recorded traffic
 steps:
-  - log: 'Variable Value : $(BOOLEAN}'
+  - log: 'Variable Value : ${BOOLEAN}'
 vars:
   BOOLEAN: 'FALSE'
