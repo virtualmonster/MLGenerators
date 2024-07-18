@@ -63,15 +63,14 @@ steps:
             object: html.inputtext
             target:
               - properties:
-                  - label:
-                      - val: Email
-        - click:
-            shot: shot/ecoxmy.dti.jpeg#1076
-            object: html.inputtext
-            target:
-              - properties:
-                  - label:
-                      - val: Email
+                  - class:
+                      - val: dijitReset dijitTextBox notDojoDndHandle
+                locators:
+                  - leftof:
+                      object: html.label
+                      properties:
+                        - content:
+                            - val: Email
         - type:
             shot: shot/lmcuqw.dti.jpeg#1421
             object: html.inputtext
