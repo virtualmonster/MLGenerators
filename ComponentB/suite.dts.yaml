@@ -1,3 +1,4 @@
+concurrent: '0'
 tests:
   - google.dtx.yaml
   - google.dtx.yaml
