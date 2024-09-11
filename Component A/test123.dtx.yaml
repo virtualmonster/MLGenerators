@@ -1,0 +1,51 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open https://www.google.com/
+      meta:
+        browserName: firefox
+        browserVersion: '130.0'
+        platformName: windows
+      url: https://www.google.com/
+  - with:
+      note: Google
+      steps:
+        - click:
+            shot: shot/h3oh7h.dti.jpeg#276
+            object: html.div
+            target:
+              - properties:
+                  - content:
+                      - val: Reject all
+        - click:
+            shot: shot/uldygp.dti.jpeg#334
+            object: html.textarea
+            target:
+              - properties:
+                  - xpath:
+                      - val: //textarea[@id='APjFqb']
+  - with:
+      note: hcl devops test - Google Search
+      steps:
+        - click:
+            shot: shot/iqkonf.dti.jpeg#1175
+            object: html.h3
+            target:
+              - properties:
+                  - content:
+                      - val: Automated Software Testing Tool and Solutions - DevOps
+                          ...
+  - with:
+      note: Automated Software Testing Tool and Solutions - DevOps Test
+      steps:
+        - click:
+            shot: shot/lk73fj.dti.jpeg#2316
+            object: html.img
+            target:
+              - properties:
+                  - alt:
+                      - val: HCL Software Logo
+                  - domainName:
+                      - val: html
+                locators:
+                  - position: '1'
