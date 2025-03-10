@@ -9,6 +9,27 @@ resources:
         type: javaClasspath
       - path: /TestServer/src
         type: javaClasspath
+  - name: 'API Driven Order Perf Test.testsuite'
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.4.0
+    properties: 
+      description: 'Stages:
+
+	users=20; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,ThroughputSimulation
+
+'
+      name: 'API Driven Order Perf Test'
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE1B7D8EEA5D50F38AB73334383632
+    dependencies: 
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/ThroughputSimulation.testsuite
+        type: scheduleInvokedTest
   - name: ConstantSimulation.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -16,6 +37,9 @@ resources:
       features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
       type: com.ibm.rational.test.lt.lttest
       uid: A1EE2053E3B18360D780B56236336636
+    dependencies: 
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
   - name: DelaySimulation.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -26,11 +50,40 @@ resources:
     dependencies: 
       - path: /TestServer/.classpath
         type: testJavaClasspath
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
       - path: /TestServer/src/customcode/GetDelay.java
         type: testCustomCode
-  - name: LockStep-Medium-Pattern.testsuite
+  - name: 'Front End Perf Test.testsuite'
     type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
+    version: 11.0.4.0
+    properties: 
+      description: 'Stages:
+
+	users=1; duration=30 seconds
+
+	users=5; duration=4 minutes
+
+	users=50; duration=4 minutes
+
+	users=100; duration=4 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): StartServer,DelaySimulation
+
+'
+      name: 'Front End Perf Test'
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EE204D913ABB20D780B56236336636
+    dependencies: 
+      - path: /TestServer/DelaySimulation.testsuite
+        type: scheduleInvokedTest
+      - path: /TestServer/StartServer.testsuite
+        type: scheduleInvokedTest
+  - name: 'Guest Microservice Perf Test.testsuite'
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.4.0
     properties: 
       description: 'Stages:
 
@@ -47,7 +100,7 @@ User Group 1: Group Size 100.0 percent
 	Test(s): StartServer,LockStepSimulation
 
 '
-      name: LockStep-Medium-Pattern
+      name: 'Guest Microservice Perf Test'
       type: com.ibm.rational.test.common.schedule.Schedule
       uid: A1EE2058EB6D6510D780B56236336636
     dependencies: 
@@ -55,87 +108,33 @@ User Group 1: Group Size 100.0 percent
         type: scheduleInvokedTest
       - path: /TestServer/StartServer.testsuite
         type: scheduleInvokedTest
-  - name: LockStep-Pure-No-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
+  - name: LockStep-Example1_1686776775127.stats
+    type: com.ibm.rational.test.lt.stats.session
     properties: 
-      description: 'Stages:
-
-	users=1; duration=30 seconds
-
-	users=5; duration=4 minutes
-
-	users=50; duration=4 minutes
-
-	users=100; duration=4 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,ConstantSimulation
-
-'
-      name: LockStep-Pure-No-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE2053C52429C0D780B56236336636
+      startTime: 1686776775127
+      tags: 
+      testId: A1EE0ADCB3BEE8A0E632B93931363537
+      testName: LockStep-Example1
     dependencies: 
-      - path: /TestServer/ConstantSimulation.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-  - name: LockStep-Pure-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
-    properties: 
-      description: 'Stages:
-
-	users=1; duration=30 seconds
-
-	users=5; duration=4 minutes
-
-	users=50; duration=4 minutes
-
-	users=100; duration=4 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,DelaySimulation
-
-'
-      name: LockStep-Pure-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE204D913ABB20D780B56236336636
-    dependencies: 
-      - path: /TestServer/DelaySimulation.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-  - name: LockStep-SchTooShort-No-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
-    properties: 
-      description: 'Stages:
-
-	users=1; duration=30 seconds
-
-	users=5; duration=30 seconds
-
-	users=50; duration=1 minutes
-
-	users=100; duration=1 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,DelaySimulation
-
-'
-      name: LockStep-SchTooShort-No-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE204D684B9AE0D780B56236336636
-    dependencies: 
-      - path: /TestServer/DelaySimulation.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
+      - path: /TestServer/LockStep-Example1_1686776775127_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/LockStep-Example1_1686776775127_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/LockStep-Example1_1686776775127_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /TestServer/LockStep-Example1_1686776775127_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /TestServer/LockStep-Example1_1686776799328.executiondlr
+        type: statsSessionAsset
+      - path: '/TestServer/User Microservice Perf Test.testsuite'
+        type: statsSessionTest
+  - name: LockStep-Example1_1686776775127_orch!system.mstats
+  - name: LockStep-Example1_1686776775127_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: LockStep-Example1_1686776775127_perf!localhost.mstats
+  - name: LockStep-Example1_1686776775127_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: LockStep-Example1_1686776799328.executiondlr
   - name: LockStepSimulation.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -146,50 +145,10 @@ User Group 1: Group Size 100.0 percent
     dependencies: 
       - path: /TestServer/.classpath
         type: testJavaClasspath
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
       - path: /TestServer/src/customcode/LockStep.java
         type: testCustomCode
-  - name: MeanStd-ConstantUsers-3000ms-300ms-No-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
-    properties: 
-      description: 'Stages:
-
-	users=10; duration=5 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,MeanStddevSimulation
-
-'
-      name: MeanStd-ConstantUsers-3000ms-300ms-No-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE1B749D50AB50F38AB73334383632
-    dependencies: 
-      - path: /TestServer/MeanStddevSimulation.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-  - name: MeanStd-ConstantUsers-DeepDrop-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
-    properties: 
-      description: 'Stages:
-
-	users=20; duration=5 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,ThroughputSimulation
-
-'
-      name: MeanStd-ConstantUsers-DeepDrop-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE1B7D8EEA5D50F38AB73334383632
-    dependencies: 
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/ThroughputSimulation.testsuite
-        type: scheduleInvokedTest
   - name: MeanStddevSimulation.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -200,27 +159,51 @@ User Group 1: Group Size 100.0 percent
     dependencies: 
       - path: /TestServer/.classpath
         type: testJavaClasspath
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
       - path: /TestServer/src/customcode/MeanStddev.java
         type: testCustomCode
-  - name: NonHTTPSch.testsuite
+  - name: 'Mobile API Perf Test.testsuite'
     type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
+    version: 11.0.4.0
     properties: 
       description: 'Stages:
 
-	users=5; duration=3 minutes
+	users=20; duration=5 minutes
 
 User Group 1: Group Size 100.0 percent
 
-	Test(s): NonHttp
+	Test(s): StartServer,ThroughputSimulation
 
 '
-      name: NonHTTPSch
+      name: 'Mobile API Perf Test'
       type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE1D0450237600E7BFB16566663533
+      uid: A1EE1B5A49A63520F38AB73334383632
     dependencies: 
-      - path: /TestServer/NonHttp.testsuite
+      - path: /TestServer/StartServer.testsuite
         type: scheduleInvokedTest
+      - path: /TestServer/ThroughputSimulation.testsuite
+        type: scheduleInvokedTest
+  - name: NonHTTPSch.testsuite
+    missing: true
+  - name: NonHTTPSch_1688761560962.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1688761560962
+      tags: 
+      testId: A1EE1D0450237600E7BFB16566663533
+      testName: NonHTTPSch
+    dependencies: 
+      - path: /TestServer/NonHTTPSch_1688761560962_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/NonHTTPSch_1688761560962_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/NonHTTPSch_1688761586752.executiondlr
+        type: statsSessionAsset
+  - name: NonHTTPSch_1688761560962_orch!system.mstats
+  - name: NonHTTPSch_1688761560962_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: NonHTTPSch_1688761586752.executiondlr
   - name: NonHttp.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -240,8 +223,18 @@ User Group 1: Group Size 100.0 percent
         type: testJavaClasspath
       - path: /TestServer/src/customcode/StartServer.java
         type: testCustomCode
+  - name: TestServer(2).recdata
+  - name: TestServer(2).recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /TestServer/TestServer(2).recdata
+        type: recsessionRecdata
+  - name: TestServer(3).recdata
   - name: TestServer(3).recsession
-    missing: true
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /TestServer/TestServer(3).recdata
+        type: recsessionRecdata
   - name: TestServer.recdata
   - name: TestServer.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -255,48 +248,36 @@ User Group 1: Group Size 100.0 percent
       features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
       type: com.ibm.rational.test.lt.lttest
       uid: A1EDDD3FA9D155A0F474B56631393731
-  - name: ThroughputDrop-ConstantUsers-DeepDrop-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
-    properties: 
-      description: 'Stages:
-
-	users=20; duration=5 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,ThroughputSimulation
-
-'
-      name: ThroughputDrop-ConstantUsers-DeepDrop-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE1B5A49A63520F38AB73334383632
     dependencies: 
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/ThroughputSimulation.testsuite
-        type: scheduleInvokedTest
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
   - name: ThroughputDrop-ConstantUsers-ShortDrop-No-Pattern.testsuite
-    type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
+    missing: true
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036.stats
+    type: com.ibm.rational.test.lt.stats.session
     properties: 
-      description: 'Stages:
-
-	users=20; duration=5 minutes
-
-User Group 1: Group Size 100.0 percent
-
-	Test(s): StartServer,ThroughputSimulation
-
-'
-      name: ThroughputDrop-ConstantUsers-ShortDrop-No-Pattern
-      type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EE1B5A954B4A10F38AB73334383632
+      startTime: 1688579105036
+      tags: 
+      testId: A1EE1B5A954B4A10F38AB73334383632
+      testName: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern
     dependencies: 
-      - path: /TestServer/StartServer.testsuite
-        type: scheduleInvokedTest
-      - path: /TestServer/ThroughputSimulation.testsuite
-        type: scheduleInvokedTest
+      - path: /TestServer/ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /TestServer/ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /TestServer/ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579124571.executiondlr
+        type: statsSessionAsset
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_orch!system.mstats
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_perf!localhost.mstats
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579105036_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ThroughputDrop-ConstantUsers-SortDrop-No-Pattern_1688579124571.executiondlr
   - name: ThroughputSimulation.testsuite
     type: com.ibm.rational.test.lt.test
     version: 10.5.2.0
@@ -307,29 +288,114 @@ User Group 1: Group Size 100.0 percent
     dependencies: 
       - path: /TestServer/.classpath
         type: testJavaClasspath
+      - path: /TestServer/TestServer(3).recsession
+        type: testRecsession
       - path: /TestServer/src/customcode/SimpleThroughputDrop.java
         type: testCustomCode
-  - name: VerifyTestServer.testsuite
+  - name: 'User Microservice Perf Test.testsuite'
     type: com.ibm.rational.test.lt.schedule
-    version: 10.5.2.0
+    version: 11.0.4.0
     properties: 
       description: 'Stages:
 
-	users=10; duration=1 minutes
+	users=1; duration=30 seconds
+
+	users=5; duration=30 seconds
+
+	users=50; duration=1 minutes
+
+	users=100; duration=1 minutes
 
 User Group 1: Group Size 100.0 percent
 
-	Test(s): StartServer,TestServer
+	Test(s): StartServer,DelaySimulation
 
 '
-      name: VerifyTestServer
+      name: 'User Microservice Perf Test'
       type: com.ibm.rational.test.common.schedule.Schedule
-      uid: A1EDDD421323B280F474B56631393731
+      uid: A1EE0ADCB3BEE8A0E632B93931363537
     dependencies: 
+      - path: /TestServer/DelaySimulation.testsuite
+        type: scheduleInvokedTest
       - path: /TestServer/StartServer.testsuite
         type: scheduleInvokedTest
-      - path: /TestServer/TestServer.testsuite
-        type: scheduleInvokedTest
+  - name: VerifyTestServer.testsuite
+    missing: true
+  - name: VerifyTestServer_1681755886628.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1681755886628
+      tags: 
+      testId: A1EDDD421323B280F474B56631393731
+      testName: VerifyTestServer
+    dependencies: 
+      - path: /TestServer/VerifyTestServer_1681755886628_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681755886628_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681755886628_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681755886628_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681755911291.executiondlr
+        type: statsSessionAsset
+  - name: VerifyTestServer_1681755886628_orch!system.mstats
+  - name: VerifyTestServer_1681755886628_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681755886628_perf!localhost.mstats
+  - name: VerifyTestServer_1681755886628_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681755911291.executiondlr
+  - name: VerifyTestServer_1681756162013.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1681756162013
+      tags: 
+      testId: A1EDDD421323B280F474B56631393731
+      testName: VerifyTestServer
+    dependencies: 
+      - path: /TestServer/VerifyTestServer_1681756162013_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681756162013_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681756162013_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681756162013_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681756176133.executiondlr
+        type: statsSessionAsset
+  - name: VerifyTestServer_1681756162013_orch!system.mstats
+  - name: VerifyTestServer_1681756162013_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681756162013_perf!localhost.mstats
+  - name: VerifyTestServer_1681756162013_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681756176133.executiondlr
+  - name: VerifyTestServer_1681758206757.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1681758206757
+      tags: 
+      testId: A1EDDD421323B280F474B56631393731
+      testName: VerifyTestServer
+    dependencies: 
+      - path: /TestServer/VerifyTestServer_1681758206757_orch!system.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681758206757_orch!system.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681758206757_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681758206757_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /TestServer/VerifyTestServer_1681758252104.executiondlr
+        type: statsSessionAsset
+  - name: VerifyTestServer_1681758206757_orch!system.mstats
+  - name: VerifyTestServer_1681758206757_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681758206757_perf!localhost.mstats
+  - name: VerifyTestServer_1681758206757_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VerifyTestServer_1681758252104.executiondlr
   - name: lib
     resources: 
       - name: generate-stats-webserver-1.0.1-jar-with-dependencies.jar
@@ -368,5 +434,9 @@ User Group 1: Group Size 100.0 percent
             type: com.ibm.rational.test.lt.generatedCode
           - name: StartServer_Test_A1EDDD423DD06140F474B56631393731.java
             type: com.ibm.rational.test.lt.generatedCode
+          - name: TestServer_Test_A1EDDD3FA9D155A0F474B56631393731.java
+            type: com.ibm.rational.test.lt.generatedCode
           - name: ThroughputSimulation_Test_A1EE15E76414D6B7FE46B26333386439.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VerifyTestServer_Schedule_A1EDDD421323B280F474B56631393731.java
             type: com.ibm.rational.test.lt.generatedCode

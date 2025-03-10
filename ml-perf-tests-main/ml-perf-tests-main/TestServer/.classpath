@@ -4,12 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" output="bin" path="src"/>
 	<classpathentry kind="lib" path="C:/ws/analyzer/zippedExtLibs/RPTKHelpers.zip"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/httpclient-4.5.13.jar"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/httpcore-4.4.13.jar"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/commons-codec-1.15.jar"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/httpmime-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/P/master/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230516_2116/libraries/slf4j-simple-1.7.30.jar"/>
 	<classpathentry kind="lib" path="C:/temp/generate-stats-ws/zippedExtLibs/RPTKHelpers.zip"/>
 	<classpathentry kind="lib" path="lib/generate-stats-webserver-1.0.1-jar-with-dependencies.jar"/>
 	<classpathentry kind="output" path="bin"/>
